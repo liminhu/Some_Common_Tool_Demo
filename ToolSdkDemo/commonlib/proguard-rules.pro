@@ -1,4 +1,4 @@
--repackageclasses 'com.gameassist.plugin.demo'
+-repackageclasses 'com.hlm.toolsdk.common'
 -optimizationpasses 5
 -dontusemixedcaseclassnames
 -dontskipnonpubliclibraryclasses
@@ -31,9 +31,7 @@
 
 
 ##保证百度类不能被混淆，否则会出现网络不可用等运行时异常
--keep class com.baidu.** {*;}
--keep class vi.com.** {*;}
--dontwarn com.baidu.**
+
 
 #
 ##############    标准系统接口类，不用混淆     ###################

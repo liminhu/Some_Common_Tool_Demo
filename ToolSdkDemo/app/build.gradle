@@ -3,26 +3,61 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "demo.toolsdk.hlm.com.toolsdkdemo"
+        applicationId "com.hlm.toolsdkdemo"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionName "1.0.1"
+         multiDexEnabled false
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+    signingConfigs {
+        SignConfig {
+            keyAlias 'toolboxplugin'
+            keyPassword '123456'
+            storeFile file('toolboxplugin.jks')
+            storePassword '123456'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.SignConfig
+        }
+    }
+
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "plugin-${variant.buildType.name}-v${variant.versionCode}-webview-百度地图.apk".toLowerCase()
+        }
+    }
+
+
+    flavorDimensions "default"
+    productFlavors {
+        disheng {
+            versionCode 1
+            versionName "1.0.1"
+            applicationId "com.hlm.toolsdk.bdmap.demo"
+            manifestPlaceholders = [APP_NAME: "百度地图Demo", APP_DESC: "百度地图Demo"]
+           // flavorDimensions "versionCode"
+        }
+
+    }
+
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(path: ':webviewlib')
 }
