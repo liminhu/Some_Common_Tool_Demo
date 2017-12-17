@@ -1,1 +1,13 @@
-include ':app', ':webviewlib', ':commonlib'
+include ':app',  ':commonlib'
+Properties properties=new Properties()
+File propertyFile=new File(rootDir.getAbsolutePath()+"/local.properties")
+properties.load(propertyFile.newDataInputStream())
+def name='webviewlib'
+name=properties.getProperty('config')
+
+if(name==null){
+    name='webviewlib'
+}
+
+include ':'+name
+project(':'+name).projectDir=new File(settingsDir,'dep/'+name)

@@ -1,5 +1,15 @@
 apply plugin: 'com.android.application'
 
+Properties properties=new Properties()
+File propertyFile=new File(rootDir.getAbsolutePath()+"/local.properties")
+properties.load(propertyFile.newDataInputStream())
+def config='webviewlib'
+config=properties.getProperty('config')
+
+if(config==null){
+    config='webviewlib'
+}
+
 android {
     compileSdkVersion 26
     defaultConfig {
@@ -7,7 +17,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0.1"
+         versionName "1.0.1"
          multiDexEnabled false
     }
 
@@ -35,29 +45,38 @@ android {
     }
 
 
-    android.applicationVariants.all { variant ->
-        variant.outputs.all {
-            outputFileName = "plugin-${variant.buildType.name}-v${variant.versionCode}-webview-百度地图.apk".toLowerCase()
-        }
-    }
-
-
     flavorDimensions "default"
     productFlavors {
         disheng {
-            versionCode 1
-            versionName "1.0.1"
-            applicationId "com.hlm.toolsdk.bdmap.demo"
-            manifestPlaceholders = [APP_NAME: "百度地图Demo", APP_DESC: "百度地图Demo"]
-           // flavorDimensions "versionCode"
+            switch (config) {
+                case "floatwindow":
+                    applicationId "com.hlm.toolsdk.floatwindow.demo"
+                    manifestPlaceholders = [APP_NAME: "悬浮窗适配", APP_DESC: "悬浮窗适配"]
+                    break;
+            //默认就有
+                default:
+                    applicationId "com.hlm.toolsdk.bdmap.demo"
+                    manifestPlaceholders = [APP_NAME: "百度地图Demo", APP_DESC: "百度地图Demo"]
+                    break;
+            }
         }
-
     }
+
+
+
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "plugin-${variant.buildType.name}-v${variant.versionCode}-${config}.apk".toLowerCase()
+        }
+    }
+
+
 
 }
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(path: ':webviewlib')
+   // compile project(path: ':webviewlib')
 }
