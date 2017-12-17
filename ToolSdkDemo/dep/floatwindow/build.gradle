@@ -20,5 +20,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    // project(path: ':webviewlib')
+    implementation project(path: ':commonlib')
 }

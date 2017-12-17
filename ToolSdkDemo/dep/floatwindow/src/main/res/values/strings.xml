@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">FloatWindow</string>
+    <string name="app_name">悬浮窗适配</string>
+    <string name="btn_show">展示悬浮窗口</string>
+    <string name="btn_dimiss">隐藏悬浮窗</string>
 </resources>

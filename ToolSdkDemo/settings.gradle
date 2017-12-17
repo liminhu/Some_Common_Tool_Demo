@@ -11,3 +11,7 @@ if(name==null){
 
 include ':'+name
 project(':'+name).projectDir=new File(settingsDir,'dep/'+name)
+/*
+name='webviewlib'
+include ':'+name
+project(':'+name).projectDir=new File(settingsDir,'dep/'+name)*/
