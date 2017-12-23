@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+
+    signingConfigs {
+        SignConfig {
+            keyAlias 'toolboxplugin'
+            keyPassword '123456'
+            storeFile file('toolboxplugin.jks')
+            storePassword '123456'
+        }
+    }
+
+
+    defaultConfig {
+        applicationId "com.gameassist.plugin.javahook"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0.1"
+
+        ndk {
+            cFlags '-std=c++11 -fexceptions -fpermissive'
+            stl 'gnustl_static'
+        }
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    flavorDimensions "default"
+    productFlavors {
+        hookjava{
+            signingConfig signingConfigs.SignConfig
+            manifestPlaceholders = [APP_NAME: "java_hook", APP_NAME: "java_hook"]
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "plugin-java_hook-${variant.buildType.name}-v${variant.versionCode}.apk".toLowerCase()
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    google()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+   // compile project(':jni')
+    implementation project(':javahook')
+    provided files('libs/pluginInterface.jar')
+    implementation project(path: ':commonlib')
+
+}

@@ -1,16 +1,16 @@
-include ':app',  ':commonlib', ':adplugin'
+include  ':commonlib', ':pluginsapplication', ':javahook'//,// ':adplugin' ':app',
+
 Properties properties=new Properties()
 File propertyFile=new File(rootDir.getAbsolutePath()+"/local.properties")
 properties.load(propertyFile.newDataInputStream())
 def name='webviewlib'
 name=properties.getProperty('config')
 
-if(name==null){
-    name='webviewlib'
+if(name!=null){
+    include ':'+name
+    project(':'+name).projectDir=new File(settingsDir,'dep/'+name)
 }
 
-include ':'+name
-project(':'+name).projectDir=new File(settingsDir,'dep/'+name)
 /*
 name='webviewlib'
 include ':'+name

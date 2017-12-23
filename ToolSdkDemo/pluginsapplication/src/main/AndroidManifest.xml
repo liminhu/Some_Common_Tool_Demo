@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gameassist.plugin.test">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+
+
+        <meta-data android:name="Entry" android:value="com.gameassist.plugin.test.PluginEntry"/>
+        <meta-data android:name="Target0" android:value="*"/>
+        <meta-data android:name="Version0" android:value="*"/>
+        <meta-data android:name="Label" android:value="${APP_NAME}"/>
+        <meta-data android:name="Description" android:value="${APP_NAME}"/>
+    </application>
+
+
+
+
+
+
+</manifest>
