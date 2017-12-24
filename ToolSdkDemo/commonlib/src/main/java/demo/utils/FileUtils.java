@@ -4,6 +4,8 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Environment;
+import android.telephony.SignalStrength;
+import android.text.TextUtils;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
@@ -215,7 +217,43 @@ public class FileUtils {
 
 
 
+    public static String buildDestFileName(File srcFile, String dest){
+        if(TextUtils.isEmpty(dest)){//没有给出目标路径
+            if(srcFile.isDirectory()){
+                dest=srcFile.getParent()+File.separator+srcFile.getName()+".zip";
+            }else{
+                String fileName=srcFile.getName().substring(0, srcFile.getName().lastIndexOf("."));
+                dest=srcFile.getParent()+File.separator+fileName+".zip";
+            }
+        }else{
+            fileIsExistAndCreatFile(dest);
+            if(dest.endsWith(File.separator)){
+                String fileName="";
+                if(srcFile.isDirectory()){
+                    fileName=srcFile.getName();
+                }else{
+                    fileName=srcFile.getName().substring(0, srcFile.getName().lastIndexOf("."));
+                }
+                dest+=fileName+".zip";
+            }
+        }
+        MyLog.d("目标路径："+dest);
+        return dest;
+    }
 
+
+    private void createDirPath(String dest){
+        File destDir=null;
+        if(dest.endsWith(File.separator)){
+            destDir=new File(dest);
+        }else{
+            destDir=new File(dest.substring(0, dest.lastIndexOf(File.separator)));
+        }
+        if(!destDir.exists()){
+            destDir.mkdirs();
+        }
+        MyLog.e("创建目录："+dest);
+    }
 
 
 }
