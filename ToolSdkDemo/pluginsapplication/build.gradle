@@ -61,7 +61,7 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
    // compile project(':jni')
-    implementation project(':javahook')
+  //  implementation project(':javahook')
     provided files('libs/pluginInterface.jar')
     implementation project(path: ':commonlib')
 

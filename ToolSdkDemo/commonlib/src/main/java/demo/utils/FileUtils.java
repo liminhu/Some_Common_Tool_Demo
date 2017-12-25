@@ -16,6 +16,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.SoftReference;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
+import java.security.MessageDigest;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -25,6 +28,37 @@ import java.util.Locale;
  */
 
 public class FileUtils {
+    /**
+     * 文件md5
+     * @param path
+     * @return
+     */
+    public static String getMd5ByFile(String path) {
+        File file = new File(path);
+        FileInputStream in = null;
+        try {
+            in = new FileInputStream(file);
+            MappedByteBuffer byteBuffer = in.getChannel().map(FileChannel.MapMode.READ_ONLY, 0, file.length());
+            MessageDigest md5 = MessageDigest.getInstance("MD5");
+            md5.update(byteBuffer);
+            String result=StringUtils.byteArrayToHexString(md5.digest());
+            MyLog.e("path:%s, md5:%s", path, result);
+            return result;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (null != in) {
+                try {
+                    in.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return null;
+    }
+
+
 
     public static String byteToBitmapSaveImage(byte[] data){
         if(data.length>0){

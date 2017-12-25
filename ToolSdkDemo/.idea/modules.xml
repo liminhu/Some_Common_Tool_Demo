@@ -3,12 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ToolSdkDemo.iml" filepath="$PROJECT_DIR$/ToolSdkDemo.iml" />
-      <module fileurl="file://H:\Git_test\My_GitHub_Demo\Some_Common_Tool_Demo\ToolSdkDemo\adplugin\adplugin.iml" filepath="H:\Git_test\My_GitHub_Demo\Some_Common_Tool_Demo\ToolSdkDemo\adplugin\adplugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonlib/commonlib.iml" filepath="$PROJECT_DIR$/commonlib/commonlib.iml" />
-      <module fileurl="file://H:\Git_test\My_GitHub_Demo\Some_Common_Tool_Demo\ToolSdkDemo\javahook\javahook.iml" filepath="H:\Git_test\My_GitHub_Demo\Some_Common_Tool_Demo\ToolSdkDemo\javahook\javahook.iml" />
-      <module fileurl="file://H:\Git_test\My_GitHub_Demo\Some_Common_Tool_Demo\ToolSdkDemo\webviewlib\webviewlib.iml" filepath="H:\Git_test\My_GitHub_Demo\Some_Common_Tool_Demo\ToolSdkDemo\webviewlib\webviewlib.iml" />
-      <module fileurl="file://H:\Git_test\My_GitHub_Demo\Some_Common_Tool_Demo\ToolSdkDemo\dep\webviewlib\webviewlib.iml" filepath="H:\Git_test\My_GitHub_Demo\Some_Common_Tool_Demo\ToolSdkDemo\dep\webviewlib\webviewlib.iml" />
     </modules>
   </component>
 </project>
