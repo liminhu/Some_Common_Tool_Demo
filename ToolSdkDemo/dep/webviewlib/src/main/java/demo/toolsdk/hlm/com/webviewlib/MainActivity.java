@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private  static  WebViewClientBase webViewClientBase;
     private WebView webview;
     private FrameLayout frame;
-    private static  final String baidu_url="http://www.baidu.com";
+    private static  final String baidu_url="https://kyfw.12306.cn/otn/login/init";
     private Handler mHandler;;
 
     @Override
@@ -76,8 +76,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initWebViewSetting();
         if(webview !=null && view.getId()==call_map){
             MyLog.e("call map ... 222 "+R.id.call_map);
-            webview.loadUrl("file:///android_asset/index.html");
-            //webview.loadUrl(baidu_url);
+           // webview.loadUrl("file:///android_asset/index.html");
+            webview.loadUrl(baidu_url);
         }
         try {
             frame.removeAllViews();

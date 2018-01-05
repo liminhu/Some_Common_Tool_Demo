@@ -8,6 +8,7 @@ import android.telephony.SignalStrength;
 import android.text.TextUtils;
 
 import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,6 +16,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.lang.ref.SoftReference;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
@@ -288,6 +290,29 @@ public class FileUtils {
         }
         MyLog.e("创建目录："+dest);
     }
+
+
+    /**
+     * 读取asset下的文件
+     * @param context
+     * @param fileName
+     * @return
+     */
+    public String getFromAssets(Context context, String fileName){
+        try {
+            InputStreamReader inputReader = new InputStreamReader(context.getAssets().open(fileName) );
+            BufferedReader bufReader = new BufferedReader(inputReader);
+            String line="";
+            String Result="";
+            while((line = bufReader.readLine()) != null)
+                Result += line;
+            return Result;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
 
 
 }

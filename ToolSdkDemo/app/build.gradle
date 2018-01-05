@@ -84,4 +84,5 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     compile project(path: ':commonlib')
+    compile project(path: ':webviewlib')
 }
