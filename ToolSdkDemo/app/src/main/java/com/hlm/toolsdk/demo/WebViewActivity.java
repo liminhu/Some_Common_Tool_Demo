@@ -1,14 +1,14 @@
 package com.hlm.toolsdk.demo;
 
+import android.app.Activity;
 import android.os.Bundle;
 
-import com.webview.jsinject.JsInjectMainActivity;
 
-
-public class WebViewActivity extends JsInjectMainActivity{
+public class WebViewActivity extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
+
 }

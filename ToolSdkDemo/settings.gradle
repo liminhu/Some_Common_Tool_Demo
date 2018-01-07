@@ -1,10 +1,10 @@
 include ':app',':commonlib' //, ':pluginsapplication'  //, // ':adplugin'
-
 Properties properties=new Properties()
 File propertyFile=new File(rootDir.getAbsolutePath()+"/local.properties")
 properties.load(propertyFile.newDataInputStream())
 def name='webviewlib'
 name=properties.getProperty('config')
+println('工程项目setting配置：'+ properties.getProperty('config'))
 if(name!=null){
     include ':'+name
     project(':'+name).projectDir=new File(settingsDir,'dep/'+name)
