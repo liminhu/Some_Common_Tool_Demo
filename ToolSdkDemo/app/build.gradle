@@ -12,7 +12,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.hlm.toolsdkdemo"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0.1"
@@ -90,5 +90,8 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile project(path: ':commonlib')
     // compile project(path: ':webviewlib')
-    compile project(path: ':advancelightbook')
+   // compile project(path: ':advancelightbook')
+
+    compile project(path: ':floatwindow')
+
 }

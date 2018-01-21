@@ -1,4 +1,4 @@
-package com.lmhu.floatwindow.permission;
+package com.lmhu.floatwindow.FloatPermission;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,6 @@ import android.view.ViewConfiguration;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.Toast;
-
-import com.lmhu.floatwindow.R;
 
 import demo.utils.MyLog;
 import demo.utils.ResourceUtil;
