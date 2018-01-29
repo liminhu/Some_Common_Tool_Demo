@@ -92,6 +92,6 @@ dependencies {
     // compile project(path: ':webviewlib')
    // compile project(path: ':advancelightbook')
 
-    compile project(path: ':floatwindow')
-
+  //  compile project(path: ':floatwindow')
+    compile project(path: ':downloadService')
 }

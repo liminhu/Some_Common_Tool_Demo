@@ -10,7 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commonlib" />
-            <option value="$PROJECT_DIR$/dep/floatwindow" />
+            <option value="$PROJECT_DIR$/dep/downloadService" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

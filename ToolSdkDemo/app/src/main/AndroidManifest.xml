@@ -27,13 +27,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
-        <activity android:name="com.hlm.toolsdk.demo.WebViewActivity">
- <!--           <intent-filter>
+<!--        <activity android:name="com.hlm.toolsdk.demo.WebViewActivity">
+ &lt;!&ndash;           <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>&ndash;&gt;
+        </activity>-->
+
+
+        <activity android:name="com.hlm.toolsdk.service.ServiceMainActivity">
+                       <intent-filter>
+                           <action android:name="android.intent.action.MAIN" />
+
+                           <category android:name="android.intent.category.LAUNCHER" />
+                       </intent-filter>
         </activity>
+
+
+
+
         <activity android:name="com.hlm.toolsdk.demo.ZipTestActivity">
 
             <!--
@@ -64,7 +77,7 @@
             android:name="com.hlm.toolsdk.component.ContentProviderDemo"
             android:exported="true"/>
 
-
+<!--
 
         <activity
             android:name="com.lmhu.floatwindow.PermissonDemo.MainActivity"
@@ -77,7 +90,13 @@
 
         <activity
             android:name="com.lmhu.floatwindow.PermissonDemo.PermissionsActivity"
-            android:theme="@style/AppTheme.NoActionBar.Permissions"/>
+            android:theme="@style/AppTheme.NoActionBar.Permissions"/>-->
+
+        <service
+            android:name="com.hlm.toolsdk.service.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
 
     </application>
 
