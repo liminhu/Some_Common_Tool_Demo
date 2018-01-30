@@ -33,4 +33,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/Start_intent_service"
         android:text="Start IntentService"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/share_picture"
+        android:textAllCaps="false"
+        android:text="分享"/>
 </LinearLayout>
