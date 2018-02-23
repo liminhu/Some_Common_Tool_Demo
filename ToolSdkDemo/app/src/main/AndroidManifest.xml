@@ -36,6 +36,7 @@
         </activity>-->
 
 
+<!--
         <activity android:name="com.hlm.toolsdk.service.ServiceMainActivity">
                        <intent-filter>
                            <action android:name="android.intent.action.MAIN" />
@@ -44,6 +45,7 @@
                        </intent-filter>
         </activity>
 
+-->
 
 
 
@@ -77,6 +79,12 @@
             android:name="com.hlm.toolsdk.component.ContentProviderDemo"
             android:exported="true"/>
 
+
+
+
+
+
+
 <!--
 
         <activity
@@ -96,6 +104,27 @@
             android:name="com.hlm.toolsdk.service.MyService"
             android:enabled="true"
             android:exported="true" />
+
+
+
+
+
+
+        <!--进阶之光  activity -->
+        <activity
+            android:name="com.lmhu.advancelight.book.chapter1.MoonPermissionActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lmhu.advancelight.book.chapter1.ThirdPartyActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+
 
 
     </application>

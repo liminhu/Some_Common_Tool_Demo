@@ -21,8 +21,6 @@ import demo.zip.archiver.IArchiverListener;
 
 public class ZipTestActivity extends Activity {
     private Button mButton, mDoZipButton;
-
-
     private String doZipSource= Environment.getExternalStorageDirectory().getAbsolutePath()+ File.separator+"2"+File.separator;
 
 

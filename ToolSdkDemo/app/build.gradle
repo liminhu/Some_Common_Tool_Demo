@@ -90,8 +90,8 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile project(path: ':commonlib')
     // compile project(path: ':webviewlib')
-   // compile project(path: ':advancelightbook')
+    compile project(path: ':advancelightbook')
 
   //  compile project(path: ':floatwindow')
-    compile project(path: ':downloadService')
+  //  compile project(path: ':downloadService')
 }

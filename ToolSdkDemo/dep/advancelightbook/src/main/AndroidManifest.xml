@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lmhu.advancelight.book">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <application>
-        <activity android:name=".chapter1.MoonPermissionActivity"></activity>
+        <activity android:name=".chapter1.MoonPermissionActivity" />
+        <activity android:name=".chapter1.ThirdPartyActivity"></activity>
     </application>
 
 </manifest>

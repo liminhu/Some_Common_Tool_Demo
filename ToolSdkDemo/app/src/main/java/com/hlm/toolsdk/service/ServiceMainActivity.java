@@ -18,7 +18,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.my.test.download.MyDownload.DownloadManage;
+//import com.my.test.download.MyDownload.DownloadManage;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -46,10 +46,9 @@ public class ServiceMainActivity extends AppCompatActivity implements View.OnCli
             new Thread(){
                 @Override
                 public void run() {
-
-                    DownloadManage downloadManage=new  DownloadManage();
+ /*                   DownloadManage downloadManage=new  DownloadManage();
                     downloadManage.getDataToMap(url, "/sdcard/1.apk");
-                    downloadManage.download();
+                    downloadManage.download();*/
 
                 }
             }.start();
