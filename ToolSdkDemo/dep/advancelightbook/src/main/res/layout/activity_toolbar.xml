@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lmhu.advancelight.book.chapter1.ToolbarActivity">
+
+    <include layout="@layout/mytoolbar"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/id_drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--内容界面-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ll_content"
+            android:orientation="vertical"
+            android:background="@drawable/bitmap">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="内容界面"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <!--侧或菜单界面-->
+        <LinearLayout
+            android:id="@+id/ll_tabs"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical"
+            android:layout_gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_close"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:text="侧滑界面，点击收回侧滑"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

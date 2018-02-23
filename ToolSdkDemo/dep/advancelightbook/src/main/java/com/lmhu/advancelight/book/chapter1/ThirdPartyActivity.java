@@ -42,6 +42,7 @@ public class ThirdPartyActivity extends AppCompatActivity {
 
 
 
+/*
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -49,6 +50,7 @@ public class ThirdPartyActivity extends AppCompatActivity {
         //    默认是没有此类的，需要编译下才会有此类 此方法编译生成【Activity】+PermissionsDispatcher
        // ThirdPartyActivityPermissionsDispatcher.onRequestPermissionsResult(this, requestCode, grantResults);
     }
+*/
 
 
 

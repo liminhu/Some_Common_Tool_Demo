@@ -3,9 +3,11 @@
     package="com.lmhu.advancelight.book">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application>
         <activity android:name=".chapter1.MoonPermissionActivity" />
-        <activity android:name=".chapter1.ThirdPartyActivity"></activity>
+        <activity android:name=".chapter1.ThirdPartyActivity" />
+        <activity android:name=".chapter1.ToolbarActivity"></activity>
     </application>
 
 </manifest>
