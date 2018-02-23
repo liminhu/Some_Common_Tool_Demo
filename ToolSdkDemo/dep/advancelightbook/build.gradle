@@ -44,4 +44,6 @@ dependencies {
     }
     annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.1.0"
     implementation 'com.android.support:palette-v7:23.0.1'
+
+    compile 'cn.finalteam:okhttpfinal:2.0.7'
 }

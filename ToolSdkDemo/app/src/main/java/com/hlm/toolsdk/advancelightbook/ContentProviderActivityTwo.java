@@ -2,10 +2,10 @@ package com.hlm.toolsdk.advancelightbook;
 
 import android.os.Bundle;
 
-import com.lmhu.advancelight.book.chapter1.ToolbarActivity;
+import com.lmhu.advancelight.book.chapter10.moonmvpsimple.ipinfo.IpInfoActivity;
 
 
-public class ContentProviderActivityTwo extends ToolbarActivity{
+public class ContentProviderActivityTwo extends IpInfoActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

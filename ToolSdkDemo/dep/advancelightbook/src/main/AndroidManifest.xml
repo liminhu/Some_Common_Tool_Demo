@@ -7,7 +7,8 @@
     <application>
         <activity android:name=".chapter1.MoonPermissionActivity" />
         <activity android:name=".chapter1.ThirdPartyActivity" />
-        <activity android:name=".chapter1.ToolbarActivity"></activity>
+        <activity android:name=".chapter1.ToolbarActivity" />
+        <activity android:name=".chapter10.moonmvpsimple.ipinfo.IpInfoActivity"></activity>
     </application>
 
 </manifest>

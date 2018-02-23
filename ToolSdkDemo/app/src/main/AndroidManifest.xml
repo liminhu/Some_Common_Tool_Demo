@@ -18,6 +18,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
+        android:name="com.lmhu.advancelight.book.chapter10.moonmvpsimple.MvpApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="${APP_NAME}"
@@ -110,6 +111,7 @@
             android:name="com.lmhu.advancelight.book.chapter1.ThirdPartyActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
 
+        <activity android:name="com.lmhu.advancelight.book.chapter10.moonmvpsimple.ipinfo.IpInfoActivity"></activity>
 
     </application>
 
