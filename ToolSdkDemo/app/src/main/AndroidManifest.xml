@@ -114,6 +114,10 @@
         <activity android:name="com.lmhu.advancelight.book.chapter1.CardViewActivity"></activity>
 
         <activity android:name="com.lmhu.advancelight.book.chapter1.MyNotificationActivity"></activity>
+        <activity android:name="com.lmhu.advancelight.book.chapter10.databinding.DataBindingMainActivity"></activity>
+        <activity android:name="com.lmhu.advancelight.book.chapter10.databinding.BindingLayoutActivity"></activity>
+
+        <activity android:name="com.lmhu.advancelight.book.chapter10.databinding.BindingUpdateActivity"></activity>
     </application>
 
 

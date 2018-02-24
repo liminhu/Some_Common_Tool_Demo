@@ -10,7 +10,10 @@
         <activity android:name=".chapter1.ToolbarActivity" />
         <activity android:name=".chapter10.moonmvpsimple.ipinfo.IpInfoActivity" />
         <activity android:name=".chapter1.CardViewActivity" />
-        <activity android:name=".chapter1.MyNotificationActivity"></activity>
+        <activity android:name=".chapter1.MyNotificationActivity" />
+        <activity android:name=".chapter10.databinding.DataBindingMainActivity" />
+        <activity android:name=".chapter10.databinding.BindingLayoutActivity" />
+        <activity android:name=".chapter10.databinding.BindingUpdateActivity"></activity>
     </application>
 
 </manifest>

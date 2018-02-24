@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 
+
 android {
     compileSdkVersion 26
     defaultConfig {
@@ -8,7 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
+        multiDexEnabled false
     }
 
     buildTypes {
@@ -16,6 +17,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    dataBinding {
+        enabled = true
     }
 
 }
@@ -47,4 +52,5 @@ dependencies {
 
     compile 'cn.finalteam:okhttpfinal:2.0.7'
     compile 'com.android.support:cardview-v7:22.1.0'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
 }
