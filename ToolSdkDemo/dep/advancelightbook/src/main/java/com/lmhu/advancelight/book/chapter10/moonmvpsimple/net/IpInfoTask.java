@@ -36,6 +36,7 @@ public class IpInfoTask implements NetTask<String>{
             @Override
             public void onStart() {
                 super.onStart();
+                MyLog.e("loadTasksCallBack --- onStart ");
                 loadTasksCallBack.onStart();
             }
 
@@ -43,12 +44,14 @@ public class IpInfoTask implements NetTask<String>{
             @Override
             protected void onSuccess(IpInfo ipInfo) {
                 super.onSuccess(ipInfo);
+                MyLog.e("loadTasksCallBack --- onSuccess ");
                 loadTasksCallBack.onSuccess(ipInfo);
             }
 
             @Override
             public void onFailure(int errorCode, String msg) {
                 super.onFailure(errorCode, msg);
+                MyLog.e("loadTasksCallBack --- onFailed ");
                 loadTasksCallBack.onFailed();
             }
 
@@ -56,6 +59,7 @@ public class IpInfoTask implements NetTask<String>{
             @Override
             public void onFinish() {
                 super.onFinish();
+                MyLog.e("loadTasksCallBack --- onFinish ");
                 loadTasksCallBack.onFinish();
             }
         });

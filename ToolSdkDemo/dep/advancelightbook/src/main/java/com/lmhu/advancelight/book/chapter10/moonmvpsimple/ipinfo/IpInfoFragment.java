@@ -17,6 +17,8 @@ import com.lmhu.advancelight.book.R;
 import com.lmhu.advancelight.book.chapter10.moonmvpsimple.model.IpData;
 import com.lmhu.advancelight.book.chapter10.moonmvpsimple.model.IpInfo;
 
+import demo.utils.MyLog;
+
 /**
  * Created by hulimin on 2018/2/23.
  */
@@ -37,6 +39,7 @@ public class IpInfoFragment extends Fragment implements IpInfoContract.View{
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        MyLog.e("获取数据中 ... ");
         mDialog=new ProgressDialog(getActivity());
         mDialog.setTitle("获取数据中");
         bt_ipinfo.setOnClickListener(new View.OnClickListener() {
@@ -50,6 +53,7 @@ public class IpInfoFragment extends Fragment implements IpInfoContract.View{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        MyLog.e("onCreateView  ... fragment_ipinfo");
         View root=inflater.inflate(R.layout.fragment_ipinfo, container,  false);
         tv_country=(TextView)root.findViewById(R.id.tv_country);
         tv_area=(TextView)root.findViewById(R.id.tv_area);

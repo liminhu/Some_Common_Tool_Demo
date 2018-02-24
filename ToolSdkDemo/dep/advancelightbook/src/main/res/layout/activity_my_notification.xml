@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray"
+    tools:context="com.lmhu.advancelight.book.chapter1.MyNotificationActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_nomal"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="普通通知"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_fold"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="折叠式通知"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_hang"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="悬挂式通知"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg_all"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_public"
+            android:text="public"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_private"
+            android:text="private"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_secret"
+            android:text="secret"/>
+    </RadioGroup>
+
+
+
+
+
+
+
+</LinearLayout>

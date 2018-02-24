@@ -8,7 +8,9 @@
         <activity android:name=".chapter1.MoonPermissionActivity" />
         <activity android:name=".chapter1.ThirdPartyActivity" />
         <activity android:name=".chapter1.ToolbarActivity" />
-        <activity android:name=".chapter10.moonmvpsimple.ipinfo.IpInfoActivity"></activity>
+        <activity android:name=".chapter10.moonmvpsimple.ipinfo.IpInfoActivity" />
+        <activity android:name=".chapter1.CardViewActivity" />
+        <activity android:name=".chapter1.MyNotificationActivity"></activity>
     </application>
 
 </manifest>

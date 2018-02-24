@@ -24,7 +24,7 @@
         android:label="${APP_NAME}"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@style/AppTheme">
 
         <!--        <activity android:name="com.hlm.toolsdk.demo.WebViewActivity">
          &lt;!&ndash;           <intent-filter>
@@ -110,9 +110,10 @@
         <activity
             android:name="com.lmhu.advancelight.book.chapter1.ThirdPartyActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
-
         <activity android:name="com.lmhu.advancelight.book.chapter10.moonmvpsimple.ipinfo.IpInfoActivity"></activity>
+        <activity android:name="com.lmhu.advancelight.book.chapter1.CardViewActivity"></activity>
 
+        <activity android:name="com.lmhu.advancelight.book.chapter1.MyNotificationActivity"></activity>
     </application>
 
 
