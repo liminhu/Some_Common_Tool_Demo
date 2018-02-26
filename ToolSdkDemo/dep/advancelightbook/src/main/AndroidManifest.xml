@@ -13,7 +13,8 @@
         <activity android:name=".chapter1.MyNotificationActivity" />
         <activity android:name=".chapter10.databinding.DataBindingMainActivity" />
         <activity android:name=".chapter10.databinding.BindingLayoutActivity" />
-        <activity android:name=".chapter10.databinding.BindingUpdateActivity"></activity>
+        <activity android:name=".chapter10.databinding.BindingUpdateActivity" />
+        <activity android:name=".chapter1.recyclerview.RecyclerViewActivity"></activity>
     </application>
 
 </manifest>
