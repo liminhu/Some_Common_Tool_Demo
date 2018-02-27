@@ -8,8 +8,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.lmhu.advancelight.book.R;
-import com.lmhu.advancelight.book.chapter1.MyNotificationActivity;
-import com.lmhu.advancelight.book.chapter10.moonmvpsimple.ipinfo.IpInfoContract;
 
 import java.util.List;
 

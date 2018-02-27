@@ -1,14 +1,15 @@
 package com.hlm.toolsdk.advancelightbook;
 
-import android.app.Activity;
+import android.annotation.TargetApi;
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
+import android.support.design.widget.NavigationView;
 
-import com.lmhu.advancelight.book.chapter1.recyclerview.RecyclerViewActivity;
-import com.lmhu.advancelight.book.chapter10.databinding.DataBindingMainActivity;
+import com.lmhu.advancelight.book.chapter2.CoordinatorLayout.CoordinatorLayoutActivity;
+import com.lmhu.advancelight.book.chapter2.NavigationView.NavigationViewActivity;
+import com.lmhu.advancelight.book.chapter2.TabLayout.TabLayoutActivity;
 
 
-public class ContentProviderActivityTwo extends RecyclerViewActivity {
+public class ContentProviderActivityTwo extends NavigationViewActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -14,7 +14,10 @@
         <activity android:name=".chapter10.databinding.DataBindingMainActivity" />
         <activity android:name=".chapter10.databinding.BindingLayoutActivity" />
         <activity android:name=".chapter10.databinding.BindingUpdateActivity" />
-        <activity android:name=".chapter1.recyclerview.RecyclerViewActivity"></activity>
+        <activity android:name=".chapter1.recyclerview.RecyclerViewActivity" />
+        <activity android:name=".chapter2.CoordinatorLayout.CoordinatorLayoutActivity" />
+        <activity android:name=".chapter2.TabLayout.TabLayoutActivity" />
+        <activity android:name=".chapter2.NavigationView.NavigationViewActivity"></activity>
     </application>
 
 </manifest>
