@@ -17,7 +17,10 @@
         <activity android:name=".chapter1.recyclerview.RecyclerViewActivity" />
         <activity android:name=".chapter2.CoordinatorLayout.CoordinatorLayoutActivity" />
         <activity android:name=".chapter2.TabLayout.TabLayoutActivity" />
-        <activity android:name=".chapter2.NavigationView.NavigationViewActivity"></activity>
+        <activity android:name=".chapter2.NavigationView.NavigationViewActivity" />
+        <activity android:name=".chapter2.Designsupportlibrary.DesignsupportActivity" />
+        <activity android:name=".chapter2.Designsupportlibrary.TextInputLayoutActivity" />
+        <activity android:name=".chapter2.CoordinatorLayout.CollapsingToolbarActivity"></activity>
     </application>
 
 </manifest>

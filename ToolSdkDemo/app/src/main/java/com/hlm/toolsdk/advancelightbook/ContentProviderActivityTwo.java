@@ -5,11 +5,12 @@ import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 
 import com.lmhu.advancelight.book.chapter2.CoordinatorLayout.CoordinatorLayoutActivity;
+import com.lmhu.advancelight.book.chapter2.Designsupportlibrary.DesignsupportActivity;
 import com.lmhu.advancelight.book.chapter2.NavigationView.NavigationViewActivity;
 import com.lmhu.advancelight.book.chapter2.TabLayout.TabLayoutActivity;
 
 
-public class ContentProviderActivityTwo extends NavigationViewActivity {
+public class ContentProviderActivityTwo extends CoordinatorLayoutActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

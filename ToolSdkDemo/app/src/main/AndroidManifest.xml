@@ -119,6 +119,7 @@
 
         <activity android:name="com.lmhu.advancelight.book.chapter10.databinding.BindingUpdateActivity"></activity>
         <activity android:name="com.lmhu.advancelight.book.chapter1.recyclerview.RecyclerViewActivity"></activity>
+        <activity android:name="com.lmhu.advancelight.book.chapter2.Designsupportlibrary.TextInputLayoutActivity"></activity>
     </application>
 
 
