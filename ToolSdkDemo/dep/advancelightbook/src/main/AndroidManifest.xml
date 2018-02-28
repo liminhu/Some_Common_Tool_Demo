@@ -20,7 +20,12 @@
         <activity android:name=".chapter2.NavigationView.NavigationViewActivity" />
         <activity android:name=".chapter2.Designsupportlibrary.DesignsupportActivity" />
         <activity android:name=".chapter2.Designsupportlibrary.TextInputLayoutActivity" />
-        <activity android:name=".chapter2.CoordinatorLayout.CollapsingToolbarActivity"></activity>
+        <activity android:name=".chapter2.CoordinatorLayout.CollapsingToolbarActivity" />
+        <activity android:name=".chapter3.CustomviewGroup.CustomViewGroup" />
+        <activity android:name=".chapter3.CustomView.CustomViewActivity" />
+        <activity android:name=".chapter8.RxJavaActivity" />
+        <activity android:name=".chapter8.CreateRxActivity" />
+        <activity android:name=".chapter3.ViewSlide.ViewSlideActivity"></activity>
     </application>
 
 </manifest>
