@@ -24,7 +24,7 @@
         android:label="${APP_NAME}"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme2NoActionBar">
 
         <!--        <activity android:name="com.hlm.toolsdk.demo.WebViewActivity">
          &lt;!&ndash;           <intent-filter>
@@ -119,6 +119,7 @@
 
         <activity android:name="com.lmhu.advancelight.book.chapter10.databinding.BindingUpdateActivity"></activity>
         <activity android:name="com.lmhu.advancelight.book.chapter1.recyclerview.RecyclerViewActivity"></activity>
+        <activity android:name="com.lmhu.advancelight.book.chapter2.Designsupportlibrary.TextInputLayoutActivity"></activity>
     </application>
 
 

@@ -14,7 +14,20 @@
         <activity android:name=".chapter10.databinding.DataBindingMainActivity" />
         <activity android:name=".chapter10.databinding.BindingLayoutActivity" />
         <activity android:name=".chapter10.databinding.BindingUpdateActivity" />
-        <activity android:name=".chapter1.recyclerview.RecyclerViewActivity"></activity>
+        <activity android:name=".chapter1.recyclerview.RecyclerViewActivity" />
+        <activity android:name=".chapter2.CoordinatorLayout.CoordinatorLayoutActivity" />
+        <activity android:name=".chapter2.TabLayout.TabLayoutActivity" />
+        <activity android:name=".chapter2.NavigationView.NavigationViewActivity" />
+        <activity android:name=".chapter2.Designsupportlibrary.DesignsupportActivity" />
+        <activity android:name=".chapter2.Designsupportlibrary.TextInputLayoutActivity" />
+        <activity android:name=".chapter2.CoordinatorLayout.CollapsingToolbarActivity" />
+        <activity android:name=".chapter3.CustomviewGroup.CustomViewGroup" />
+        <activity android:name=".chapter3.CustomView.CustomViewActivity" />
+        <activity android:name=".chapter8.RxJavaActivity" />
+        <activity android:name=".chapter8.CreateRxActivity" />
+        <activity android:name=".chapter3.ViewSlide.ViewSlideActivity" />
+        <activity android:name=".chapter3.CustomGroup.CustomGroupActivity" />
+        <activity android:name=".chapter5.Okhttp3.OkHttpEngineActivity"></activity>
     </application>
 
 </manifest>

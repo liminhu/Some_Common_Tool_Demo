@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lmhu.advancelight.book.chapter3.ViewSlide.ViewSlideActivity">
+
+    <com.lmhu.advancelight.book.chapter3.ViewSlide.ViewSlideCustomView
+        android:id="@+id/customview_slide"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:layout_margin="50dp"
+        android:background="@android:color/holo_red_light"
+        />
+</LinearLayout>
