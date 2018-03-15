@@ -3,4 +3,12 @@
     <declare-styleable name="RectView">
         <attr name="rect_color" format="color"/>
     </declare-styleable>
+
+    <declare-styleable name="DotAlternateView">
+        <attr name="dot_dark_color" format="color"/>
+        <attr name="dot_light_color" format="color" />
+        <attr name="dot_radius" format="dimension"/>
+        <attr name="dot_spacing" format="dimension"/>
+        <attr name="dot_move_rate" format="float" />
+    </declare-styleable>
 </resources>
