@@ -28,7 +28,8 @@
         <activity android:name=".chapter3.ViewSlide.ViewSlideActivity" />
         <activity android:name=".chapter3.CustomGroup.CustomGroupActivity" />
         <activity android:name=".chapter5.Okhttp3.OkHttpEngineActivity" />
-        <activity android:name=".chapter3.CustomProgressView.DotAlternateMainActivity"></activity>
+        <activity android:name=".chapter3.CustomProgressView.DotAlternateMainActivity" />
+        <activity android:name=".chapter5.Retrofit.RetrofitMainActivity"></activity>
     </application>
 
 </manifest>
