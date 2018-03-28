@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/hlm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a16ef6b647e28d322c7db8a6f97ca9c3/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

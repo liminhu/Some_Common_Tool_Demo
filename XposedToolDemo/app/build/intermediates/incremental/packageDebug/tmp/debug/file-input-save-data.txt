@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Mar 28 10:14:21 CST 2018
+1.base=/media/hlm/WorkRelateFile/code-keep/MyXposedDemo/app/build/intermediates/transforms/dexMerger/debug/0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=xposed_init
+0.set=ASSET
+0.base=/media/hlm/WorkRelateFile/code-keep/MyXposedDemo/app/build/intermediates/assets/debug
+1.path=classes.dex
