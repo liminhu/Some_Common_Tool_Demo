@@ -656,17 +656,77 @@ public final class R {
      */
     public static final int commitIcon=0x7f020054;
     /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int contentDescription=0x7f020055;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetEnd=0x7f020056;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetEndWithActions=0x7f020057;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetLeft=0x7f020058;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetRight=0x7f020059;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetStart=0x7f02005a;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetStartWithNavigation=0x7f02005b;
+    /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int constraintSet=0x7f020055;
+    public static final int controlBackground=0x7f02005c;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int customNavigationLayout=0x7f02005d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int contentDescription=0x7f020056;
+    public static final int defaultQueryHint=0x7f02005e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -674,81 +734,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEnd=0x7f020057;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetEndWithActions=0x7f020058;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetLeft=0x7f020059;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetRight=0x7f02005a;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetStart=0x7f02005b;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetStartWithNavigation=0x7f02005c;
+    public static final int dialogPreferredPadding=0x7f02005f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int controlBackground=0x7f02005d;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int customNavigationLayout=0x7f02005e;
-    /**
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int defaultQueryHint=0x7f02005f;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int dialogPreferredPadding=0x7f020060;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int dialogTheme=0x7f020061;
+    public static final int dialogTheme=0x7f020060;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -765,21 +758,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f020062;
+    public static final int displayOptions=0x7f020061;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f020063;
+    public static final int divider=0x7f020062;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f020064;
+    public static final int dividerHorizontal=0x7f020063;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -787,14 +780,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f020065;
+    public static final int dividerPadding=0x7f020064;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f020066;
+    public static final int dividerVertical=0x7f020065;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -802,21 +795,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f020067;
+    public static final int drawableSize=0x7f020066;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f020068;
+    public static final int drawerArrowStyle=0x7f020067;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f020069;
+    public static final int dropDownListViewStyle=0x7f020068;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -824,14 +817,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f02006a;
+    public static final int dropdownListPreferredItemHeight=0x7f020069;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f02006b;
+    public static final int editTextBackground=0x7f02006a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -841,14 +834,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f02006c;
+    public static final int editTextColor=0x7f02006b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f02006d;
+    public static final int editTextStyle=0x7f02006c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -856,38 +849,38 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f02006e;
+    public static final int elevation=0x7f02006d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f02006f;
+    public static final int expandActivityOverflowButtonDrawable=0x7f02006e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f020070;
+    public static final int font=0x7f02006f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f020071;
+    public static final int fontFamily=0x7f020070;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f020072;
+    public static final int fontProviderAuthority=0x7f020071;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f020073;
+    public static final int fontProviderCerts=0x7f020072;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -899,7 +892,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f020074;
+    public static final int fontProviderFetchStrategy=0x7f020073;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -911,17 +904,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f020075;
+    public static final int fontProviderFetchTimeout=0x7f020074;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f020076;
+    public static final int fontProviderPackage=0x7f020075;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f020077;
+    public static final int fontProviderQuery=0x7f020076;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -933,11 +926,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f020078;
+    public static final int fontStyle=0x7f020077;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f020079;
+    public static final int fontWeight=0x7f020078;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -945,14 +938,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f02007a;
+    public static final int gapBetweenBars=0x7f020079;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f02007b;
+    public static final int goIcon=0x7f02007a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -960,39 +953,39 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f02007c;
+    public static final int height=0x7f02007b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f02007d;
+    public static final int hideOnContentScroll=0x7f02007c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f02007e;
+    public static final int homeAsUpIndicator=0x7f02007d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f02007f;
+    public static final int homeLayout=0x7f02007e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f020080;
+    public static final int icon=0x7f02007f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f020081;
+    public static final int iconTint=0x7f020080;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1008,36 +1001,36 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f020082;
+    public static final int iconTintMode=0x7f020081;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f020083;
+    public static final int iconifiedByDefault=0x7f020082;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f020084;
+    public static final int imageButtonStyle=0x7f020083;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f020085;
+    public static final int indeterminateProgressStyle=0x7f020084;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f020086;
+    public static final int initialActivityCount=0x7f020085;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f020087;
+    public static final int isLightTheme=0x7f020086;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1045,102 +1038,108 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f020088;
+    public static final int itemPadding=0x7f020087;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f020089;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintBaseline_creator=0x7f02008a;
+    public static final int layout=0x7f020088;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f02008b;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintBottom_creator=0x7f02008c;
+    public static final int listChoiceBackgroundIndicator=0x7f020089;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f02008d;
+    public static final int listDividerAlertDialog=0x7f02008a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f02008e;
+    public static final int listItemLayout=0x7f02008b;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listLayout=0x7f02008c;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listMenuViewStyle=0x7f02008d;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listPopupWindowStyle=0x7f02008e;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemHeight=0x7f02008f;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemHeightLarge=0x7f020090;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemHeightSmall=0x7f020091;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemPaddingLeft=0x7f020092;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemPaddingRight=0x7f020093;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int logo=0x7f020094;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f02008f;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintEnd_toEndOf=0x7f020090;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintEnd_toStartOf=0x7f020091;
+    public static final int logoDescription=0x7f020095;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1148,453 +1147,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f020092;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_constraintGuide_end=0x7f020093;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintGuide_percent=0x7f020094;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>wrap</td><td>1</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintHeight_default=0x7f020095;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_constraintHeight_max=0x7f020096;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_constraintHeight_min=0x7f020097;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintHorizontal_bias=0x7f020098;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f020099;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintHorizontal_weight=0x7f02009a;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintLeft_creator=0x7f02009b;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintLeft_toLeftOf=0x7f02009c;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintLeft_toRightOf=0x7f02009d;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintRight_creator=0x7f02009e;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintRight_toLeftOf=0x7f02009f;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintRight_toRightOf=0x7f0200a0;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintStart_toEndOf=0x7f0200a1;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintStart_toStartOf=0x7f0200a2;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintTop_creator=0x7f0200a3;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintTop_toBottomOf=0x7f0200a4;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintTop_toTopOf=0x7f0200a5;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintVertical_bias=0x7f0200a6;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintVertical_chainStyle=0x7f0200a7;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintVertical_weight=0x7f0200a8;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>wrap</td><td>1</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintWidth_default=0x7f0200a9;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_constraintWidth_max=0x7f0200aa;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_constraintWidth_min=0x7f0200ab;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_editor_absoluteX=0x7f0200ac;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_editor_absoluteY=0x7f0200ad;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginBottom=0x7f0200ae;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginEnd=0x7f0200af;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginLeft=0x7f0200b0;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginRight=0x7f0200b1;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginStart=0x7f0200b2;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginTop=0x7f0200b3;
-    /**
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>2</td><td></td></tr>
-     * <tr><td>basic</td><td>4</td><td></td></tr>
-     * <tr><td>chains</td><td>8</td><td></td></tr>
-     * <tr><td>none</td><td>1</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_optimizationLevel=0x7f0200b4;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listChoiceBackgroundIndicator=0x7f0200b5;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listDividerAlertDialog=0x7f0200b6;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listItemLayout=0x7f0200b7;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listLayout=0x7f0200b8;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listMenuViewStyle=0x7f0200b9;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listPopupWindowStyle=0x7f0200ba;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemHeight=0x7f0200bb;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemHeightLarge=0x7f0200bc;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemHeightSmall=0x7f0200bd;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemPaddingLeft=0x7f0200be;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemPaddingRight=0x7f0200bf;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int logo=0x7f0200c0;
-    /**
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int logoDescription=0x7f0200c1;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int maxButtonHeight=0x7f0200c2;
+    public static final int maxButtonHeight=0x7f020096;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f0200c3;
+    public static final int measureWithLargestChild=0x7f020097;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f0200c4;
+    public static final int multiChoiceItemLayout=0x7f020098;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f0200c5;
+    public static final int navigationContentDescription=0x7f020099;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f0200c6;
+    public static final int navigationIcon=0x7f02009a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1607,7 +1184,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f0200c7;
+    public static final int navigationMode=0x7f02009b;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1623,12 +1200,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f0200c8;
+    public static final int numericModifiers=0x7f02009c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f0200c9;
+    public static final int overlapAnchor=0x7f02009d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1636,7 +1213,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f0200ca;
+    public static final int paddingBottomNoButtons=0x7f02009e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1644,7 +1221,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f0200cb;
+    public static final int paddingEnd=0x7f02009f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1652,7 +1229,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f0200cc;
+    public static final int paddingStart=0x7f0200a0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1660,21 +1237,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f0200cd;
+    public static final int paddingTopNoTitle=0x7f0200a1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f0200ce;
+    public static final int panelBackground=0x7f0200a2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f0200cf;
+    public static final int panelMenuListTheme=0x7f0200a3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1682,33 +1259,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f0200d0;
+    public static final int panelMenuListWidth=0x7f0200a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f0200d1;
+    public static final int popupMenuStyle=0x7f0200a5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f0200d2;
+    public static final int popupTheme=0x7f0200a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f0200d3;
+    public static final int popupWindowStyle=0x7f0200a7;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f0200d4;
+    public static final int preserveIconSpacing=0x7f0200a8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1716,96 +1293,96 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f0200d5;
+    public static final int progressBarPadding=0x7f0200a9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f0200d6;
+    public static final int progressBarStyle=0x7f0200aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f0200d7;
+    public static final int queryBackground=0x7f0200ab;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f0200d8;
+    public static final int queryHint=0x7f0200ac;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f0200d9;
+    public static final int radioButtonStyle=0x7f0200ad;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f0200da;
+    public static final int ratingBarStyle=0x7f0200ae;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f0200db;
+    public static final int ratingBarStyleIndicator=0x7f0200af;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f0200dc;
+    public static final int ratingBarStyleSmall=0x7f0200b0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f0200dd;
+    public static final int searchHintIcon=0x7f0200b1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f0200de;
+    public static final int searchIcon=0x7f0200b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f0200df;
+    public static final int searchViewStyle=0x7f0200b3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f0200e0;
+    public static final int seekBarStyle=0x7f0200b4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f0200e1;
+    public static final int selectableItemBackground=0x7f0200b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f0200e2;
+    public static final int selectableItemBackgroundBorderless=0x7f0200b6;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1820,7 +1397,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f0200e3;
+    public static final int showAsAction=0x7f0200b7;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1834,106 +1411,106 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f0200e4;
+    public static final int showDividers=0x7f0200b8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f0200e5;
+    public static final int showText=0x7f0200b9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f0200e6;
+    public static final int showTitle=0x7f0200ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f0200e7;
+    public static final int singleChoiceItemLayout=0x7f0200bb;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0200e8;
+    public static final int spinBars=0x7f0200bc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0200e9;
+    public static final int spinnerDropDownItemStyle=0x7f0200bd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0200ea;
+    public static final int spinnerStyle=0x7f0200be;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0200eb;
+    public static final int splitTrack=0x7f0200bf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f0200ec;
+    public static final int srcCompat=0x7f0200c0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0200ed;
+    public static final int state_above_anchor=0x7f0200c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f0200ee;
+    public static final int subMenuArrow=0x7f0200c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0200ef;
+    public static final int submitBackground=0x7f0200c3;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0200f0;
+    public static final int subtitle=0x7f0200c4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0200f1;
+    public static final int subtitleTextAppearance=0x7f0200c5;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0200f2;
+    public static final int subtitleTextColor=0x7f0200c6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0200f3;
+    public static final int subtitleTextStyle=0x7f0200c7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0200f4;
+    public static final int suggestionRowLayout=0x7f0200c8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1941,7 +1518,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0200f5;
+    public static final int switchMinWidth=0x7f0200c9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1949,21 +1526,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0200f6;
+    public static final int switchPadding=0x7f0200ca;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0200f7;
+    public static final int switchStyle=0x7f0200cb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0200f8;
+    public static final int switchTextAppearance=0x7f0200cc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1972,73 +1549,63 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0200f9;
+    public static final int textAllCaps=0x7f0200cd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0200fa;
+    public static final int textAppearanceLargePopupMenu=0x7f0200ce;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0200fb;
+    public static final int textAppearanceListItem=0x7f0200cf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f0200fc;
+    public static final int textAppearanceListItemSecondary=0x7f0200d0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0200fd;
+    public static final int textAppearanceListItemSmall=0x7f0200d1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f0200fe;
+    public static final int textAppearancePopupMenuHeader=0x7f0200d2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0200ff;
+    public static final int textAppearanceSearchResultSubtitle=0x7f0200d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f020100;
+    public static final int textAppearanceSearchResultTitle=0x7f0200d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f020101;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f020102;
+    public static final int textAppearanceSmallPopupMenu=0x7f0200d5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2048,14 +1615,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f020103;
+    public static final int textColorAlertDialogListItem=0x7f0200d6;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f0200d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f020104;
+    public static final int theme=0x7f0200d8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2063,7 +1640,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f020105;
+    public static final int thickness=0x7f0200d9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2071,13 +1648,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f020106;
+    public static final int thumbTextPadding=0x7f0200da;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f020107;
+    public static final int thumbTint=0x7f0200db;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2093,20 +1670,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f020108;
+    public static final int thumbTintMode=0x7f0200dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f020109;
+    public static final int tickMark=0x7f0200dd;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f02010a;
+    public static final int tickMarkTint=0x7f0200de;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2122,13 +1699,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f02010b;
+    public static final int tickMarkTintMode=0x7f0200df;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f02010c;
+    public static final int tint=0x7f0200e0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2143,12 +1720,12 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f02010d;
+    public static final int tintMode=0x7f0200e1;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f02010e;
+    public static final int title=0x7f0200e2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2156,7 +1733,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f02010f;
+    public static final int titleMargin=0x7f0200e3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2164,7 +1741,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f020110;
+    public static final int titleMarginBottom=0x7f0200e4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2172,7 +1749,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f020111;
+    public static final int titleMarginEnd=0x7f0200e5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2180,7 +1757,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f020112;
+    public static final int titleMarginStart=0x7f0200e6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2188,7 +1765,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f020113;
+    public static final int titleMarginTop=0x7f0200e7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2196,41 +1773,41 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f020114;
+    public static final int titleMargins=0x7f0200e8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f020115;
+    public static final int titleTextAppearance=0x7f0200e9;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f020116;
+    public static final int titleTextColor=0x7f0200ea;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f020117;
+    public static final int titleTextStyle=0x7f0200eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f020118;
+    public static final int toolbarNavigationButtonStyle=0x7f0200ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f020119;
+    public static final int toolbarStyle=0x7f0200ed;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2240,32 +1817,32 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f02011a;
+    public static final int tooltipForegroundColor=0x7f0200ee;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f02011b;
+    public static final int tooltipFrameBackground=0x7f0200ef;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f02011c;
+    public static final int tooltipText=0x7f0200f0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f02011d;
+    public static final int track=0x7f0200f1;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f02011e;
+    public static final int trackTint=0x7f0200f2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2281,29 +1858,29 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f02011f;
+    public static final int trackTintMode=0x7f0200f3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f020120;
+    public static final int voiceIcon=0x7f0200f4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f020121;
+    public static final int windowActionBar=0x7f0200f5;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f020122;
+    public static final int windowActionBarOverlay=0x7f0200f6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f020123;
+    public static final int windowActionModeOverlay=0x7f0200f7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2315,7 +1892,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f020124;
+    public static final int windowFixedHeightMajor=0x7f0200f8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2327,7 +1904,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f020125;
+    public static final int windowFixedHeightMinor=0x7f0200f9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2339,7 +1916,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f020126;
+    public static final int windowFixedWidthMajor=0x7f0200fa;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2351,7 +1928,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f020127;
+    public static final int windowFixedWidthMinor=0x7f0200fb;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2363,7 +1940,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f020128;
+    public static final int windowMinWidthMajor=0x7f0200fc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2375,12 +1952,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f020129;
+    public static final int windowMinWidthMinor=0x7f0200fd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f02012a;
+    public static final int windowNoTitle=0x7f0200fe;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f030000;
@@ -2674,21 +2251,20 @@ public final class R {
     public static final int abc_textfield_search_default_mtrl_alpha=0x7f060050;
     public static final int abc_textfield_search_material=0x7f060051;
     public static final int abc_vector_test=0x7f060052;
-    public static final int ic_launcher=0x7f060053;
-    public static final int notification_action_background=0x7f060054;
-    public static final int notification_bg=0x7f060055;
-    public static final int notification_bg_low=0x7f060056;
-    public static final int notification_bg_low_normal=0x7f060057;
-    public static final int notification_bg_low_pressed=0x7f060058;
-    public static final int notification_bg_normal=0x7f060059;
-    public static final int notification_bg_normal_pressed=0x7f06005a;
-    public static final int notification_icon_background=0x7f06005b;
-    public static final int notification_template_icon_bg=0x7f06005c;
-    public static final int notification_template_icon_low_bg=0x7f06005d;
-    public static final int notification_tile_bg=0x7f06005e;
-    public static final int notify_panel_notification_icon_bg=0x7f06005f;
-    public static final int tooltip_frame_dark=0x7f060060;
-    public static final int tooltip_frame_light=0x7f060061;
+    public static final int notification_action_background=0x7f060053;
+    public static final int notification_bg=0x7f060054;
+    public static final int notification_bg_low=0x7f060055;
+    public static final int notification_bg_low_normal=0x7f060056;
+    public static final int notification_bg_low_pressed=0x7f060057;
+    public static final int notification_bg_normal=0x7f060058;
+    public static final int notification_bg_normal_pressed=0x7f060059;
+    public static final int notification_icon_background=0x7f06005a;
+    public static final int notification_template_icon_bg=0x7f06005b;
+    public static final int notification_template_icon_low_bg=0x7f06005c;
+    public static final int notification_tile_bg=0x7f06005d;
+    public static final int notify_panel_notification_icon_bg=0x7f06005e;
+    public static final int tooltip_frame_dark=0x7f06005f;
+    public static final int tooltip_frame_light=0x7f060060;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -2720,107 +2296,99 @@ public final class R {
     public static final int activity_chooser_view_content=0x7f07001a;
     public static final int add=0x7f07001b;
     public static final int alertTitle=0x7f07001c;
-    public static final int all=0x7f07001d;
-    public static final int always=0x7f07001e;
-    public static final int async=0x7f07001f;
-    public static final int basic=0x7f070020;
-    public static final int beginning=0x7f070021;
-    public static final int blocking=0x7f070022;
-    public static final int bottom=0x7f070023;
-    public static final int buttonPanel=0x7f070024;
-    public static final int cancel_action=0x7f070025;
-    public static final int chains=0x7f070026;
-    public static final int checkbox=0x7f070027;
-    public static final int chronometer=0x7f070028;
-    public static final int collapseActionView=0x7f070029;
-    public static final int contentPanel=0x7f07002a;
-    public static final int custom=0x7f07002b;
-    public static final int customPanel=0x7f07002c;
-    public static final int decor_content_parent=0x7f07002d;
-    public static final int default_activity_button=0x7f07002e;
-    public static final int disableHome=0x7f07002f;
-    public static final int edit_query=0x7f070030;
-    public static final int end=0x7f070031;
-    public static final int end_padder=0x7f070032;
-    public static final int expand_activities_button=0x7f070033;
-    public static final int expanded_menu=0x7f070034;
-    public static final int forever=0x7f070035;
-    public static final int home=0x7f070036;
-    public static final int homeAsUp=0x7f070037;
-    public static final int icon=0x7f070038;
-    public static final int icon_group=0x7f070039;
-    public static final int ifRoom=0x7f07003a;
-    public static final int image=0x7f07003b;
-    public static final int info=0x7f07003c;
-    public static final int italic=0x7f07003d;
-    public static final int line1=0x7f07003e;
-    public static final int line3=0x7f07003f;
-    public static final int listMode=0x7f070040;
-    public static final int list_item=0x7f070041;
-    public static final int media_actions=0x7f070042;
-    public static final int message=0x7f070043;
-    public static final int middle=0x7f070044;
-    public static final int multiply=0x7f070045;
-    public static final int never=0x7f070046;
-    public static final int none=0x7f070047;
-    public static final int normal=0x7f070048;
-    public static final int notification_background=0x7f070049;
-    public static final int notification_main_column=0x7f07004a;
-    public static final int notification_main_column_container=0x7f07004b;
-    public static final int packed=0x7f07004c;
-    public static final int parent=0x7f07004d;
-    public static final int parentPanel=0x7f07004e;
-    public static final int progress_circular=0x7f07004f;
-    public static final int progress_horizontal=0x7f070050;
-    public static final int radio=0x7f070051;
-    public static final int right_icon=0x7f070052;
-    public static final int right_side=0x7f070053;
-    public static final int screen=0x7f070054;
-    public static final int scrollIndicatorDown=0x7f070055;
-    public static final int scrollIndicatorUp=0x7f070056;
-    public static final int scrollView=0x7f070057;
-    public static final int search_badge=0x7f070058;
-    public static final int search_bar=0x7f070059;
-    public static final int search_button=0x7f07005a;
-    public static final int search_close_btn=0x7f07005b;
-    public static final int search_edit_frame=0x7f07005c;
-    public static final int search_go_btn=0x7f07005d;
-    public static final int search_mag_icon=0x7f07005e;
-    public static final int search_plate=0x7f07005f;
-    public static final int search_src_text=0x7f070060;
-    public static final int search_voice_btn=0x7f070061;
-    public static final int select_dialog_listview=0x7f070062;
-    public static final int shortcut=0x7f070063;
-    public static final int showCustom=0x7f070064;
-    public static final int showHome=0x7f070065;
-    public static final int showTitle=0x7f070066;
-    public static final int spacer=0x7f070067;
-    public static final int split_action_bar=0x7f070068;
-    public static final int spread=0x7f070069;
-    public static final int spread_inside=0x7f07006a;
-    public static final int src_atop=0x7f07006b;
-    public static final int src_in=0x7f07006c;
-    public static final int src_over=0x7f07006d;
-    public static final int status_bar_latest_event_content=0x7f07006e;
-    public static final int submenuarrow=0x7f07006f;
-    public static final int submit_area=0x7f070070;
-    public static final int tabMode=0x7f070071;
-    public static final int text=0x7f070072;
-    public static final int text2=0x7f070073;
-    public static final int textSpacerNoButtons=0x7f070074;
-    public static final int textSpacerNoTitle=0x7f070075;
-    public static final int time=0x7f070076;
-    public static final int title=0x7f070077;
-    public static final int titleDividerNoCustom=0x7f070078;
-    public static final int title_template=0x7f070079;
-    public static final int top=0x7f07007a;
-    public static final int topPanel=0x7f07007b;
-    public static final int uniform=0x7f07007c;
-    public static final int up=0x7f07007d;
-    public static final int useLogo=0x7f07007e;
-    public static final int withText=0x7f07007f;
-    public static final int wrap=0x7f070080;
-    public static final int wrap_content=0x7f070081;
+    public static final int always=0x7f07001d;
+    public static final int async=0x7f07001e;
+    public static final int beginning=0x7f07001f;
+    public static final int blocking=0x7f070020;
+    public static final int bottom=0x7f070021;
+    public static final int buttonPanel=0x7f070022;
+    public static final int cancel_action=0x7f070023;
+    public static final int checkbox=0x7f070024;
+    public static final int chronometer=0x7f070025;
+    public static final int collapseActionView=0x7f070026;
+    public static final int contentPanel=0x7f070027;
+    public static final int custom=0x7f070028;
+    public static final int customPanel=0x7f070029;
+    public static final int decor_content_parent=0x7f07002a;
+    public static final int default_activity_button=0x7f07002b;
+    public static final int disableHome=0x7f07002c;
+    public static final int edit_query=0x7f07002d;
+    public static final int end=0x7f07002e;
+    public static final int end_padder=0x7f07002f;
+    public static final int expand_activities_button=0x7f070030;
+    public static final int expanded_menu=0x7f070031;
+    public static final int forever=0x7f070032;
+    public static final int home=0x7f070033;
+    public static final int homeAsUp=0x7f070034;
+    public static final int icon=0x7f070035;
+    public static final int icon_group=0x7f070036;
+    public static final int ifRoom=0x7f070037;
+    public static final int image=0x7f070038;
+    public static final int info=0x7f070039;
+    public static final int italic=0x7f07003a;
+    public static final int line1=0x7f07003b;
+    public static final int line3=0x7f07003c;
+    public static final int listMode=0x7f07003d;
+    public static final int list_item=0x7f07003e;
+    public static final int media_actions=0x7f07003f;
+    public static final int message=0x7f070040;
+    public static final int middle=0x7f070041;
+    public static final int multiply=0x7f070042;
+    public static final int never=0x7f070043;
+    public static final int none=0x7f070044;
+    public static final int normal=0x7f070045;
+    public static final int notification_background=0x7f070046;
+    public static final int notification_main_column=0x7f070047;
+    public static final int notification_main_column_container=0x7f070048;
+    public static final int parentPanel=0x7f070049;
+    public static final int progress_circular=0x7f07004a;
+    public static final int progress_horizontal=0x7f07004b;
+    public static final int radio=0x7f07004c;
+    public static final int right_icon=0x7f07004d;
+    public static final int right_side=0x7f07004e;
+    public static final int screen=0x7f07004f;
+    public static final int scrollIndicatorDown=0x7f070050;
+    public static final int scrollIndicatorUp=0x7f070051;
+    public static final int scrollView=0x7f070052;
+    public static final int search_badge=0x7f070053;
+    public static final int search_bar=0x7f070054;
+    public static final int search_button=0x7f070055;
+    public static final int search_close_btn=0x7f070056;
+    public static final int search_edit_frame=0x7f070057;
+    public static final int search_go_btn=0x7f070058;
+    public static final int search_mag_icon=0x7f070059;
+    public static final int search_plate=0x7f07005a;
+    public static final int search_src_text=0x7f07005b;
+    public static final int search_voice_btn=0x7f07005c;
+    public static final int select_dialog_listview=0x7f07005d;
+    public static final int shortcut=0x7f07005e;
+    public static final int showCustom=0x7f07005f;
+    public static final int showHome=0x7f070060;
+    public static final int showTitle=0x7f070061;
+    public static final int spacer=0x7f070062;
+    public static final int split_action_bar=0x7f070063;
+    public static final int src_atop=0x7f070064;
+    public static final int src_in=0x7f070065;
+    public static final int src_over=0x7f070066;
+    public static final int status_bar_latest_event_content=0x7f070067;
+    public static final int submenuarrow=0x7f070068;
+    public static final int submit_area=0x7f070069;
+    public static final int tabMode=0x7f07006a;
+    public static final int text=0x7f07006b;
+    public static final int text2=0x7f07006c;
+    public static final int textSpacerNoButtons=0x7f07006d;
+    public static final int textSpacerNoTitle=0x7f07006e;
+    public static final int time=0x7f07006f;
+    public static final int title=0x7f070070;
+    public static final int titleDividerNoCustom=0x7f070071;
+    public static final int title_template=0x7f070072;
+    public static final int top=0x7f070073;
+    public static final int topPanel=0x7f070074;
+    public static final int uniform=0x7f070075;
+    public static final int up=0x7f070076;
+    public static final int useLogo=0x7f070077;
+    public static final int withText=0x7f070078;
+    public static final int wrap_content=0x7f070079;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3297,35 +2865,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.hu.myxposeddemo:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.hu.myxposeddemo:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.hu.myxposeddemo:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.hu.myxposeddemo:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.hu.myxposeddemo:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.hu.myxposeddemo:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.hu.myxposeddemo:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.hu.myxposeddemo:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.hu.myxposeddemo:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.hu.myxposeddemo:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.hu.myxposeddemo:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.hu.myxposeddemo:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.hu.myxposeddemo:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.hu.myxposeddemo:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.hu.myxposeddemo:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.hu.myxposeddemo:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.hu.myxposeddemo:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.hu.myxposeddemo:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.hu.myxposeddemo:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.hu.myxposeddemo:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.hu.myxposeddemo:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.hu.myxposeddemo:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.hu.myxposeddemo:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.hu.myxposeddemo:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.hu.myxposeddemo:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.hu.myxposeddemo:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.hu.myxposeddemo:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.hu.myxposeddemo:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.hu.myxposeddemo:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.hu.myxposeddemo.vivo:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.hu.myxposeddemo.vivo:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.hu.myxposeddemo.vivo:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.hu.myxposeddemo.vivo:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.hu.myxposeddemo.vivo:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.hu.myxposeddemo.vivo:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.hu.myxposeddemo.vivo:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.hu.myxposeddemo.vivo:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.hu.myxposeddemo.vivo:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.hu.myxposeddemo.vivo:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.hu.myxposeddemo.vivo:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.hu.myxposeddemo.vivo:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.hu.myxposeddemo.vivo:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.hu.myxposeddemo.vivo:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.hu.myxposeddemo.vivo:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.hu.myxposeddemo.vivo:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.hu.myxposeddemo.vivo:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.hu.myxposeddemo.vivo:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.hu.myxposeddemo.vivo:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.hu.myxposeddemo.vivo:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.hu.myxposeddemo.vivo:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.hu.myxposeddemo.vivo:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.hu.myxposeddemo.vivo:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.hu.myxposeddemo.vivo:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.hu.myxposeddemo.vivo:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.hu.myxposeddemo.vivo:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.hu.myxposeddemo.vivo:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.hu.myxposeddemo.vivo:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.hu.myxposeddemo.vivo:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3358,17 +2926,17 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-        0x7f020031, 0x7f020032, 0x7f020033, 0x7f020057, 
-        0x7f020058, 0x7f020059, 0x7f02005a, 0x7f02005b, 
-        0x7f02005c, 0x7f02005e, 0x7f020062, 0x7f020063, 
-        0x7f02006e, 0x7f02007c, 0x7f02007d, 0x7f02007e, 
-        0x7f02007f, 0x7f020080, 0x7f020085, 0x7f020088, 
-        0x7f0200c0, 0x7f0200c7, 0x7f0200d2, 0x7f0200d5, 
-        0x7f0200d6, 0x7f0200f0, 0x7f0200f3, 0x7f02010e, 
-        0x7f020117
+        0x7f020031, 0x7f020032, 0x7f020033, 0x7f020056, 
+        0x7f020057, 0x7f020058, 0x7f020059, 0x7f02005a, 
+        0x7f02005b, 0x7f02005d, 0x7f020061, 0x7f020062, 
+        0x7f02006d, 0x7f02007b, 0x7f02007c, 0x7f02007d, 
+        0x7f02007e, 0x7f02007f, 0x7f020084, 0x7f020087, 
+        0x7f020094, 0x7f02009b, 0x7f0200a6, 0x7f0200a9, 
+        0x7f0200aa, 0x7f0200c4, 0x7f0200c7, 0x7f0200e2, 
+        0x7f0200eb
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3376,11 +2944,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:background
+     * @attr name com.hu.myxposeddemo.vivo:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3391,11 +2959,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:backgroundSplit
+     * @attr name com.hu.myxposeddemo.vivo:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3406,11 +2974,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:backgroundStacked
+     * @attr name com.hu.myxposeddemo.vivo:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3419,11 +2987,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetEnd
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3432,11 +3000,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetEndWithActions
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3445,11 +3013,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetLeft
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3458,11 +3026,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetRight
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3471,11 +3039,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetStart
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3484,11 +3052,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetStartWithNavigation
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3496,11 +3064,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:customNavigationLayout
+     * @attr name com.hu.myxposeddemo.vivo:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3518,11 +3086,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:displayOptions
+     * @attr name com.hu.myxposeddemo.vivo:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3530,11 +3098,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:divider
+     * @attr name com.hu.myxposeddemo.vivo:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3543,11 +3111,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:elevation
+     * @attr name com.hu.myxposeddemo.vivo:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3556,21 +3124,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:height
+     * @attr name com.hu.myxposeddemo.vivo:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:hideOnContentScroll
+     * @attr name com.hu.myxposeddemo.vivo:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3578,11 +3146,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:homeAsUpIndicator
+     * @attr name com.hu.myxposeddemo.vivo:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3590,11 +3158,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:homeLayout
+     * @attr name com.hu.myxposeddemo.vivo:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3602,11 +3170,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:icon
+     * @attr name com.hu.myxposeddemo.vivo:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3614,11 +3182,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:indeterminateProgressStyle
+     * @attr name com.hu.myxposeddemo.vivo:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3627,11 +3195,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:itemPadding
+     * @attr name com.hu.myxposeddemo.vivo:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3639,11 +3207,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:logo
+     * @attr name com.hu.myxposeddemo.vivo:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3657,11 +3225,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:navigationMode
+     * @attr name com.hu.myxposeddemo.vivo:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3669,11 +3237,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:popupTheme
+     * @attr name com.hu.myxposeddemo.vivo:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3682,11 +3250,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:progressBarPadding
+     * @attr name com.hu.myxposeddemo.vivo:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3694,21 +3262,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:progressBarStyle
+     * @attr name com.hu.myxposeddemo.vivo:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:subtitle
+     * @attr name com.hu.myxposeddemo.vivo:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3716,21 +3284,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:subtitleTextStyle
+     * @attr name com.hu.myxposeddemo.vivo:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:title
+     * @attr name com.hu.myxposeddemo.vivo:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3738,7 +3306,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:titleTextStyle
+     * @attr name com.hu.myxposeddemo.vivo:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -3820,12 +3388,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.hu.myxposeddemo:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.hu.myxposeddemo:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.hu.myxposeddemo:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.hu.myxposeddemo:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.hu.myxposeddemo:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.hu.myxposeddemo:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.hu.myxposeddemo.vivo:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.hu.myxposeddemo.vivo:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.hu.myxposeddemo.vivo:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.hu.myxposeddemo.vivo:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.hu.myxposeddemo.vivo:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.hu.myxposeddemo.vivo:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -3835,11 +3403,11 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-        0x7f020031, 0x7f020032, 0x7f020046, 0x7f02007c, 
-        0x7f0200f3, 0x7f020117
+        0x7f020031, 0x7f020032, 0x7f020046, 0x7f02007b, 
+        0x7f0200c7, 0x7f0200eb
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3847,11 +3415,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:background
+     * @attr name com.hu.myxposeddemo.vivo:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3862,11 +3430,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:backgroundSplit
+     * @attr name com.hu.myxposeddemo.vivo:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3874,11 +3442,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:closeItemLayout
+     * @attr name com.hu.myxposeddemo.vivo:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3887,11 +3455,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:height
+     * @attr name com.hu.myxposeddemo.vivo:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3899,11 +3467,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:subtitleTextStyle
+     * @attr name com.hu.myxposeddemo.vivo:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3911,7 +3479,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:titleTextStyle
+     * @attr name com.hu.myxposeddemo.vivo:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -3921,17 +3489,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.hu.myxposeddemo:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.hu.myxposeddemo:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.hu.myxposeddemo.vivo:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.hu.myxposeddemo.vivo:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-        0x7f02006f, 0x7f020086
+        0x7f02006e, 0x7f020085
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3939,17 +3507,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:expandActivityOverflowButtonDrawable
+     * @attr name com.hu.myxposeddemo.vivo:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:initialActivityCount
+     * @attr name com.hu.myxposeddemo.vivo:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -3960,12 +3528,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.hu.myxposeddemo:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.hu.myxposeddemo:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.hu.myxposeddemo:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.hu.myxposeddemo:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.hu.myxposeddemo:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.hu.myxposeddemo:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.hu.myxposeddemo.vivo:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.hu.myxposeddemo.vivo:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.hu.myxposeddemo.vivo:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.hu.myxposeddemo.vivo:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.hu.myxposeddemo.vivo:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.hu.myxposeddemo.vivo:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -3976,8 +3544,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-        0x010100f2, 0x7f02003e, 0x7f0200b7, 0x7f0200b8, 
-        0x7f0200c4, 0x7f0200e6, 0x7f0200e7
+        0x010100f2, 0x7f02003e, 0x7f02008b, 0x7f02008c, 
+        0x7f020098, 0x7f0200ba, 0x7f0200bb
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -3992,7 +3560,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4000,11 +3568,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonPanelSideLayout
+     * @attr name com.hu.myxposeddemo.vivo:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4012,11 +3580,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:listItemLayout
+     * @attr name com.hu.myxposeddemo.vivo:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4024,11 +3592,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:listLayout
+     * @attr name com.hu.myxposeddemo.vivo:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4036,21 +3604,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:multiChoiceItemLayout
+     * @attr name com.hu.myxposeddemo.vivo:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:showTitle
+     * @attr name com.hu.myxposeddemo.vivo:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4058,7 +3626,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:singleChoiceItemLayout
+     * @attr name com.hu.myxposeddemo.vivo:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -4069,9 +3637,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.hu.myxposeddemo:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.hu.myxposeddemo:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.hu.myxposeddemo:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.hu.myxposeddemo.vivo:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.hu.myxposeddemo.vivo:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.hu.myxposeddemo.vivo:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4079,7 +3647,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f0200ec, 0x7f02010c, 0x7f02010d
+        0x01010119, 0x7f0200c0, 0x7f0200e0, 0x7f0200e1
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -4097,7 +3665,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4105,22 +3673,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:srcCompat
+     * @attr name com.hu.myxposeddemo.vivo:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:tint
+     * @attr name com.hu.myxposeddemo.vivo:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4136,7 +3704,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:tintMode
+     * @attr name com.hu.myxposeddemo.vivo:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -4147,9 +3715,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.hu.myxposeddemo:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.hu.myxposeddemo:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.hu.myxposeddemo:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.hu.myxposeddemo.vivo:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.hu.myxposeddemo.vivo:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.hu.myxposeddemo.vivo:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4157,7 +3725,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f020109, 0x7f02010a, 0x7f02010b
+        0x01010142, 0x7f0200dd, 0x7f0200de, 0x7f0200df
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -4172,7 +3740,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4180,22 +3748,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:tickMark
+     * @attr name com.hu.myxposeddemo.vivo:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:tickMarkTint
+     * @attr name com.hu.myxposeddemo.vivo:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4212,7 +3780,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:tickMarkTintMode
+     * @attr name com.hu.myxposeddemo.vivo:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4352,13 +3920,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.hu.myxposeddemo:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.hu.myxposeddemo:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.hu.myxposeddemo:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.hu.myxposeddemo:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.hu.myxposeddemo:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.hu.myxposeddemo:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.hu.myxposeddemo:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.hu.myxposeddemo.vivo:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.hu.myxposeddemo.vivo:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.hu.myxposeddemo.vivo:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.hu.myxposeddemo.vivo:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.hu.myxposeddemo.vivo:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.hu.myxposeddemo.vivo:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.hu.myxposeddemo.vivo:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4371,7 +3939,7 @@ public final class R {
      */
     public static final int[] AppCompatTextView={
         0x01010034, 0x7f02002c, 0x7f02002d, 0x7f02002e, 
-        0x7f02002f, 0x7f020030, 0x7f020071, 0x7f0200f9
+        0x7f02002f, 0x7f020030, 0x7f020070, 0x7f0200cd
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4386,7 +3954,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4395,11 +3963,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:autoSizeMaxTextSize
+     * @attr name com.hu.myxposeddemo.vivo:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4408,11 +3976,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:autoSizeMinTextSize
+     * @attr name com.hu.myxposeddemo.vivo:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4420,11 +3988,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:autoSizePresetSizes
+     * @attr name com.hu.myxposeddemo.vivo:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4433,11 +4001,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:autoSizeStepGranularity
+     * @attr name com.hu.myxposeddemo.vivo:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4450,21 +4018,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:autoSizeTextType
+     * @attr name com.hu.myxposeddemo.vivo:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:fontFamily
+     * @attr name com.hu.myxposeddemo.vivo:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4474,7 +4042,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:textAllCaps
+     * @attr name com.hu.myxposeddemo.vivo:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -4486,123 +4054,123 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.hu.myxposeddemo:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.hu.myxposeddemo:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.hu.myxposeddemo:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.hu.myxposeddemo:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.hu.myxposeddemo:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.hu.myxposeddemo:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.hu.myxposeddemo:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.hu.myxposeddemo:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.hu.myxposeddemo:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.hu.myxposeddemo:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.hu.myxposeddemo:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.hu.myxposeddemo:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.hu.myxposeddemo:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.hu.myxposeddemo:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.hu.myxposeddemo:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.hu.myxposeddemo:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.hu.myxposeddemo:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.hu.myxposeddemo:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.hu.myxposeddemo:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.hu.myxposeddemo:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.hu.myxposeddemo:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.hu.myxposeddemo:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.hu.myxposeddemo:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.hu.myxposeddemo:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.hu.myxposeddemo:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.hu.myxposeddemo:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.hu.myxposeddemo:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.hu.myxposeddemo:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.hu.myxposeddemo:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.hu.myxposeddemo:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.hu.myxposeddemo:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.hu.myxposeddemo:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.hu.myxposeddemo:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.hu.myxposeddemo:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.hu.myxposeddemo:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.hu.myxposeddemo:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.hu.myxposeddemo:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.hu.myxposeddemo:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.hu.myxposeddemo:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.hu.myxposeddemo:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.hu.myxposeddemo:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.hu.myxposeddemo:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.hu.myxposeddemo:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.hu.myxposeddemo:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.hu.myxposeddemo:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.hu.myxposeddemo:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.hu.myxposeddemo:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.hu.myxposeddemo:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.hu.myxposeddemo:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.hu.myxposeddemo:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.hu.myxposeddemo:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.hu.myxposeddemo:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.hu.myxposeddemo:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.hu.myxposeddemo:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.hu.myxposeddemo:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.hu.myxposeddemo:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.hu.myxposeddemo:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.hu.myxposeddemo:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.hu.myxposeddemo:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.hu.myxposeddemo:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.hu.myxposeddemo:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.hu.myxposeddemo:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.hu.myxposeddemo:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.hu.myxposeddemo:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.hu.myxposeddemo:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.hu.myxposeddemo:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.hu.myxposeddemo:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.hu.myxposeddemo:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.hu.myxposeddemo:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.hu.myxposeddemo:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.hu.myxposeddemo:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.hu.myxposeddemo:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.hu.myxposeddemo:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.hu.myxposeddemo:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.hu.myxposeddemo:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.hu.myxposeddemo:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.hu.myxposeddemo:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.hu.myxposeddemo:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.hu.myxposeddemo:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.hu.myxposeddemo:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.hu.myxposeddemo:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.hu.myxposeddemo:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.hu.myxposeddemo:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.hu.myxposeddemo:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.hu.myxposeddemo:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.hu.myxposeddemo:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.hu.myxposeddemo:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.hu.myxposeddemo:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.hu.myxposeddemo:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.hu.myxposeddemo:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.hu.myxposeddemo:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.hu.myxposeddemo:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.hu.myxposeddemo:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.hu.myxposeddemo:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.hu.myxposeddemo:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.hu.myxposeddemo:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.hu.myxposeddemo:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.hu.myxposeddemo:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.hu.myxposeddemo:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.hu.myxposeddemo:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.hu.myxposeddemo:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.hu.myxposeddemo:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.hu.myxposeddemo:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.hu.myxposeddemo:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.hu.myxposeddemo:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.hu.myxposeddemo:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.hu.myxposeddemo:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.hu.myxposeddemo:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.hu.myxposeddemo:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.hu.myxposeddemo:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.hu.myxposeddemo:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.hu.myxposeddemo:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.hu.myxposeddemo:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.hu.myxposeddemo:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.hu.myxposeddemo:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.hu.myxposeddemo:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.hu.myxposeddemo:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.hu.myxposeddemo.vivo:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.hu.myxposeddemo.vivo:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.hu.myxposeddemo.vivo:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.hu.myxposeddemo.vivo:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.hu.myxposeddemo.vivo:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.hu.myxposeddemo.vivo:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.hu.myxposeddemo.vivo:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.hu.myxposeddemo.vivo:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.hu.myxposeddemo.vivo:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.hu.myxposeddemo.vivo:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.hu.myxposeddemo.vivo:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.hu.myxposeddemo.vivo:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.hu.myxposeddemo.vivo:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.hu.myxposeddemo.vivo:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.hu.myxposeddemo.vivo:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.hu.myxposeddemo.vivo:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.hu.myxposeddemo.vivo:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.hu.myxposeddemo.vivo:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.hu.myxposeddemo.vivo:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.hu.myxposeddemo.vivo:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.hu.myxposeddemo.vivo:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.hu.myxposeddemo.vivo:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.hu.myxposeddemo.vivo:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.hu.myxposeddemo.vivo:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.hu.myxposeddemo.vivo:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.hu.myxposeddemo.vivo:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.hu.myxposeddemo.vivo:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.hu.myxposeddemo.vivo:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.hu.myxposeddemo.vivo:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.hu.myxposeddemo.vivo:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.hu.myxposeddemo.vivo:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.hu.myxposeddemo.vivo:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.hu.myxposeddemo.vivo:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.hu.myxposeddemo.vivo:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.hu.myxposeddemo.vivo:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.hu.myxposeddemo.vivo:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.hu.myxposeddemo.vivo:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.hu.myxposeddemo.vivo:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.hu.myxposeddemo.vivo:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.hu.myxposeddemo.vivo:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.hu.myxposeddemo.vivo:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.hu.myxposeddemo.vivo:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.hu.myxposeddemo.vivo:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.hu.myxposeddemo.vivo:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.hu.myxposeddemo.vivo:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.hu.myxposeddemo.vivo:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.hu.myxposeddemo.vivo:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.hu.myxposeddemo.vivo:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.hu.myxposeddemo.vivo:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.hu.myxposeddemo.vivo:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.hu.myxposeddemo.vivo:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.hu.myxposeddemo.vivo:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.hu.myxposeddemo.vivo:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.hu.myxposeddemo.vivo:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.hu.myxposeddemo.vivo:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.hu.myxposeddemo.vivo:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.hu.myxposeddemo.vivo:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.hu.myxposeddemo.vivo:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.hu.myxposeddemo.vivo:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.hu.myxposeddemo.vivo:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.hu.myxposeddemo.vivo:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.hu.myxposeddemo.vivo:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.hu.myxposeddemo.vivo:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.hu.myxposeddemo.vivo:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.hu.myxposeddemo.vivo:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.hu.myxposeddemo.vivo:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.hu.myxposeddemo.vivo:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.hu.myxposeddemo.vivo:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.hu.myxposeddemo.vivo:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.hu.myxposeddemo.vivo:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.hu.myxposeddemo.vivo:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.hu.myxposeddemo.vivo:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.hu.myxposeddemo.vivo:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.hu.myxposeddemo.vivo:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.hu.myxposeddemo.vivo:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.hu.myxposeddemo.vivo:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.hu.myxposeddemo.vivo:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.hu.myxposeddemo.vivo:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.hu.myxposeddemo.vivo:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.hu.myxposeddemo.vivo:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.hu.myxposeddemo.vivo:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.hu.myxposeddemo.vivo:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.hu.myxposeddemo.vivo:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.hu.myxposeddemo.vivo:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.hu.myxposeddemo.vivo:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.hu.myxposeddemo.vivo:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.hu.myxposeddemo.vivo:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.hu.myxposeddemo.vivo:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.hu.myxposeddemo.vivo:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.hu.myxposeddemo.vivo:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.hu.myxposeddemo.vivo:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.hu.myxposeddemo.vivo:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.hu.myxposeddemo.vivo:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.hu.myxposeddemo.vivo:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.hu.myxposeddemo.vivo:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.hu.myxposeddemo.vivo:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.hu.myxposeddemo.vivo:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.hu.myxposeddemo.vivo:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.hu.myxposeddemo.vivo:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.hu.myxposeddemo.vivo:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.hu.myxposeddemo.vivo:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.hu.myxposeddemo.vivo:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.hu.myxposeddemo.vivo:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.hu.myxposeddemo.vivo:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.hu.myxposeddemo.vivo:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.hu.myxposeddemo.vivo:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.hu.myxposeddemo.vivo:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.hu.myxposeddemo.vivo:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.hu.myxposeddemo.vivo:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.hu.myxposeddemo.vivo:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.hu.myxposeddemo.vivo:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.hu.myxposeddemo.vivo:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.hu.myxposeddemo.vivo:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.hu.myxposeddemo.vivo:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.hu.myxposeddemo.vivo:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.hu.myxposeddemo.vivo:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.hu.myxposeddemo.vivo:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -4739,22 +4307,22 @@ public final class R {
         0x7f02003f, 0x7f020040, 0x7f020043, 0x7f020044, 
         0x7f02004a, 0x7f02004b, 0x7f02004c, 0x7f02004d, 
         0x7f02004e, 0x7f02004f, 0x7f020050, 0x7f020051, 
-        0x7f020052, 0x7f020053, 0x7f02005d, 0x7f020060, 
-        0x7f020061, 0x7f020064, 0x7f020066, 0x7f020069, 
-        0x7f02006a, 0x7f02006b, 0x7f02006c, 0x7f02006d, 
-        0x7f02007e, 0x7f020084, 0x7f0200b5, 0x7f0200b6, 
-        0x7f0200b9, 0x7f0200ba, 0x7f0200bb, 0x7f0200bc, 
-        0x7f0200bd, 0x7f0200be, 0x7f0200bf, 0x7f0200ce, 
-        0x7f0200cf, 0x7f0200d0, 0x7f0200d1, 0x7f0200d3, 
-        0x7f0200d9, 0x7f0200da, 0x7f0200db, 0x7f0200dc, 
-        0x7f0200df, 0x7f0200e0, 0x7f0200e1, 0x7f0200e2, 
-        0x7f0200e9, 0x7f0200ea, 0x7f0200f7, 0x7f0200fa, 
-        0x7f0200fb, 0x7f0200fc, 0x7f0200fd, 0x7f0200fe, 
-        0x7f0200ff, 0x7f020100, 0x7f020101, 0x7f020102, 
-        0x7f020103, 0x7f020118, 0x7f020119, 0x7f02011a, 
-        0x7f02011b, 0x7f020121, 0x7f020122, 0x7f020123, 
-        0x7f020124, 0x7f020125, 0x7f020126, 0x7f020127, 
-        0x7f020128, 0x7f020129, 0x7f02012a
+        0x7f020052, 0x7f020053, 0x7f02005c, 0x7f02005f, 
+        0x7f020060, 0x7f020063, 0x7f020065, 0x7f020068, 
+        0x7f020069, 0x7f02006a, 0x7f02006b, 0x7f02006c, 
+        0x7f02007d, 0x7f020083, 0x7f020089, 0x7f02008a, 
+        0x7f02008d, 0x7f02008e, 0x7f02008f, 0x7f020090, 
+        0x7f020091, 0x7f020092, 0x7f020093, 0x7f0200a2, 
+        0x7f0200a3, 0x7f0200a4, 0x7f0200a5, 0x7f0200a7, 
+        0x7f0200ad, 0x7f0200ae, 0x7f0200af, 0x7f0200b0, 
+        0x7f0200b3, 0x7f0200b4, 0x7f0200b5, 0x7f0200b6, 
+        0x7f0200bd, 0x7f0200be, 0x7f0200cb, 0x7f0200ce, 
+        0x7f0200cf, 0x7f0200d0, 0x7f0200d1, 0x7f0200d2, 
+        0x7f0200d3, 0x7f0200d4, 0x7f0200d5, 0x7f0200d6, 
+        0x7f0200d7, 0x7f0200ec, 0x7f0200ed, 0x7f0200ee, 
+        0x7f0200ef, 0x7f0200f5, 0x7f0200f6, 0x7f0200f7, 
+        0x7f0200f8, 0x7f0200f9, 0x7f0200fa, 0x7f0200fb, 
+        0x7f0200fc, 0x7f0200fd, 0x7f0200fe
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -4779,7 +4347,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4787,11 +4355,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarDivider
+     * @attr name com.hu.myxposeddemo.vivo:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4799,11 +4367,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarItemBackground
+     * @attr name com.hu.myxposeddemo.vivo:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4811,11 +4379,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarPopupTheme
+     * @attr name com.hu.myxposeddemo.vivo:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4832,11 +4400,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:actionBarSize
+     * @attr name com.hu.myxposeddemo.vivo:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4844,11 +4412,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarSplitStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4856,11 +4424,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4868,11 +4436,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarTabBarStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4880,11 +4448,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarTabStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4892,11 +4460,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarTabTextStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4904,11 +4472,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarTheme
+     * @attr name com.hu.myxposeddemo.vivo:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4916,11 +4484,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionBarWidgetTheme
+     * @attr name com.hu.myxposeddemo.vivo:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4928,11 +4496,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4940,11 +4508,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionDropDownStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4952,11 +4520,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionMenuTextAppearance
+     * @attr name com.hu.myxposeddemo.vivo:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4967,11 +4535,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionMenuTextColor
+     * @attr name com.hu.myxposeddemo.vivo:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4979,11 +4547,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeBackground
+     * @attr name com.hu.myxposeddemo.vivo:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4991,11 +4559,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeCloseButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5003,11 +4571,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeCloseDrawable
+     * @attr name com.hu.myxposeddemo.vivo:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5015,11 +4583,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeCopyDrawable
+     * @attr name com.hu.myxposeddemo.vivo:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5027,11 +4595,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeCutDrawable
+     * @attr name com.hu.myxposeddemo.vivo:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5039,11 +4607,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeFindDrawable
+     * @attr name com.hu.myxposeddemo.vivo:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5051,11 +4619,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModePasteDrawable
+     * @attr name com.hu.myxposeddemo.vivo:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5063,11 +4631,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModePopupWindowStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5075,11 +4643,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeSelectAllDrawable
+     * @attr name com.hu.myxposeddemo.vivo:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5087,11 +4655,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeShareDrawable
+     * @attr name com.hu.myxposeddemo.vivo:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5099,11 +4667,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeSplitBackground
+     * @attr name com.hu.myxposeddemo.vivo:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5111,11 +4679,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5123,11 +4691,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionModeWebSearchDrawable
+     * @attr name com.hu.myxposeddemo.vivo:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5135,11 +4703,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionOverflowButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5147,11 +4715,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionOverflowMenuStyle
+     * @attr name com.hu.myxposeddemo.vivo:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5159,11 +4727,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:activityChooserViewStyle
+     * @attr name com.hu.myxposeddemo.vivo:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5171,21 +4739,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:alertDialogButtonGroupStyle
+     * @attr name com.hu.myxposeddemo.vivo:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:alertDialogCenterButtons
+     * @attr name com.hu.myxposeddemo.vivo:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5193,11 +4761,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:alertDialogStyle
+     * @attr name com.hu.myxposeddemo.vivo:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5205,11 +4773,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:alertDialogTheme
+     * @attr name com.hu.myxposeddemo.vivo:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5217,11 +4785,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:autoCompleteTextViewStyle
+     * @attr name com.hu.myxposeddemo.vivo:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5229,11 +4797,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:borderlessButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5241,11 +4809,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonBarButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5253,11 +4821,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonBarNegativeButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5265,11 +4833,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonBarNeutralButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5277,11 +4845,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonBarPositiveButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5289,11 +4857,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonBarStyle
+     * @attr name com.hu.myxposeddemo.vivo:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5301,11 +4869,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonStyle
+     * @attr name com.hu.myxposeddemo.vivo:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5313,11 +4881,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonStyleSmall
+     * @attr name com.hu.myxposeddemo.vivo:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5325,11 +4893,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:checkboxStyle
+     * @attr name com.hu.myxposeddemo.vivo:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5337,77 +4905,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:checkedTextViewStyle
+     * @attr name com.hu.myxposeddemo.vivo:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorAccent
+     * @attr name com.hu.myxposeddemo.vivo:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorBackgroundFloating
+     * @attr name com.hu.myxposeddemo.vivo:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorButtonNormal
+     * @attr name com.hu.myxposeddemo.vivo:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorControlActivated
+     * @attr name com.hu.myxposeddemo.vivo:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorControlHighlight
+     * @attr name com.hu.myxposeddemo.vivo:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorControlNormal
+     * @attr name com.hu.myxposeddemo.vivo:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5418,44 +4986,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorError
+     * @attr name com.hu.myxposeddemo.vivo:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorPrimary
+     * @attr name com.hu.myxposeddemo.vivo:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorPrimaryDark
+     * @attr name com.hu.myxposeddemo.vivo:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:colorSwitchThumbNormal
+     * @attr name com.hu.myxposeddemo.vivo:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5463,11 +5031,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:controlBackground
+     * @attr name com.hu.myxposeddemo.vivo:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5476,11 +5044,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:dialogPreferredPadding
+     * @attr name com.hu.myxposeddemo.vivo:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5488,11 +5056,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:dialogTheme
+     * @attr name com.hu.myxposeddemo.vivo:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5500,11 +5068,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:dividerHorizontal
+     * @attr name com.hu.myxposeddemo.vivo:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5512,11 +5080,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:dividerVertical
+     * @attr name com.hu.myxposeddemo.vivo:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5524,11 +5092,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:dropDownListViewStyle
+     * @attr name com.hu.myxposeddemo.vivo:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5537,11 +5105,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:dropdownListPreferredItemHeight
+     * @attr name com.hu.myxposeddemo.vivo:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5549,11 +5117,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:editTextBackground
+     * @attr name com.hu.myxposeddemo.vivo:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5564,11 +5132,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:editTextColor
+     * @attr name com.hu.myxposeddemo.vivo:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5576,11 +5144,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:editTextStyle
+     * @attr name com.hu.myxposeddemo.vivo:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5588,11 +5156,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:homeAsUpIndicator
+     * @attr name com.hu.myxposeddemo.vivo:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5600,11 +5168,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:imageButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5612,11 +5180,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:listChoiceBackgroundIndicator
+     * @attr name com.hu.myxposeddemo.vivo:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5624,11 +5192,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:listDividerAlertDialog
+     * @attr name com.hu.myxposeddemo.vivo:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5636,11 +5204,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:listMenuViewStyle
+     * @attr name com.hu.myxposeddemo.vivo:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5648,11 +5216,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:listPopupWindowStyle
+     * @attr name com.hu.myxposeddemo.vivo:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5661,11 +5229,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:listPreferredItemHeight
+     * @attr name com.hu.myxposeddemo.vivo:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5674,11 +5242,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:listPreferredItemHeightLarge
+     * @attr name com.hu.myxposeddemo.vivo:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5687,11 +5255,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:listPreferredItemHeightSmall
+     * @attr name com.hu.myxposeddemo.vivo:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5700,11 +5268,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:listPreferredItemPaddingLeft
+     * @attr name com.hu.myxposeddemo.vivo:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5713,11 +5281,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:listPreferredItemPaddingRight
+     * @attr name com.hu.myxposeddemo.vivo:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5725,11 +5293,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:panelBackground
+     * @attr name com.hu.myxposeddemo.vivo:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5737,11 +5305,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:panelMenuListTheme
+     * @attr name com.hu.myxposeddemo.vivo:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5750,11 +5318,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:panelMenuListWidth
+     * @attr name com.hu.myxposeddemo.vivo:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5762,11 +5330,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:popupMenuStyle
+     * @attr name com.hu.myxposeddemo.vivo:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5774,11 +5342,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:popupWindowStyle
+     * @attr name com.hu.myxposeddemo.vivo:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5786,11 +5354,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:radioButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5798,11 +5366,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:ratingBarStyle
+     * @attr name com.hu.myxposeddemo.vivo:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5810,11 +5378,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:ratingBarStyleIndicator
+     * @attr name com.hu.myxposeddemo.vivo:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5822,11 +5390,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:ratingBarStyleSmall
+     * @attr name com.hu.myxposeddemo.vivo:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5834,11 +5402,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:searchViewStyle
+     * @attr name com.hu.myxposeddemo.vivo:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5846,11 +5414,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:seekBarStyle
+     * @attr name com.hu.myxposeddemo.vivo:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5858,11 +5426,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:selectableItemBackground
+     * @attr name com.hu.myxposeddemo.vivo:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5870,11 +5438,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:selectableItemBackgroundBorderless
+     * @attr name com.hu.myxposeddemo.vivo:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5882,11 +5450,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:spinnerDropDownItemStyle
+     * @attr name com.hu.myxposeddemo.vivo:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5894,11 +5462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:spinnerStyle
+     * @attr name com.hu.myxposeddemo.vivo:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5906,11 +5474,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:switchStyle
+     * @attr name com.hu.myxposeddemo.vivo:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5918,11 +5486,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textAppearanceLargePopupMenu
+     * @attr name com.hu.myxposeddemo.vivo:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5930,11 +5498,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textAppearanceListItem
+     * @attr name com.hu.myxposeddemo.vivo:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5942,11 +5510,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textAppearanceListItemSecondary
+     * @attr name com.hu.myxposeddemo.vivo:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5954,11 +5522,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textAppearanceListItemSmall
+     * @attr name com.hu.myxposeddemo.vivo:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5966,11 +5534,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textAppearancePopupMenuHeader
+     * @attr name com.hu.myxposeddemo.vivo:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5978,11 +5546,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textAppearanceSearchResultSubtitle
+     * @attr name com.hu.myxposeddemo.vivo:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5990,11 +5558,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textAppearanceSearchResultTitle
+     * @attr name com.hu.myxposeddemo.vivo:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6002,11 +5570,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textAppearanceSmallPopupMenu
+     * @attr name com.hu.myxposeddemo.vivo:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6017,11 +5585,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textColorAlertDialogListItem
+     * @attr name com.hu.myxposeddemo.vivo:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6032,11 +5600,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:textColorSearchUrl
+     * @attr name com.hu.myxposeddemo.vivo:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6044,11 +5612,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:toolbarNavigationButtonStyle
+     * @attr name com.hu.myxposeddemo.vivo:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6056,11 +5624,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:toolbarStyle
+     * @attr name com.hu.myxposeddemo.vivo:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6071,11 +5639,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:tooltipForegroundColor
+     * @attr name com.hu.myxposeddemo.vivo:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6083,41 +5651,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:tooltipFrameBackground
+     * @attr name com.hu.myxposeddemo.vivo:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:windowActionBar
+     * @attr name com.hu.myxposeddemo.vivo:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:windowActionBarOverlay
+     * @attr name com.hu.myxposeddemo.vivo:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:windowActionModeOverlay
+     * @attr name com.hu.myxposeddemo.vivo:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6130,11 +5698,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.hu.myxposeddemo:windowFixedHeightMajor
+     * @attr name com.hu.myxposeddemo.vivo:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6147,11 +5715,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.hu.myxposeddemo:windowFixedHeightMinor
+     * @attr name com.hu.myxposeddemo.vivo:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6164,11 +5732,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.hu.myxposeddemo:windowFixedWidthMajor
+     * @attr name com.hu.myxposeddemo.vivo:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6181,11 +5749,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.hu.myxposeddemo:windowFixedWidthMinor
+     * @attr name com.hu.myxposeddemo.vivo:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6198,11 +5766,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.hu.myxposeddemo:windowMinWidthMajor
+     * @attr name com.hu.myxposeddemo.vivo:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6215,17 +5783,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.hu.myxposeddemo:windowMinWidthMinor
+     * @attr name com.hu.myxposeddemo.vivo:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:windowNoTitle
+     * @attr name com.hu.myxposeddemo.vivo:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=118;
     /**
@@ -6235,7 +5803,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.hu.myxposeddemo:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.hu.myxposeddemo.vivo:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6243,13 +5811,13 @@ public final class R {
         0x7f020026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:allowStacking
+     * @attr name com.hu.myxposeddemo.vivo:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6261,7 +5829,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.hu.myxposeddemo:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.hu.myxposeddemo.vivo:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -6291,12 +5859,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.hu.myxposeddemo:alpha
+     * @attr name com.hu.myxposeddemo.vivo:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -6307,8 +5875,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.hu.myxposeddemo:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.hu.myxposeddemo:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.hu.myxposeddemo.vivo:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.hu.myxposeddemo.vivo:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -6330,18 +5898,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:buttonTint
+     * @attr name com.hu.myxposeddemo.vivo:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6357,1904 +5925,9 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:buttonTintMode
+     * @attr name com.hu.myxposeddemo.vivo:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
-    /**
-     * Attributes that can be used with a ConstraintLayout_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.hu.myxposeddemo:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.hu.myxposeddemo:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.hu.myxposeddemo:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.hu.myxposeddemo:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.hu.myxposeddemo:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.hu.myxposeddemo:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.hu.myxposeddemo:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.hu.myxposeddemo:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.hu.myxposeddemo:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.hu.myxposeddemo:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.hu.myxposeddemo:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.hu.myxposeddemo:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.hu.myxposeddemo:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.hu.myxposeddemo:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.hu.myxposeddemo:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.hu.myxposeddemo:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.hu.myxposeddemo:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.hu.myxposeddemo:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.hu.myxposeddemo:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.hu.myxposeddemo:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.hu.myxposeddemo:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.hu.myxposeddemo:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.hu.myxposeddemo:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.hu.myxposeddemo:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.hu.myxposeddemo:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.hu.myxposeddemo:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.hu.myxposeddemo:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.hu.myxposeddemo:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.hu.myxposeddemo:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.hu.myxposeddemo:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.hu.myxposeddemo:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.hu.myxposeddemo:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.hu.myxposeddemo:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.hu.myxposeddemo:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.hu.myxposeddemo:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.hu.myxposeddemo:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.hu.myxposeddemo:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.hu.myxposeddemo:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.hu.myxposeddemo:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.hu.myxposeddemo:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.hu.myxposeddemo:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.hu.myxposeddemo:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.hu.myxposeddemo:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.hu.myxposeddemo:layout_optimizationLevel}</code></td><td></td></tr>
-     * </table>
-     * @see #ConstraintLayout_Layout_android_orientation
-     * @see #ConstraintLayout_Layout_android_maxWidth
-     * @see #ConstraintLayout_Layout_android_maxHeight
-     * @see #ConstraintLayout_Layout_android_minWidth
-     * @see #ConstraintLayout_Layout_android_minHeight
-     * @see #ConstraintLayout_Layout_constraintSet
-     * @see #ConstraintLayout_Layout_layout_constraintBaseline_creator
-     * @see #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf
-     * @see #ConstraintLayout_Layout_layout_constraintBottom_creator
-     * @see #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf
-     * @see #ConstraintLayout_Layout_layout_constraintBottom_toTopOf
-     * @see #ConstraintLayout_Layout_layout_constraintDimensionRatio
-     * @see #ConstraintLayout_Layout_layout_constraintEnd_toEndOf
-     * @see #ConstraintLayout_Layout_layout_constraintEnd_toStartOf
-     * @see #ConstraintLayout_Layout_layout_constraintGuide_begin
-     * @see #ConstraintLayout_Layout_layout_constraintGuide_end
-     * @see #ConstraintLayout_Layout_layout_constraintGuide_percent
-     * @see #ConstraintLayout_Layout_layout_constraintHeight_default
-     * @see #ConstraintLayout_Layout_layout_constraintHeight_max
-     * @see #ConstraintLayout_Layout_layout_constraintHeight_min
-     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_bias
-     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle
-     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_weight
-     * @see #ConstraintLayout_Layout_layout_constraintLeft_creator
-     * @see #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf
-     * @see #ConstraintLayout_Layout_layout_constraintLeft_toRightOf
-     * @see #ConstraintLayout_Layout_layout_constraintRight_creator
-     * @see #ConstraintLayout_Layout_layout_constraintRight_toLeftOf
-     * @see #ConstraintLayout_Layout_layout_constraintRight_toRightOf
-     * @see #ConstraintLayout_Layout_layout_constraintStart_toEndOf
-     * @see #ConstraintLayout_Layout_layout_constraintStart_toStartOf
-     * @see #ConstraintLayout_Layout_layout_constraintTop_creator
-     * @see #ConstraintLayout_Layout_layout_constraintTop_toBottomOf
-     * @see #ConstraintLayout_Layout_layout_constraintTop_toTopOf
-     * @see #ConstraintLayout_Layout_layout_constraintVertical_bias
-     * @see #ConstraintLayout_Layout_layout_constraintVertical_chainStyle
-     * @see #ConstraintLayout_Layout_layout_constraintVertical_weight
-     * @see #ConstraintLayout_Layout_layout_constraintWidth_default
-     * @see #ConstraintLayout_Layout_layout_constraintWidth_max
-     * @see #ConstraintLayout_Layout_layout_constraintWidth_min
-     * @see #ConstraintLayout_Layout_layout_editor_absoluteX
-     * @see #ConstraintLayout_Layout_layout_editor_absoluteY
-     * @see #ConstraintLayout_Layout_layout_goneMarginBottom
-     * @see #ConstraintLayout_Layout_layout_goneMarginEnd
-     * @see #ConstraintLayout_Layout_layout_goneMarginLeft
-     * @see #ConstraintLayout_Layout_layout_goneMarginRight
-     * @see #ConstraintLayout_Layout_layout_goneMarginStart
-     * @see #ConstraintLayout_Layout_layout_goneMarginTop
-     * @see #ConstraintLayout_Layout_layout_optimizationLevel
-     */
-    public static final int[] ConstraintLayout_Layout={
-        0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
-        0x01010140, 0x7f020055, 0x7f02008a, 0x7f02008b, 
-        0x7f02008c, 0x7f02008d, 0x7f02008e, 0x7f02008f, 
-        0x7f020090, 0x7f020091, 0x7f020092, 0x7f020093, 
-        0x7f020094, 0x7f020095, 0x7f020096, 0x7f020097, 
-        0x7f020098, 0x7f020099, 0x7f02009a, 0x7f02009b, 
-        0x7f02009c, 0x7f02009d, 0x7f02009e, 0x7f02009f, 
-        0x7f0200a0, 0x7f0200a1, 0x7f0200a2, 0x7f0200a3, 
-        0x7f0200a4, 0x7f0200a5, 0x7f0200a6, 0x7f0200a7, 
-        0x7f0200a8, 0x7f0200a9, 0x7f0200aa, 0x7f0200ab, 
-        0x7f0200ac, 0x7f0200ad, 0x7f0200ae, 0x7f0200af, 
-        0x7f0200b0, 0x7f0200b1, 0x7f0200b2, 0x7f0200b3, 
-        0x7f0200b4
-      };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int ConstraintLayout_Layout_android_orientation=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:maxWidth
-     */
-    public static final int ConstraintLayout_Layout_android_maxWidth=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:maxHeight
-     */
-    public static final int ConstraintLayout_Layout_android_maxHeight=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minWidth
-     */
-    public static final int ConstraintLayout_Layout_android_minWidth=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minHeight
-     */
-    public static final int ConstraintLayout_Layout_android_minHeight=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#constraintSet}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.hu.myxposeddemo:constraintSet
-     */
-    public static final int ConstraintLayout_Layout_constraintSet=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBaseline_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBaseline_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBaseline_toBaselineOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBaseline_toBaselineOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBottom_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBottom_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=8;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBottom_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBottom_toBottomOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBottom_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBottom_toTopOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintDimensionRatio}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintDimensionRatio
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintEnd_toEndOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintEnd_toEndOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintEnd_toStartOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintEnd_toStartOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintGuide_begin}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintGuide_begin
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintGuide_end}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintGuide_end
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_end=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintGuide_percent}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintGuide_percent
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHeight_default}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>wrap</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHeight_default
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHeight_default=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHeight_max}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHeight_max
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHeight_max=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHeight_min}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHeight_min
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHeight_min=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHorizontal_bias}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHorizontal_bias
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHorizontal_chainStyle}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHorizontal_chainStyle
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHorizontal_weight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHorizontal_weight
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintLeft_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintLeft_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintLeft_toLeftOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintLeft_toLeftOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintLeft_toRightOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintLeft_toRightOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintRight_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintRight_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_creator=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintRight_toLeftOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintRight_toLeftOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintRight_toRightOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintRight_toRightOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintStart_toEndOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintStart_toEndOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintStart_toStartOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintStart_toStartOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=30;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintTop_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintTop_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_creator=31;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintTop_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintTop_toBottomOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintTop_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintTop_toTopOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=33;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintVertical_bias}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintVertical_bias
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=34;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintVertical_chainStyle}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintVertical_chainStyle
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=35;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintVertical_weight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintVertical_weight
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=36;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintWidth_default}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>wrap</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintWidth_default
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintWidth_default=37;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintWidth_max}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintWidth_max
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintWidth_max=38;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintWidth_min}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintWidth_min
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintWidth_min=39;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_editor_absoluteX}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_editor_absoluteX
-     */
-    public static final int ConstraintLayout_Layout_layout_editor_absoluteX=40;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_editor_absoluteY}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_editor_absoluteY
-     */
-    public static final int ConstraintLayout_Layout_layout_editor_absoluteY=41;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginBottom}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginBottom
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginBottom=42;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginEnd}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginEnd
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginEnd=43;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginLeft}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginLeft
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginLeft=44;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginRight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginRight
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginRight=45;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginStart}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginStart
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginStart=46;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginTop}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginTop
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginTop=47;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_optimizationLevel}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>2</td><td></td></tr>
-     * <tr><td>basic</td><td>4</td><td></td></tr>
-     * <tr><td>chains</td><td>8</td><td></td></tr>
-     * <tr><td>none</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_optimizationLevel
-     */
-    public static final int ConstraintLayout_Layout_layout_optimizationLevel=48;
-    /**
-     * Attributes that can be used with a ConstraintSet.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_orientation android:orientation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_id android:id}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_width android:layout_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_height android:layout_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_translationX android:translationX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_scaleX android:scaleX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_scaleY android:scaleY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_rotationX android:rotationX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_rotationY android:rotationY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.hu.myxposeddemo:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.hu.myxposeddemo:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.hu.myxposeddemo:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.hu.myxposeddemo:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.hu.myxposeddemo:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.hu.myxposeddemo:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.hu.myxposeddemo:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.hu.myxposeddemo:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.hu.myxposeddemo:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.hu.myxposeddemo:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.hu.myxposeddemo:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.hu.myxposeddemo:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.hu.myxposeddemo:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.hu.myxposeddemo:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.hu.myxposeddemo:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.hu.myxposeddemo:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.hu.myxposeddemo:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.hu.myxposeddemo:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.hu.myxposeddemo:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.hu.myxposeddemo:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.hu.myxposeddemo:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.hu.myxposeddemo:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.hu.myxposeddemo:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.hu.myxposeddemo:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.hu.myxposeddemo:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.hu.myxposeddemo:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.hu.myxposeddemo:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.hu.myxposeddemo:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.hu.myxposeddemo:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.hu.myxposeddemo:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.hu.myxposeddemo:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.hu.myxposeddemo:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.hu.myxposeddemo:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.hu.myxposeddemo:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.hu.myxposeddemo:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.hu.myxposeddemo:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.hu.myxposeddemo:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.hu.myxposeddemo:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.hu.myxposeddemo:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.hu.myxposeddemo:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.hu.myxposeddemo:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.hu.myxposeddemo:layout_goneMarginTop}</code></td><td></td></tr>
-     * </table>
-     * @see #ConstraintSet_android_orientation
-     * @see #ConstraintSet_android_id
-     * @see #ConstraintSet_android_visibility
-     * @see #ConstraintSet_android_layout_width
-     * @see #ConstraintSet_android_layout_height
-     * @see #ConstraintSet_android_layout_marginLeft
-     * @see #ConstraintSet_android_layout_marginTop
-     * @see #ConstraintSet_android_layout_marginRight
-     * @see #ConstraintSet_android_layout_marginBottom
-     * @see #ConstraintSet_android_alpha
-     * @see #ConstraintSet_android_transformPivotX
-     * @see #ConstraintSet_android_transformPivotY
-     * @see #ConstraintSet_android_translationX
-     * @see #ConstraintSet_android_translationY
-     * @see #ConstraintSet_android_scaleX
-     * @see #ConstraintSet_android_scaleY
-     * @see #ConstraintSet_android_rotationX
-     * @see #ConstraintSet_android_rotationY
-     * @see #ConstraintSet_android_layout_marginStart
-     * @see #ConstraintSet_android_layout_marginEnd
-     * @see #ConstraintSet_android_translationZ
-     * @see #ConstraintSet_android_elevation
-     * @see #ConstraintSet_layout_constraintBaseline_creator
-     * @see #ConstraintSet_layout_constraintBaseline_toBaselineOf
-     * @see #ConstraintSet_layout_constraintBottom_creator
-     * @see #ConstraintSet_layout_constraintBottom_toBottomOf
-     * @see #ConstraintSet_layout_constraintBottom_toTopOf
-     * @see #ConstraintSet_layout_constraintDimensionRatio
-     * @see #ConstraintSet_layout_constraintEnd_toEndOf
-     * @see #ConstraintSet_layout_constraintEnd_toStartOf
-     * @see #ConstraintSet_layout_constraintGuide_begin
-     * @see #ConstraintSet_layout_constraintGuide_end
-     * @see #ConstraintSet_layout_constraintGuide_percent
-     * @see #ConstraintSet_layout_constraintHeight_default
-     * @see #ConstraintSet_layout_constraintHeight_max
-     * @see #ConstraintSet_layout_constraintHeight_min
-     * @see #ConstraintSet_layout_constraintHorizontal_bias
-     * @see #ConstraintSet_layout_constraintHorizontal_chainStyle
-     * @see #ConstraintSet_layout_constraintHorizontal_weight
-     * @see #ConstraintSet_layout_constraintLeft_creator
-     * @see #ConstraintSet_layout_constraintLeft_toLeftOf
-     * @see #ConstraintSet_layout_constraintLeft_toRightOf
-     * @see #ConstraintSet_layout_constraintRight_creator
-     * @see #ConstraintSet_layout_constraintRight_toLeftOf
-     * @see #ConstraintSet_layout_constraintRight_toRightOf
-     * @see #ConstraintSet_layout_constraintStart_toEndOf
-     * @see #ConstraintSet_layout_constraintStart_toStartOf
-     * @see #ConstraintSet_layout_constraintTop_creator
-     * @see #ConstraintSet_layout_constraintTop_toBottomOf
-     * @see #ConstraintSet_layout_constraintTop_toTopOf
-     * @see #ConstraintSet_layout_constraintVertical_bias
-     * @see #ConstraintSet_layout_constraintVertical_chainStyle
-     * @see #ConstraintSet_layout_constraintVertical_weight
-     * @see #ConstraintSet_layout_constraintWidth_default
-     * @see #ConstraintSet_layout_constraintWidth_max
-     * @see #ConstraintSet_layout_constraintWidth_min
-     * @see #ConstraintSet_layout_editor_absoluteX
-     * @see #ConstraintSet_layout_editor_absoluteY
-     * @see #ConstraintSet_layout_goneMarginBottom
-     * @see #ConstraintSet_layout_goneMarginEnd
-     * @see #ConstraintSet_layout_goneMarginLeft
-     * @see #ConstraintSet_layout_goneMarginRight
-     * @see #ConstraintSet_layout_goneMarginStart
-     * @see #ConstraintSet_layout_goneMarginTop
-     */
-    public static final int[] ConstraintSet={
-        0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
-        0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
-        0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
-        0x01010322, 0x01010323, 0x01010324, 0x01010325, 
-        0x01010327, 0x01010328, 0x010103b5, 0x010103b6, 
-        0x010103fa, 0x01010440, 0x7f02008a, 0x7f02008b, 
-        0x7f02008c, 0x7f02008d, 0x7f02008e, 0x7f02008f, 
-        0x7f020090, 0x7f020091, 0x7f020092, 0x7f020093, 
-        0x7f020094, 0x7f020095, 0x7f020096, 0x7f020097, 
-        0x7f020098, 0x7f020099, 0x7f02009a, 0x7f02009b, 
-        0x7f02009c, 0x7f02009d, 0x7f02009e, 0x7f02009f, 
-        0x7f0200a0, 0x7f0200a1, 0x7f0200a2, 0x7f0200a3, 
-        0x7f0200a4, 0x7f0200a5, 0x7f0200a6, 0x7f0200a7, 
-        0x7f0200a8, 0x7f0200a9, 0x7f0200aa, 0x7f0200ab, 
-        0x7f0200ac, 0x7f0200ad, 0x7f0200ae, 0x7f0200af, 
-        0x7f0200b0, 0x7f0200b1, 0x7f0200b2, 0x7f0200b3
-      };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int ConstraintSet_android_orientation=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#id}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:id
-     */
-    public static final int ConstraintSet_android_id=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>gone</td><td>2</td><td></td></tr>
-     * <tr><td>invisible</td><td>1</td><td></td></tr>
-     * <tr><td>visible</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:visibility
-     */
-    public static final int ConstraintSet_android_visibility=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_width
-     */
-    public static final int ConstraintSet_android_layout_width=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_height
-     */
-    public static final int ConstraintSet_android_layout_height=4;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginLeft
-     */
-    public static final int ConstraintSet_android_layout_marginLeft=5;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginTop
-     */
-    public static final int ConstraintSet_android_layout_marginTop=6;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginRight
-     */
-    public static final int ConstraintSet_android_layout_marginRight=7;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginBottom
-     */
-    public static final int ConstraintSet_android_layout_marginBottom=8;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:alpha
-     */
-    public static final int ConstraintSet_android_alpha=9;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:transformPivotX
-     */
-    public static final int ConstraintSet_android_transformPivotX=10;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:transformPivotY
-     */
-    public static final int ConstraintSet_android_transformPivotY=11;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:translationX
-     */
-    public static final int ConstraintSet_android_translationX=12;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:translationY
-     */
-    public static final int ConstraintSet_android_translationY=13;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:scaleX
-     */
-    public static final int ConstraintSet_android_scaleX=14;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:scaleY
-     */
-    public static final int ConstraintSet_android_scaleY=15;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:rotationX
-     */
-    public static final int ConstraintSet_android_rotationX=16;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:rotationY
-     */
-    public static final int ConstraintSet_android_rotationY=17;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginStart
-     */
-    public static final int ConstraintSet_android_layout_marginStart=18;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginEnd
-     */
-    public static final int ConstraintSet_android_layout_marginEnd=19;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:translationZ
-     */
-    public static final int ConstraintSet_android_translationZ=20;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:elevation
-     */
-    public static final int ConstraintSet_android_elevation=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBaseline_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBaseline_creator
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_creator=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBaseline_toBaselineOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBaseline_toBaselineOf
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBottom_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBottom_creator
-     */
-    public static final int ConstraintSet_layout_constraintBottom_creator=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBottom_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBottom_toBottomOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintBottom_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintBottom_toTopOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toTopOf=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintDimensionRatio}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintDimensionRatio
-     */
-    public static final int ConstraintSet_layout_constraintDimensionRatio=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintEnd_toEndOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintEnd_toEndOf
-     */
-    public static final int ConstraintSet_layout_constraintEnd_toEndOf=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintEnd_toStartOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintEnd_toStartOf
-     */
-    public static final int ConstraintSet_layout_constraintEnd_toStartOf=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintGuide_begin}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintGuide_begin
-     */
-    public static final int ConstraintSet_layout_constraintGuide_begin=30;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintGuide_end}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintGuide_end
-     */
-    public static final int ConstraintSet_layout_constraintGuide_end=31;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintGuide_percent}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintGuide_percent
-     */
-    public static final int ConstraintSet_layout_constraintGuide_percent=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHeight_default}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>wrap</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHeight_default
-     */
-    public static final int ConstraintSet_layout_constraintHeight_default=33;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHeight_max}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHeight_max
-     */
-    public static final int ConstraintSet_layout_constraintHeight_max=34;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHeight_min}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHeight_min
-     */
-    public static final int ConstraintSet_layout_constraintHeight_min=35;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHorizontal_bias}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHorizontal_bias
-     */
-    public static final int ConstraintSet_layout_constraintHorizontal_bias=36;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHorizontal_chainStyle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHorizontal_chainStyle
-     */
-    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=37;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintHorizontal_weight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintHorizontal_weight
-     */
-    public static final int ConstraintSet_layout_constraintHorizontal_weight=38;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintLeft_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintLeft_creator
-     */
-    public static final int ConstraintSet_layout_constraintLeft_creator=39;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintLeft_toLeftOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintLeft_toLeftOf
-     */
-    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=40;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintLeft_toRightOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintLeft_toRightOf
-     */
-    public static final int ConstraintSet_layout_constraintLeft_toRightOf=41;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintRight_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintRight_creator
-     */
-    public static final int ConstraintSet_layout_constraintRight_creator=42;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintRight_toLeftOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintRight_toLeftOf
-     */
-    public static final int ConstraintSet_layout_constraintRight_toLeftOf=43;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintRight_toRightOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintRight_toRightOf
-     */
-    public static final int ConstraintSet_layout_constraintRight_toRightOf=44;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintStart_toEndOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintStart_toEndOf
-     */
-    public static final int ConstraintSet_layout_constraintStart_toEndOf=45;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintStart_toStartOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintStart_toStartOf
-     */
-    public static final int ConstraintSet_layout_constraintStart_toStartOf=46;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintTop_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintTop_creator
-     */
-    public static final int ConstraintSet_layout_constraintTop_creator=47;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintTop_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintTop_toBottomOf
-     */
-    public static final int ConstraintSet_layout_constraintTop_toBottomOf=48;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintTop_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintTop_toTopOf
-     */
-    public static final int ConstraintSet_layout_constraintTop_toTopOf=49;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintVertical_bias}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintVertical_bias
-     */
-    public static final int ConstraintSet_layout_constraintVertical_bias=50;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintVertical_chainStyle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintVertical_chainStyle
-     */
-    public static final int ConstraintSet_layout_constraintVertical_chainStyle=51;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintVertical_weight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintVertical_weight
-     */
-    public static final int ConstraintSet_layout_constraintVertical_weight=52;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintWidth_default}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>wrap</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintWidth_default
-     */
-    public static final int ConstraintSet_layout_constraintWidth_default=53;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintWidth_max}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintWidth_max
-     */
-    public static final int ConstraintSet_layout_constraintWidth_max=54;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_constraintWidth_min}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_constraintWidth_min
-     */
-    public static final int ConstraintSet_layout_constraintWidth_min=55;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_editor_absoluteX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_editor_absoluteX
-     */
-    public static final int ConstraintSet_layout_editor_absoluteX=56;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_editor_absoluteY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_editor_absoluteY
-     */
-    public static final int ConstraintSet_layout_editor_absoluteY=57;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginBottom}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginBottom
-     */
-    public static final int ConstraintSet_layout_goneMarginBottom=58;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginEnd}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginEnd
-     */
-    public static final int ConstraintSet_layout_goneMarginEnd=59;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginLeft}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginLeft
-     */
-    public static final int ConstraintSet_layout_goneMarginLeft=60;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginRight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginRight
-     */
-    public static final int ConstraintSet_layout_goneMarginRight=61;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginStart}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginStart
-     */
-    public static final int ConstraintSet_layout_goneMarginStart=62;
-    /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout_goneMarginTop}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.hu.myxposeddemo:layout_goneMarginTop
-     */
-    public static final int ConstraintSet_layout_goneMarginTop=63;
     /**
      * Attributes that can be used with a DrawerArrowToggle.
      * <p>Includes the following attributes:</p>
@@ -8262,14 +5935,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.hu.myxposeddemo:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.hu.myxposeddemo:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.hu.myxposeddemo:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.hu.myxposeddemo:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.hu.myxposeddemo:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.hu.myxposeddemo:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.hu.myxposeddemo:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.hu.myxposeddemo:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.hu.myxposeddemo.vivo:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.hu.myxposeddemo.vivo:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.hu.myxposeddemo.vivo:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.hu.myxposeddemo.vivo:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.hu.myxposeddemo.vivo:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.hu.myxposeddemo.vivo:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.hu.myxposeddemo.vivo:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.hu.myxposeddemo.vivo:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -8282,10 +5955,10 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
         0x7f020029, 0x7f02002a, 0x7f020036, 0x7f020049, 
-        0x7f020067, 0x7f02007a, 0x7f0200e8, 0x7f020105
+        0x7f020066, 0x7f020079, 0x7f0200bc, 0x7f0200d9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8294,11 +5967,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:arrowHeadLength
+     * @attr name com.hu.myxposeddemo.vivo:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8307,11 +5980,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:arrowShaftLength
+     * @attr name com.hu.myxposeddemo.vivo:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8320,22 +5993,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:barLength
+     * @attr name com.hu.myxposeddemo.vivo:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:color
+     * @attr name com.hu.myxposeddemo.vivo:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8344,11 +6017,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:drawableSize
+     * @attr name com.hu.myxposeddemo.vivo:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8357,21 +6030,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:gapBetweenBars
+     * @attr name com.hu.myxposeddemo.vivo:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:spinBars
+     * @attr name com.hu.myxposeddemo.vivo:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8380,7 +6053,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:thickness
+     * @attr name com.hu.myxposeddemo.vivo:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -8390,12 +6063,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.hu.myxposeddemo:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.hu.myxposeddemo:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.hu.myxposeddemo:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.hu.myxposeddemo:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.hu.myxposeddemo:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.hu.myxposeddemo:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.hu.myxposeddemo.vivo:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.hu.myxposeddemo.vivo:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.hu.myxposeddemo.vivo:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.hu.myxposeddemo.vivo:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.hu.myxposeddemo.vivo:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.hu.myxposeddemo.vivo:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -8405,21 +6078,21 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f020072, 0x7f020073, 0x7f020074, 0x7f020075, 
-        0x7f020076, 0x7f020077
+        0x7f020071, 0x7f020072, 0x7f020073, 0x7f020074, 
+        0x7f020075, 0x7f020076
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:fontProviderAuthority
+     * @attr name com.hu.myxposeddemo.vivo:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8427,11 +6100,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:fontProviderCerts
+     * @attr name com.hu.myxposeddemo.vivo:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8444,11 +6117,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:fontProviderFetchStrategy
+     * @attr name com.hu.myxposeddemo.vivo:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8461,27 +6134,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:fontProviderFetchTimeout
+     * @attr name com.hu.myxposeddemo.vivo:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:fontProviderPackage
+     * @attr name com.hu.myxposeddemo.vivo:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:fontProviderQuery
+     * @attr name com.hu.myxposeddemo.vivo:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -8491,19 +6164,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.hu.myxposeddemo:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.hu.myxposeddemo:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.hu.myxposeddemo:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.hu.myxposeddemo.vivo:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.hu.myxposeddemo.vivo:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.hu.myxposeddemo.vivo:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-        0x7f020070, 0x7f020078, 0x7f020079
+        0x7f02006f, 0x7f020077, 0x7f020078
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8511,11 +6184,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:font
+     * @attr name com.hu.myxposeddemo.vivo:font
      */
     public static final int FontFamilyFont_font=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8528,49 +6201,18 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:fontStyle
+     * @attr name com.hu.myxposeddemo.vivo:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.hu.myxposeddemo:fontWeight
+     * @attr name com.hu.myxposeddemo.vivo:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=2;
-    /**
-     * Attributes that can be used with a LinearConstraintLayout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LinearConstraintLayout_android_orientation android:orientation}</code></td><td></td></tr>
-     * </table>
-     * @see #LinearConstraintLayout_android_orientation
-     */
-    public static final int[] LinearConstraintLayout={
-        0x010100c4
-      };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #LinearConstraintLayout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int LinearConstraintLayout_android_orientation=0;
     /**
      * Attributes that can be used with a LinearLayoutCompat.
      * <p>Includes the following attributes:</p>
@@ -8583,10 +6225,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.hu.myxposeddemo:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.hu.myxposeddemo:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.hu.myxposeddemo:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.hu.myxposeddemo:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.hu.myxposeddemo.vivo:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.hu.myxposeddemo.vivo:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.hu.myxposeddemo.vivo:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.hu.myxposeddemo.vivo:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -8600,8 +6242,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-        0x01010128, 0x7f020063, 0x7f020065, 0x7f0200c3, 
-        0x7f0200e4
+        0x01010128, 0x7f020062, 0x7f020064, 0x7f020097, 
+        0x7f0200b8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -8678,7 +6320,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8686,11 +6328,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:divider
+     * @attr name com.hu.myxposeddemo.vivo:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8699,21 +6341,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:dividerPadding
+     * @attr name com.hu.myxposeddemo.vivo:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:measureWithLargestChild
+     * @attr name com.hu.myxposeddemo.vivo:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8728,7 +6370,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:showDividers
+     * @attr name com.hu.myxposeddemo.vivo:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -9000,16 +6642,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.hu.myxposeddemo:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.hu.myxposeddemo:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.hu.myxposeddemo:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.hu.myxposeddemo:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.hu.myxposeddemo:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.hu.myxposeddemo:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.hu.myxposeddemo:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.hu.myxposeddemo:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.hu.myxposeddemo:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.hu.myxposeddemo:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.hu.myxposeddemo.vivo:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.hu.myxposeddemo.vivo:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.hu.myxposeddemo.vivo:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.hu.myxposeddemo.vivo:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.hu.myxposeddemo.vivo:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.hu.myxposeddemo.vivo:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.hu.myxposeddemo.vivo:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.hu.myxposeddemo.vivo:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.hu.myxposeddemo.vivo:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.hu.myxposeddemo.vivo:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -9040,8 +6682,8 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f02000d, 0x7f02001f, 0x7f020020, 
-        0x7f020028, 0x7f020056, 0x7f020081, 0x7f020082, 
-        0x7f0200c8, 0x7f0200e3, 0x7f02011c
+        0x7f020028, 0x7f020055, 0x7f020080, 0x7f020081, 
+        0x7f02009c, 0x7f0200b7, 0x7f0200f0
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -9186,7 +6828,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9194,31 +6836,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:actionLayout
+     * @attr name com.hu.myxposeddemo.vivo:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:actionProviderClass
+     * @attr name com.hu.myxposeddemo.vivo:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:actionViewClass
+     * @attr name com.hu.myxposeddemo.vivo:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9235,32 +6877,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:alphabeticModifiers
+     * @attr name com.hu.myxposeddemo.vivo:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:contentDescription
+     * @attr name com.hu.myxposeddemo.vivo:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:iconTint
+     * @attr name com.hu.myxposeddemo.vivo:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9277,11 +6919,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:iconTintMode
+     * @attr name com.hu.myxposeddemo.vivo:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9298,11 +6940,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:numericModifiers
+     * @attr name com.hu.myxposeddemo.vivo:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9318,17 +6960,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:showAsAction
+     * @attr name com.hu.myxposeddemo.vivo:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:tooltipText
+     * @attr name com.hu.myxposeddemo.vivo:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -9345,8 +6987,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.hu.myxposeddemo:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.hu.myxposeddemo:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.hu.myxposeddemo.vivo:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.hu.myxposeddemo.vivo:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -9360,8 +7002,8 @@ public final class R {
      */
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-        0x0101012f, 0x01010130, 0x01010131, 0x7f0200d4, 
-        0x7f0200ee
+        0x0101012f, 0x01010130, 0x01010131, 0x7f0200a8, 
+        0x7f0200c2
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -9451,17 +7093,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:preserveIconSpacing
+     * @attr name com.hu.myxposeddemo.vivo:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9469,7 +7111,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:subMenuArrow
+     * @attr name com.hu.myxposeddemo.vivo:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -9481,14 +7123,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.hu.myxposeddemo:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.hu.myxposeddemo.vivo:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-        0x01010176, 0x010102c9, 0x7f0200c9
+        0x01010176, 0x010102c9, 0x7f02009d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -9518,13 +7160,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:overlapAnchor
+     * @attr name com.hu.myxposeddemo.vivo:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -9534,21 +7176,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.hu.myxposeddemo:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.hu.myxposeddemo.vivo:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0200ed
+        0x7f0200c1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:state_above_anchor
+     * @attr name com.hu.myxposeddemo.vivo:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -9558,17 +7200,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.hu.myxposeddemo:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.hu.myxposeddemo:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.hu.myxposeddemo.vivo:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.hu.myxposeddemo.vivo:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-        0x7f0200ca, 0x7f0200cd
+        0x7f02009e, 0x7f0200a1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9577,11 +7219,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:paddingBottomNoButtons
+     * @attr name com.hu.myxposeddemo.vivo:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9590,7 +7232,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:paddingTopNoTitle
+     * @attr name com.hu.myxposeddemo.vivo:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -9604,19 +7246,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.hu.myxposeddemo:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.hu.myxposeddemo:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.hu.myxposeddemo:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.hu.myxposeddemo:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.hu.myxposeddemo:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.hu.myxposeddemo:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.hu.myxposeddemo:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.hu.myxposeddemo:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.hu.myxposeddemo:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.hu.myxposeddemo:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.hu.myxposeddemo:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.hu.myxposeddemo:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.hu.myxposeddemo:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.hu.myxposeddemo.vivo:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.hu.myxposeddemo.vivo:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.hu.myxposeddemo.vivo:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.hu.myxposeddemo.vivo:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.hu.myxposeddemo.vivo:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.hu.myxposeddemo.vivo:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.hu.myxposeddemo.vivo:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.hu.myxposeddemo.vivo:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.hu.myxposeddemo.vivo:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.hu.myxposeddemo.vivo:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.hu.myxposeddemo.vivo:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.hu.myxposeddemo.vivo:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.hu.myxposeddemo.vivo:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -9638,10 +7280,10 @@ public final class R {
      */
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-        0x7f020045, 0x7f020054, 0x7f02005f, 0x7f02007b, 
-        0x7f020083, 0x7f020089, 0x7f0200d7, 0x7f0200d8, 
-        0x7f0200dd, 0x7f0200de, 0x7f0200ef, 0x7f0200f4, 
-        0x7f020120
+        0x7f020045, 0x7f020054, 0x7f02005e, 0x7f02007a, 
+        0x7f020082, 0x7f020088, 0x7f0200ab, 0x7f0200ac, 
+        0x7f0200b1, 0x7f0200b2, 0x7f0200c3, 0x7f0200c8, 
+        0x7f0200f4
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -9754,7 +7396,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9762,11 +7404,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:closeIcon
+     * @attr name com.hu.myxposeddemo.vivo:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9774,21 +7416,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:commitIcon
+     * @attr name com.hu.myxposeddemo.vivo:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:defaultQueryHint
+     * @attr name com.hu.myxposeddemo.vivo:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9796,21 +7438,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:goIcon
+     * @attr name com.hu.myxposeddemo.vivo:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:iconifiedByDefault
+     * @attr name com.hu.myxposeddemo.vivo:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9818,11 +7460,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:layout
+     * @attr name com.hu.myxposeddemo.vivo:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9830,21 +7472,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:queryBackground
+     * @attr name com.hu.myxposeddemo.vivo:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:queryHint
+     * @attr name com.hu.myxposeddemo.vivo:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9852,11 +7494,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:searchHintIcon
+     * @attr name com.hu.myxposeddemo.vivo:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9864,11 +7506,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:searchIcon
+     * @attr name com.hu.myxposeddemo.vivo:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9876,11 +7518,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:submitBackground
+     * @attr name com.hu.myxposeddemo.vivo:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9888,11 +7530,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:suggestionRowLayout
+     * @attr name com.hu.myxposeddemo.vivo:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9900,7 +7542,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:voiceIcon
+     * @attr name com.hu.myxposeddemo.vivo:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -9914,7 +7556,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.hu.myxposeddemo:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.hu.myxposeddemo.vivo:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -9924,7 +7566,7 @@ public final class R {
      */
     public static final int[] Spinner={
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-        0x7f0200d2
+        0x7f0200a6
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -9989,7 +7631,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9997,7 +7639,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:popupTheme
+     * @attr name com.hu.myxposeddemo.vivo:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -10010,17 +7652,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.hu.myxposeddemo:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.hu.myxposeddemo:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.hu.myxposeddemo:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.hu.myxposeddemo:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.hu.myxposeddemo:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.hu.myxposeddemo:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.hu.myxposeddemo:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.hu.myxposeddemo:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.hu.myxposeddemo:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.hu.myxposeddemo:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.hu.myxposeddemo:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.hu.myxposeddemo.vivo:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.hu.myxposeddemo.vivo:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.hu.myxposeddemo.vivo:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.hu.myxposeddemo.vivo:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.hu.myxposeddemo.vivo:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.hu.myxposeddemo.vivo:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.hu.myxposeddemo.vivo:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.hu.myxposeddemo.vivo:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.hu.myxposeddemo.vivo:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.hu.myxposeddemo.vivo:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.hu.myxposeddemo.vivo:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -10038,10 +7680,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f0200e5, 
-        0x7f0200eb, 0x7f0200f5, 0x7f0200f6, 0x7f0200f8, 
-        0x7f020106, 0x7f020107, 0x7f020108, 0x7f02011d, 
-        0x7f02011e, 0x7f02011f
+        0x01010124, 0x01010125, 0x01010142, 0x7f0200b9, 
+        0x7f0200bf, 0x7f0200c9, 0x7f0200ca, 0x7f0200cc, 
+        0x7f0200da, 0x7f0200db, 0x7f0200dc, 0x7f0200f1, 
+        0x7f0200f2, 0x7f0200f3
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -10076,27 +7718,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:showText
+     * @attr name com.hu.myxposeddemo.vivo:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:splitTrack
+     * @attr name com.hu.myxposeddemo.vivo:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10105,11 +7747,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:switchMinWidth
+     * @attr name com.hu.myxposeddemo.vivo:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10118,11 +7760,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:switchPadding
+     * @attr name com.hu.myxposeddemo.vivo:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10130,11 +7772,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:switchTextAppearance
+     * @attr name com.hu.myxposeddemo.vivo:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10143,22 +7785,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:thumbTextPadding
+     * @attr name com.hu.myxposeddemo.vivo:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:thumbTint
+     * @attr name com.hu.myxposeddemo.vivo:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10175,11 +7817,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:thumbTintMode
+     * @attr name com.hu.myxposeddemo.vivo:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10187,22 +7829,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:track
+     * @attr name com.hu.myxposeddemo.vivo:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:trackTint
+     * @attr name com.hu.myxposeddemo.vivo:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10219,7 +7861,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:trackTintMode
+     * @attr name com.hu.myxposeddemo.vivo:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -10240,8 +7882,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.hu.myxposeddemo:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.hu.myxposeddemo:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.hu.myxposeddemo.vivo:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.hu.myxposeddemo.vivo:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -10260,8 +7902,8 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-        0x01010163, 0x01010164, 0x010103ac, 0x7f020071, 
-        0x7f0200f9
+        0x01010163, 0x01010164, 0x010103ac, 0x7f020070, 
+        0x7f0200cd
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -10407,17 +8049,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:fontFamily
+     * @attr name com.hu.myxposeddemo.vivo:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10427,7 +8069,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.hu.myxposeddemo:textAllCaps
+     * @attr name com.hu.myxposeddemo.vivo:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -10439,33 +8081,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.hu.myxposeddemo:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.hu.myxposeddemo:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.hu.myxposeddemo:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.hu.myxposeddemo:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.hu.myxposeddemo:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.hu.myxposeddemo:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.hu.myxposeddemo:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.hu.myxposeddemo:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.hu.myxposeddemo:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.hu.myxposeddemo:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.hu.myxposeddemo:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.hu.myxposeddemo:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.hu.myxposeddemo:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.hu.myxposeddemo:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.hu.myxposeddemo:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.hu.myxposeddemo:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.hu.myxposeddemo:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.hu.myxposeddemo:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.hu.myxposeddemo:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.hu.myxposeddemo:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.hu.myxposeddemo:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.hu.myxposeddemo:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.hu.myxposeddemo:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.hu.myxposeddemo:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.hu.myxposeddemo:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.hu.myxposeddemo:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.hu.myxposeddemo:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.hu.myxposeddemo.vivo:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.hu.myxposeddemo.vivo:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.hu.myxposeddemo.vivo:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.hu.myxposeddemo.vivo:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.hu.myxposeddemo.vivo:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.hu.myxposeddemo.vivo:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.hu.myxposeddemo.vivo:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.hu.myxposeddemo.vivo:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.hu.myxposeddemo.vivo:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.hu.myxposeddemo.vivo:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.hu.myxposeddemo.vivo:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.hu.myxposeddemo.vivo:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.hu.myxposeddemo.vivo:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.hu.myxposeddemo.vivo:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.hu.myxposeddemo.vivo:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.hu.myxposeddemo.vivo:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.hu.myxposeddemo.vivo:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.hu.myxposeddemo.vivo:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.hu.myxposeddemo.vivo:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.hu.myxposeddemo.vivo:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.hu.myxposeddemo.vivo:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.hu.myxposeddemo.vivo:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.hu.myxposeddemo.vivo:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.hu.myxposeddemo.vivo:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.hu.myxposeddemo.vivo:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.hu.myxposeddemo.vivo:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.hu.myxposeddemo.vivo:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -10499,13 +8141,13 @@ public final class R {
      */
     public static final int[] Toolbar={
         0x010100af, 0x01010140, 0x7f02003d, 0x7f020047, 
-        0x7f020048, 0x7f020057, 0x7f020058, 0x7f020059, 
-        0x7f02005a, 0x7f02005b, 0x7f02005c, 0x7f0200c0, 
-        0x7f0200c1, 0x7f0200c2, 0x7f0200c5, 0x7f0200c6, 
-        0x7f0200d2, 0x7f0200f0, 0x7f0200f1, 0x7f0200f2, 
-        0x7f02010e, 0x7f02010f, 0x7f020110, 0x7f020111, 
-        0x7f020112, 0x7f020113, 0x7f020114, 0x7f020115, 
-        0x7f020116
+        0x7f020048, 0x7f020056, 0x7f020057, 0x7f020058, 
+        0x7f020059, 0x7f02005a, 0x7f02005b, 0x7f020094, 
+        0x7f020095, 0x7f020096, 0x7f020099, 0x7f02009a, 
+        0x7f0200a6, 0x7f0200c4, 0x7f0200c5, 0x7f0200c6, 
+        0x7f0200e2, 0x7f0200e3, 0x7f0200e4, 0x7f0200e5, 
+        0x7f0200e6, 0x7f0200e7, 0x7f0200e8, 0x7f0200e9, 
+        0x7f0200ea
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -10550,7 +8192,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10563,21 +8205,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:buttonGravity
+     * @attr name com.hu.myxposeddemo.vivo:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:collapseContentDescription
+     * @attr name com.hu.myxposeddemo.vivo:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10585,11 +8227,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:collapseIcon
+     * @attr name com.hu.myxposeddemo.vivo:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10598,11 +8240,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetEnd
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10611,11 +8253,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetEndWithActions
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10624,11 +8266,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetLeft
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10637,11 +8279,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetRight
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10650,11 +8292,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetStart
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10663,11 +8305,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:contentInsetStartWithNavigation
+     * @attr name com.hu.myxposeddemo.vivo:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10675,21 +8317,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:logo
+     * @attr name com.hu.myxposeddemo.vivo:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:logoDescription
+     * @attr name com.hu.myxposeddemo.vivo:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10698,21 +8340,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:maxButtonHeight
+     * @attr name com.hu.myxposeddemo.vivo:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:navigationContentDescription
+     * @attr name com.hu.myxposeddemo.vivo:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10720,11 +8362,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:navigationIcon
+     * @attr name com.hu.myxposeddemo.vivo:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10732,21 +8374,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:popupTheme
+     * @attr name com.hu.myxposeddemo.vivo:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:subtitle
+     * @attr name com.hu.myxposeddemo.vivo:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10754,32 +8396,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:subtitleTextAppearance
+     * @attr name com.hu.myxposeddemo.vivo:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:subtitleTextColor
+     * @attr name com.hu.myxposeddemo.vivo:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.hu.myxposeddemo:title
+     * @attr name com.hu.myxposeddemo.vivo:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10788,11 +8430,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:titleMargin
+     * @attr name com.hu.myxposeddemo.vivo:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10801,11 +8443,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:titleMarginBottom
+     * @attr name com.hu.myxposeddemo.vivo:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10814,11 +8456,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:titleMarginEnd
+     * @attr name com.hu.myxposeddemo.vivo:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10827,11 +8469,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:titleMarginStart
+     * @attr name com.hu.myxposeddemo.vivo:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10840,11 +8482,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:titleMarginTop
+     * @attr name com.hu.myxposeddemo.vivo:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10853,11 +8495,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:titleMargins
+     * @attr name com.hu.myxposeddemo.vivo:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10865,18 +8507,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:titleTextAppearance
+     * @attr name com.hu.myxposeddemo.vivo:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:titleTextColor
+     * @attr name com.hu.myxposeddemo.vivo:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -10888,9 +8530,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.hu.myxposeddemo:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.hu.myxposeddemo:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.hu.myxposeddemo:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.hu.myxposeddemo.vivo:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.hu.myxposeddemo.vivo:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.hu.myxposeddemo.vivo:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -10899,8 +8541,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-        0x01010000, 0x010100da, 0x7f0200cb, 0x7f0200cc, 
-        0x7f020104
+        0x01010000, 0x010100da, 0x7f02009f, 0x7f0200a0, 
+        0x7f0200d8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -10933,7 +8575,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10942,11 +8584,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:paddingEnd
+     * @attr name com.hu.myxposeddemo.vivo:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10955,11 +8597,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.hu.myxposeddemo:paddingStart
+     * @attr name com.hu.myxposeddemo.vivo:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10967,7 +8609,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:theme
+     * @attr name com.hu.myxposeddemo.vivo:theme
      */
     public static final int View_theme=4;
     /**
@@ -10978,8 +8620,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.hu.myxposeddemo:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.hu.myxposeddemo:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.hu.myxposeddemo.vivo:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.hu.myxposeddemo.vivo:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -11004,18 +8646,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.hu.myxposeddemo:backgroundTint
+     * @attr name com.hu.myxposeddemo.vivo:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.hu.myxposeddemo.vivo.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11031,7 +8673,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.hu.myxposeddemo:backgroundTintMode
+     * @attr name com.hu.myxposeddemo.vivo:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

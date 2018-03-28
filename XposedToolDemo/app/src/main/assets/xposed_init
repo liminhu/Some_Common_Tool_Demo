@@ -1,8 +1,1 @@
-com.local.hook.demo.NewHookGPS
-##com.local.hook.demo.GPSHooker
-##com.hu.xposed.porttool.XposedDingliPioneerModule
-##com.hu.myxposed.demo.dexhook.DexHook
-##com.hu.xposed.porttool.XposedPorttoolModule
-##com.hu.myxposeddemo.XposedSecondDemoModule
-##com.hu.myxposeddemo.DouYuXposedThreeDemoModule
-##com.hu.myxposeddemo.XposedFirstDemoModule
+com.my.xpoosed.hook.demo.HookVivoMarket

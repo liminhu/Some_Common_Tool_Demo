@@ -1,11 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-69:12
+ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-59:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a16ef6b647e28d322c7db8a6f97ca9c3/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/hlm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/75343cfdd29a43e38c9903622e17ea78/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/97cafe050411b279db5036bb92b83688/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c7eacaf5cfb1e76a28cac3fe9c46ca8/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fe9b0b85c22f650c0dc92237ecb7b073/AndroidManifest.xml:17:1-31:12
@@ -15,9 +14,9 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /home/hlm/.gradle/ca
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4c411b4d852c913b384e485c08a553ed/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8c25f6afc80f71a56eb920fd81ee95f5/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/360e8826448169afdc9a3a07e3f48d0a/AndroidManifest.xml:17:1-30:12
-INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml
@@ -38,8 +37,6 @@ INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedTo
 INJECTED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a16ef6b647e28d322c7db8a6f97ca9c3/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a16ef6b647e28d322c7db8a6f97ca9c3/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/hlm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/75343cfdd29a43e38c9903622e17ea78/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/hlm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/75343cfdd29a43e38c9903622e17ea78/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/97cafe050411b279db5036bb92b83688/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/97cafe050411b279db5036bb92b83688/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c7eacaf5cfb1e76a28cac3fe9c46ca8/AndroidManifest.xml:20:5-44
@@ -147,11 +144,9 @@ ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolD
 	android:name
 		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:29:22-77
 application
-ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:31:5-67:19
+ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:31:5-57:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a16ef6b647e28d322c7db8a6f97ca9c3/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a16ef6b647e28d322c7db8a6f97ca9c3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/hlm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/75343cfdd29a43e38c9903622e17ea78/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/hlm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/75343cfdd29a43e38c9903622e17ea78/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/97cafe050411b279db5036bb92b83688/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/97cafe050411b279db5036bb92b83688/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c7eacaf5cfb1e76a28cac3fe9c46ca8/AndroidManifest.xml:22:5-26:19
@@ -173,11 +168,11 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/hlm/.gradle/caches/tran
 	android:label
 		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:34:9-41
 	android:icon
-		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:33:9-45
+		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:33:9-58
 	android:allowBackup
 		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:32:9-35
 	android:theme
-		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:35:9-40
+		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:35:9-65
 meta-data#xposedmodule
 ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:36:9-38:36
 	android:value
@@ -196,30 +191,20 @@ ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolD
 		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:48:13-31
 	android:name
 		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:47:13-44
-activity#com.hu.myxposeddemo.MainActivity
-ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:50:9-52:57
-	android:label
-		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:52:13-45
-	android:name
-		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:51:13-41
-activity#com.local.hook.demo.MainActivity
-ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:53:9-59:20
-	android:name
-		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:53:19-66
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:54:13-58:29
-action#android.intent.action.MAIN
-ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:55:17-69
-	android:name
-		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:55:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:57:17-77
-	android:name
-		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:57:27-74
 activity#com.my.xpoosed.hook.demo.MainActivity
-ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:60:9-66:20
+ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:51:9-56:20
 	android:name
-		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:60:19-71
+		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:51:19-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:52:13-55:29
+action#android.intent.action.MAIN
+ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:53:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/XposedToolDemo/app/src/main/AndroidManifest.xml:54:27-74
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a16ef6b647e28d322c7db8a6f97ca9c3/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/hlm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/97cafe050411b279db5036bb92b83688/AndroidManifest.xml:23:9-25:38
