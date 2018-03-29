@@ -3,6 +3,8 @@ package com.my.xposedhook.hooks;
 import android.os.Build;
 import android.util.Log;
 
+import com.my.utils.tool.MyLog;
+
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -104,6 +106,9 @@ public class httpHook  {
 //                    return;
                 String print = new String((byte[]) param.args[0]);
                 Log.d("DATA",print);
+
+                MyLog.printStackLog(TAG+"--  DATA ");
+
                 Pattern pt = Pattern.compile("(\\w+=.*)");
                 Matcher match = pt.matcher(print);
                 if(match.matches())

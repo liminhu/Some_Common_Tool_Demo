@@ -12,6 +12,7 @@ import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
+import okhttp3.OkHttpClient;
 import okhttp3.Request;
 
 import static de.robv.android.xposed.XposedHelpers.findClass;
@@ -37,9 +38,8 @@ public class HookVivoMarket implements IXposedHookLoadPackage {
 
           //  HttpHook.initHooking(lpparam);
 
-         //   sockhook.initHooking(lpparam);
-         //   httpHook.initHooking(lpparam);
-
+            sockhook.initHooking(lpparam);
+            httpHook.initHooking(lpparam);
             OkhttpHook.initHooking(lpparam);
 
 
