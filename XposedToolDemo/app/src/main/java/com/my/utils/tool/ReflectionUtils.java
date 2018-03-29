@@ -1,8 +1,12 @@
 package com.my.utils.tool;
 
 
+import android.text.TextUtils;
+import android.widget.TextView;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.HashMap;
 
 /**
  * Created by hulimin on 2017/9/14.
@@ -104,5 +108,40 @@ public class ReflectionUtils {
         }
         return null;
     }
+
+
+
+    // TODO: 2017/10/12  测试得到类中所有的字符串
+    public static void   getAllFields(Object model){
+        Field[] field = model.getClass().getDeclaredFields(); // 获取实体类的所有属性，返回Field数组
+        try {
+            MyLog.e("leng: "+field.length);
+            for (int j = 0; j < field.length; j++) { // 遍历所有属性
+                String name = field[j].getName(); // 获取属性的名字
+                MyLog.e("name: "+name);
+                String type = field[j].getGenericType().toString(); // 获取属性的类型
+                MyLog.e("j:%d, name:%s,   ----- type: "+type, j, name);
+                if(type.contains("HashMap")){
+                    //printHashMap((HashMap) getValue(model,name));
+                }else if (type.contains("java.lang.String") && !type.contains("Map")) { // 如果type是类类型，则前面包含"class "，后面跟类名
+                    String data=(String)getValue(model,name);
+                    if(TextUtils.isEmpty(data)){
+                        data=" is null";
+                    }
+                    MyLog.e("data -------- "+data);
+                }else if(type.equals("int")){
+                    Integer data=(Integer)getValue(model,name);
+                    MyLog.e("data int -------- "+data);
+                }else  if(type.contains("android.widget.TextView")){
+                    TextView data=(TextView)getValue(model,name);
+                    MyLog.e("data TextView -------- "+data.getText());
+                }
+            }
+        }catch (Exception e){
+            MyLog.e(e.getMessage());
+        }
+    }
+
+
 
 }
