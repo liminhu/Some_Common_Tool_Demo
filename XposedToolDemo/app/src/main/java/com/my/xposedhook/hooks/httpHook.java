@@ -105,9 +105,9 @@ public class httpHook  {
 //                if(!os.toString().contains("internal.http")) //nếu không phải outputstream kểu http thì return
 //                    return;
                 String print = new String((byte[]) param.args[0]);
-                Log.d("DATA",print);
+                Log.d("DATA 111",print);
 
-                MyLog.printStackLog(TAG+"--  DATA ");
+              //  MyLog.printStackLog(TAG+"--  DATA ");
 
                 Pattern pt = Pattern.compile("(\\w+=.*)");
                 Matcher match = pt.matcher(print);
@@ -126,7 +126,13 @@ public class httpHook  {
 //                if(!os.toString().contains("internal.http"))
 //                    return;
                 String print = new String((byte[]) param.args[0]);
-                Log.d(TAG, "DATA: "+print);
+                Log.d(TAG, "DATA:2222  "+print);
+
+                if(print.contains("火山小视频")){
+                    MyLog.printStackLog(TAG+"--  DATA ");
+                }
+              //  MyLog.printStackLog(TAG+"--  DATA ");
+
                 Pattern pt = Pattern.compile("(\\w+=.*)");
                 Matcher match = pt.matcher(print);
                 if(match.matches())

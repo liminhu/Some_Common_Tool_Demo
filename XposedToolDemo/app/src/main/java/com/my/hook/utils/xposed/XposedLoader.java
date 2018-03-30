@@ -46,7 +46,7 @@ public class XposedLoader implements IXposedHookLoadPackage {
         while (classNames.hasMoreElements()) {
             final String className = classNames.nextElement();
 
-            if (ReflectionUtilsTool.isClassValid(loadPackageParam.packageName, className)) {
+            if (UtilsTool.isClassValid(loadPackageParam.packageName, className)) {
                 final Class clazz = Class.forName(className, false, loadPackageParam.classLoader);
 
                 if(clazz.getName().contains("")){
@@ -66,7 +66,7 @@ public class XposedLoader implements IXposedHookLoadPackage {
                 });
 
                 for (final Method method: clazz.getDeclaredMethods()) {
-                    if (ReflectionUtilsTool.isMethodValid(method)) {
+                    if (UtilsTool.isMethodValid(method)) {
                         XposedBridge.hookMethod(method, new XC_MethodHook() {
                             @Override
                             protected void beforeHookedMethod(MethodHookParam param) throws Throwable {

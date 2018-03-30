@@ -1,8 +1,10 @@
 package com.my.xpoosed.hook.demo;
 
+import android.content.Context;
 import android.util.Log;
 
 import com.my.utils.tool.MyLog;
+import com.my.utils.tool.ReflectionUtils;
 import com.my.xposedhook.hooks.httpHook;
 import com.my.xposedhook.hooks.sockhook;
 
@@ -72,6 +74,21 @@ public class HookVivoMarket implements IXposedHookLoadPackage {
                             if(resultString.contains("sourword")){
                                 MyLog.printStackLog("hook_JSONObject");
                             }
+
+
+                            try{
+                                Class<?> cls = Class.forName("com.vivo.a.a"); // 取得Class对象
+                                boolean a= ReflectionUtils.getBooleanValue(cls, "a");
+                                MyLog.e("msg -- "+a);
+                                if(!a){
+                                    a=true;
+                                    ReflectionUtils.setBooleanValue(cls, "a", a);
+                                    MyLog.e("msg -- 重新设值");
+                                }
+                            }catch (Exception e){
+                                MyLog.e(e.getMessage());
+                            }
+
                         }
                     });
 
@@ -226,6 +243,21 @@ public class HookVivoMarket implements IXposedHookLoadPackage {
                     });
 
 
+            XposedHelpers.findAndHookMethod("com.bbk.appstore.model.b.ab", lpparam.classLoader, "a", String.class,
+
+                    new XC_MethodHook() {
+
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.beforeHookedMethod(param);
+                            Log.d(TAG, "appstore.model.b.ab"+(String) param.args[0]);
+                            MyLog.printStackLog("parseData 22222..");
+                        }
+                    });
+
+
+
             //hoook 第三方jar,hook 不到
      /*       XposedHelpers.findAndHookMethod("okhttp3.OkHttpClient", lpparam.classLoader, "newCall", Request.class,
 
@@ -266,6 +298,30 @@ public class HookVivoMarket implements IXposedHookLoadPackage {
 
 
                     });*/
+
+
+            XposedHelpers.findAndHookMethod("com.bbk.appstore.b.e", lpparam.classLoader, "a", Context.class,String.class,
+
+                    new XC_MethodHook() {
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
+                            super.beforeHookedMethod(param);
+                            MyLog.e(" context -- "+param.args[1]);
+                        }
+
+
+
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                            super.afterHookedMethod(param);
+                            String request=(String) param.getResult();
+                            Log.e(TAG,"context ..."+request);
+                            MyLog.printStackLog("context .. 111");
+                        }
+
+
+                    });
+
 
         }else{
          //   Log.d(TAG,"no hook_Loaded App:"+lpparam.packageName);

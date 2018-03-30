@@ -80,13 +80,12 @@ public class ReflectionUtils {
     }
 
 
-
-
+    // TODO: 30/03/18 有问题
     public static Object callMethod(Object instance, String methodName){
         try{
-            Method method = instance.getClass().getDeclaredMethod(methodName);
+            Method method = instance.getClass().getMethod(methodName);
            // MyLog.e("method -- " + method.toString());
-            method.setAccessible(true);
+          //  method.setAccessible(true);
             return method.invoke(instance);
         }catch (Exception e){
 
@@ -99,9 +98,9 @@ public class ReflectionUtils {
 
     public static Object callMethod(Object instance, String methodName, Class[] paramsTypes, Object[] params){
         try{
-            Method method = instance.getClass().getDeclaredMethod(methodName, paramsTypes);
+            Method method = instance.getClass().getMethod(methodName, paramsTypes);
            // MyLog.e("method -- " + method.toString());
-            method.setAccessible(true);
+          //  method.setAccessible(true);
             return method.invoke(instance, params);
         }catch (Exception e){
 
@@ -142,6 +141,25 @@ public class ReflectionUtils {
         }
     }
 
+
+
+
+
+    // TODO: 2017/10/12  测试得到类中所有的字符串
+    public static void   getAllMethod(Object model){
+        Method[] methods = model.getClass().getMethods(); // 获取实体类的所有属性，返回Field数组
+        try {
+            MyLog.e("leng: "+methods.length);
+            for (int j = 0; j < methods.length; j++) { // 遍历所有属性
+                String name = methods[j].getName(); // 获取属性的名字
+                String a=methods[j].toGenericString();
+                MyLog.e("name: "+name);     //获得完整的方法信息（包括修饰符、返回值、路径、名称、参数、抛出值）
+                MyLog.e("获得完整的方法信息: "+a);
+            }
+        }catch (Exception e){
+            MyLog.e(e.getMessage());
+        }
+    }
 
 
 }

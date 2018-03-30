@@ -8,9 +8,9 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage;
 /**
  * Created by mbpeele on 3/29/16.
  */
-public class ReflectionUtilsTool {
+public class UtilsTool {
 
-    private ReflectionUtilsTool() {
+    private UtilsTool() {
         // no instance
     }
 
