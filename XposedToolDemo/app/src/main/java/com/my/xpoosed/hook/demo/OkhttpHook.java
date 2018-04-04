@@ -81,19 +81,22 @@ public class OkhttpHook {
 
              //   ReflectionUtils.getAllMethod(cls);
 
+
+
                 try{
                   //  ReflectionUtils.getAllFields(param.args[0]);
                  //   Response
-                    Object body=ReflectionUtils.getValue(param.args[0], "body");
-                  //  ReflectionUtils.getAllMethod(body);
-                   // okhttp3.internal.http.RealResponseBody
-                   Log.e(TAG, "body -- "+body.toString());
-                    Method method = body.getClass().getMethod("string");
-                    String data0=(String)method.invoke(body);
-                    // Java 反射机制 - 调用某个类的方法1.
-                    // 调用Person的Speak方法
-                    Log.e(TAG, "body -- "+data0);
-
+//                    Object body=ReflectionUtils.getValue(param.args[0], "body");
+//                  //  ReflectionUtils.getAllMethod(body);
+//                   // okhttp3.internal.http.RealResponseBody
+//                    Log.e(TAG, "body -- "+body.toString());
+//                    Method method = body.getClass().getMethod("string");
+//                    String data0=(String)method.invoke(body);
+//                    // Java 反射机制 - 调用某个类的方法1.
+//                    // 调用Person的Speak方法
+//                    Log.e(TAG, "body -- "+data0);
+//
+//
 
 
            /*          String data1=(String)ReflectionUtils.callMethod(body, "toString");

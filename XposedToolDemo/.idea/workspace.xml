@@ -40,201 +40,6 @@
       </state>
     </system>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HookVivoMarket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/HookVivoMarket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5451">
-              <caret line="254" column="58" lean-forward="false" selection-start-line="254" selection-start-column="49" selection-end-line="254" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OkhttpHook.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/OkhttpHook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Response.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar!/okhttp3/Response.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <marker date="1522232850654" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1522232850654" expanded="false" signature="131:320" ph="..." />
-                <marker date="1522232850654" expanded="true" signature="831:1418" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="1448:1459" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="1479:1485" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="1517:1528" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="1549:1555" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="1578:1589" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="1606:1612" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="1647:1658" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="1701:1707" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="1736:1747" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="1767:1773" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="1807:1818" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="1840:1846" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="1892:1903" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="1936:1942" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="1981:1992" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="2031:2037" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="2098:2208" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="2238:2249" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="2269:2275" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="2345:2791" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="2823:2834" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="2851:2857" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="2899:2910" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="2944:2950" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="2984:3259" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="3298:3309" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="3337:3343" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="3380:3391" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="3417:3423" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="3460:3471" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="3497:3503" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="3545:3914" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="3955:4108" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="4147:4158" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="4190:4196" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="4240:4251" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="4288:4294" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="4319:4330" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="4348:4354" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="4385:4537" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="4571:9638" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="4965:4980" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="5025:5035" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="5072:5728" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="5787:5859" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="5921:5995" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="6044:6110" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="6168:6240" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="6305:6381" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="6449:6528" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="6599:6678" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="6738:6816" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="6875:6960" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="7018:7084" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="7160:7385" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="7457:7672" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="7748:8320" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="8392:8588" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="8649:8797" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="8877:8973" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="9063:9169" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="9203:9632" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectionUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/utils/tool/ReflectionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3289">
-              <caret line="148" column="30" lean-forward="false" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UtilsTool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/hook/utils/xposed/UtilsTool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XposedLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/hook/utils/xposed/XposedLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealResponseBody.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar!/okhttp3/internal/http/RealResponseBody.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-              <folding>
-                <marker date="1522232850654" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1522232850654" expanded="false" signature="145:244" ph="..." />
-                <marker date="1522232850654" expanded="true" signature="450:519" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="556:700" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="733:744" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="791:797" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="833:844" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="863:869" ph=" }" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseBody.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar!/okhttp3/ResponseBody.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding>
-                <marker date="1522232850654" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1522232850654" expanded="false" signature="131:373" ph="..." />
-                <marker date="1522232850654" expanded="true" signature="487:494" ph="{}" />
-                <marker date="1522232850654" expanded="false" signature="626:637" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="672:678" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="777:1507" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="1546:1696" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="1750:2054" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="2086:2228" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="2253:2264" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="2297:2303" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="2382:2814" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="2893:3021" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="3146:3646" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="3296:3629" ph="{...}" />
-                <marker date="1522232850654" expanded="false" signature="3344:3367" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="3386:3404" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="3449:3472" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="3493:3511" ph=" }" />
-                <marker date="1522232850654" expanded="false" signature="3559:3582" ph=" { " />
-                <marker date="1522232850654" expanded="false" signature="3597:3615" ph=" }" />
-                <marker date="1522232850654" expanded="true" signature="3701:4812" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="3916:3997" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="4073:4561" ph="{...}" />
-                <marker date="1522232850654" expanded="true" signature="4610:4806" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -244,16 +49,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>com.bbk.appstore.model.b.ar</find>
-      <find>my_default_hook</find>
-      <find>beforeHookedMethod</find>
-      <find>newCall</find>
-      <find>hook_JSONObject</find>
-      <find>hookAllConstructors</find>
-      <find>HttpURLConnection</find>
-      <find>httpUrlConnection</find>
-      <find>com.vivo.b.c</find>
-      <find>cls</find>
       <find>request</find>
       <find>my_OkhttpHook</find>
       <find>data --------</find>
@@ -274,6 +69,16 @@
       <find>string</find>
       <find>parseData</find>
       <find>callMethod</find>
+      <find>post</find>
+      <find>Reporter</find>
+      <find>afterHookedMethod</find>
+      <find>security</find>
+      <find>04.02</find>
+      <find>nativeBase64Encrypt</find>
+      <find>SecurityCryptor</find>
+      <find>newCall</find>
+      <find>base64</find>
+      <find>my_nativeBase64Decrypt</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -2347,17 +2152,17 @@
         <option value="$PROJECT_DIR$/app/src/main/assets/vivo_log" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/hooks/httpHook.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/my/hook/utils/xposed/XposedLoader.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/HookVivoMarket.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/my/utils/tool/ReflectionUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/OkhttpHook.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/HookVivoMarket.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="425" />
-    <option name="y" value="38" />
+    <option name="x" value="65" />
+    <option name="y" value="164" />
     <option name="width" value="1855" />
-    <option name="height" value="1000" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2579,41 +2384,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="XposedToolDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="e9137016:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="XposedToolDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="XposedToolDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedToolDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XposedToolDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2675,12 +2445,25 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="XposedToolDemo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android-SDK" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../my-gitee/MoXinProjects/ApplicationMarket" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../my-gitee/YYHD_DEMO" />
     <property name="device.picker.selection" value="0b42c2bc4fcb82fd" />
     <property name="android.profiler.active" value="true" />
   </component>
@@ -2875,39 +2658,49 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6938349" sideWeight="0.5052515" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4879833" sideWeight="0.49806523" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44673538" sideWeight="0.49474847" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31452456" sideWeight="0.6224433" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18684356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810867" sideWeight="0.49143174" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1321172" sideWeight="0.4935065" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23327805" sideWeight="0.5064935" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75339603" sideWeight="0.37755665" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4827586" sideWeight="0.49198452" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18684356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5182863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1321172" sideWeight="0.4935065" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2918,408 +2711,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android-SDK/platforms/android-26/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="108" column="5" lean-forward="false" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/apk-hook-debug-v1-xpoosed.apk" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android-SDK/platforms/android-26/android.jar!/java/lang/reflect/Field.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android-SDK/platforms/android-26/android.jar!/android/os/HandlerThread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-all/9br9xq1tocpiv8o6njlyu5op1/gradle-4.4/src/core-api/org/gradle/api/artifacts/dsl/DependencyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android-SDK/platforms/android-26/android.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/XSharedPreferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/hook/utils/xposed/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/utils/tool/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="293" column="28" lean-forward="false" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/XposedHelpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/utils/tool/MyLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android-SDK/platforms/android-26/android.jar!/android/util/Log.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/utils/tool/NewHttpHook.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/mipu_hooking/hooks/RealDevice.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/mipu_hooking/hooks/testhook.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/mipu_hooking/MainActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/mipu_hooking/Hook.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/mipu_hooking/hooks/sockhook.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/mipu_hooking/hooks/httpHook.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/MainActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/XposedInit.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/hooks/RealDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1518">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/hooks/testhook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/HookAppAllMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/Hook.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/XC_MethodHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/Request.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar!/okhttp3/Request.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar!/okhttp3/RequestBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/xposed_init">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/vivo_search_log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/commit_code">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/vivo_log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="365" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="365" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/utils/tool/HttpHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/hooks/httpHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2162">
-          <caret line="131" column="57" lean-forward="false" selection-start-line="131" selection-start-column="57" selection-end-line="131" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xposedhook/hooks/sockhook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar!/okhttp3/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <marker date="1522232850654" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522232850654" expanded="false" signature="131:320" ph="..." />
-            <marker date="1522232850654" expanded="true" signature="831:1418" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="1448:1459" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="1479:1485" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="1517:1528" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="1549:1555" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="1578:1589" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="1606:1612" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="1647:1658" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="1701:1707" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="1736:1747" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="1767:1773" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="1807:1818" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="1840:1846" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="1892:1903" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="1936:1942" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="1981:1992" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="2031:2037" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="2098:2208" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="2238:2249" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="2269:2275" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="2345:2791" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="2823:2834" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="2851:2857" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="2899:2910" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="2944:2950" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="2984:3259" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="3298:3309" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="3337:3343" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="3380:3391" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="3417:3423" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="3460:3471" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="3497:3503" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="3545:3914" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="3955:4108" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="4147:4158" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="4190:4196" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="4240:4251" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="4288:4294" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="4319:4330" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="4348:4354" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="4385:4537" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="4571:9638" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="4965:4980" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="5025:5035" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="5072:5728" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="5787:5859" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="5921:5995" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="6044:6110" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="6168:6240" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="6305:6381" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="6449:6528" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="6599:6678" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="6738:6816" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="6875:6960" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="7018:7084" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="7160:7385" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="7457:7672" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="7748:8320" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="8392:8588" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="8649:8797" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="8877:8973" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="9063:9169" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="9203:9632" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar!/okhttp3/internal/http/RealResponseBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding>
-            <marker date="1522232850654" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522232850654" expanded="false" signature="145:244" ph="..." />
-            <marker date="1522232850654" expanded="true" signature="450:519" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="556:700" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="733:744" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="791:797" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="833:844" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="863:869" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar!/okhttp3/ResponseBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <marker date="1522232850654" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522232850654" expanded="false" signature="131:373" ph="..." />
-            <marker date="1522232850654" expanded="true" signature="487:494" ph="{}" />
-            <marker date="1522232850654" expanded="false" signature="626:637" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="672:678" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="777:1507" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="1546:1696" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="1750:2054" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="2086:2228" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="2253:2264" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="2297:2303" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="2382:2814" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="2893:3021" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="3146:3646" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="3296:3629" ph="{...}" />
-            <marker date="1522232850654" expanded="false" signature="3344:3367" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="3386:3404" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="3449:3472" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="3493:3511" ph=" }" />
-            <marker date="1522232850654" expanded="false" signature="3559:3582" ph=" { " />
-            <marker date="1522232850654" expanded="false" signature="3597:3615" ph=" }" />
-            <marker date="1522232850654" expanded="true" signature="3701:4812" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="3916:3997" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="4073:4561" ph="{...}" />
-            <marker date="1522232850654" expanded="true" signature="4610:4806" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/hook/utils/xposed/UtilsTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/hook/utils/xposed/XposedLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/HookVivoMarket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5451">
-          <caret line="254" column="58" lean-forward="false" selection-start-line="254" selection-start-column="49" selection-end-line="254" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/utils/tool/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3289">
-          <caret line="148" column="30" lean-forward="false" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/my/xpoosed/hook/demo/OkhttpHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="3726">
+          <caret line="181" column="46" lean-forward="false" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="46" />
           <folding />
         </state>
       </provider>
