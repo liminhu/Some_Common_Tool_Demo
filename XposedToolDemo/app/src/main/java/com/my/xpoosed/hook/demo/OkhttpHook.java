@@ -33,6 +33,7 @@ public class OkhttpHook {
             @Override
             protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
                 Log.e(TAG, "111l.... ");
+                MyLog.printStackLog("... 1111 ");
                 //MyLog.printStackLog("request .. 111");
                // ReflectionUtils.getAllFields(param.args[0]);
             }
@@ -86,7 +87,7 @@ public class OkhttpHook {
                 try{
                   //  ReflectionUtils.getAllFields(param.args[0]);
                  //   Response
-//                    Object body=ReflectionUtils.getValue(param.args[0], "body");
+                    Object body=ReflectionUtils.getValue(param.args[0], "body");
 //                  //  ReflectionUtils.getAllMethod(body);
 //                   // okhttp3.internal.http.RealResponseBody
 //                    Log.e(TAG, "body -- "+body.toString());
@@ -99,8 +100,8 @@ public class OkhttpHook {
 //
 
 
-           /*          String data1=(String)ReflectionUtils.callMethod(body, "toString");
-                    Log.e(TAG, "body -- "+data1);*/
+                     String data1=(String)ReflectionUtils.callMethod(body, "toString");
+                    Log.e(TAG, "body -- "+data1);
 /*
 
                     String data=(String)ReflectionUtils.callMethod(body, "string");

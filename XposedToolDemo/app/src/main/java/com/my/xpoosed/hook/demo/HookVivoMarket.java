@@ -8,6 +8,7 @@ import com.my.utils.tool.ReflectionUtils;
 import com.my.xposedhook.hooks.httpHook;
 import com.my.xposedhook.hooks.sockhook;
 
+import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -187,6 +188,83 @@ public class HookVivoMarket implements IXposedHookLoadPackage {
                     });
 
 
+            XposedHelpers.findAndHookMethod("java.net.URLEncoder", lpparam.classLoader, "encode", String.class,
+                    String.class,
+
+                    new XC_MethodHook() {
+
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.beforeHookedMethod(param);
+                            String data = (String) param.args[1];
+                            String data1 = (String) param.args[0];
+
+                            Log.d(TAG, "URLEncoder -- 04.09 ... "+data1);
+                            Log.d(TAG, "URLEncoder -- 04.09 ... "+data);
+                            // MyLog.printStackLog("base64 com.vivo.libs.b.b  04.02   .."+data);
+                        }
+                    });
+
+
+
+
+
+            XposedHelpers.findAndHookMethod("com.vivo.libs.scrolleffect.Wave", lpparam.classLoader, "c",
+                    String.class,
+
+                    new XC_MethodHook() {
+
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.beforeHookedMethod(param);
+                            String data=(String) param.args[0];
+                            Log.d(TAG, "scrolleffect.Wave -- 04.09 ... "+data);
+
+                            // MyLog.printStackLog("base64 com.vivo.libs.b.b  04.02   .."+data);
+                        }
+
+
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                            super.afterHookedMethod(param);
+                            String request=(String) param.getResult();
+                            MyLog.e(TAG,"request ..."+request);
+                            //  MyLog.printStackLog("request .. 111");
+                        }
+                    });
+
+
+
+//Context arg3, String arg4, HashMap arg5
+
+            XposedHelpers.findAndHookMethod("com.vivo.libs.scrolleffect.Wave", lpparam.classLoader, "a", Context.class,
+                String.class, HashMap.class,
+
+                    new XC_MethodHook() {
+
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.beforeHookedMethod(param);
+                            Log.d(TAG, "scrolleffect.Wave -- 04.09 ... ");
+                            String data=(String) param.args[1];
+                           // MyLog.printStackLog("base64 com.vivo.libs.b.b  04.02   .."+data);
+                        }
+
+
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                            super.afterHookedMethod(param);
+                            MyLog.e("scrolleffect.Wave -- 04.09 .. 222");
+                            String request=(String) param.getResult();
+                            MyLog.e(TAG,"request ..."+request);
+                          //  MyLog.printStackLog("request .. 111");
+                        }
+                    });
+
+
 
             /*
             XposedHelpers.findAndHookMethod("com.vivo.push.util.i", lpparam.classLoader, "d", String.class,
@@ -293,6 +371,93 @@ public class HookVivoMarket implements IXposedHookLoadPackage {
 
 
 
+
+
+
+
+            //Context arg3, String arg4
+            XposedHelpers.findAndHookMethod("com.vivo.libs.scrolleffect.r", lpparam.classLoader, "a", Context.class, String.class,
+
+                    new XC_MethodHook() {
+
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.beforeHookedMethod(param);
+                            String request=(String) param.args[1];
+                            MyLog.e(TAG+"scrolleffect ..."+request.toString());
+                        }
+
+
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                            super.afterHookedMethod(param);
+                            MyLog.e("request .. 222");
+                            String request=(String)  param.getResult();
+                            MyLog.e(TAG+"request ..."+request);
+                          //  MyLog.printStackLog("request .. 111");
+                        }
+
+
+                    });
+
+
+
+
+
+
+
+            //Context arg3, String arg4
+            XposedHelpers.findAndHookMethod("com.vivo.libs.scrolleffect.r", lpparam.classLoader, "a", byte[].class,
+
+                    new XC_MethodHook() {
+
+                 /*       @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.beforeHookedMethod(param);
+                            String request=(String) param.args[0];
+                            MyLog.e(TAG+"scrolleffect ..."+request.toString());
+                        }
+*/
+
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                            super.afterHookedMethod(param);
+                            MyLog.e("request .. scrolleffect 222");
+                            String request=(String)  param.getResult();
+                            MyLog.e(TAG+"request ...scrolleffect --- 123 "+request);
+                            //  MyLog.printStackLog("request .. 111");
+                        }
+
+
+                    });
+
+
+
+
+            //Context arg3, String arg4
+            XposedHelpers.findAndHookMethod("com.vivo.push.util", lpparam.classLoader, "a", String.class, String.class,
+
+                    new XC_MethodHook() {
+
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.beforeHookedMethod(param);
+                            String request=(String) param.args[0];
+                            if(request.contains("AppStore.Wave")){
+                                MyLog.e(TAG+"scrolleffect ..."+request);
+                                MyLog.printStackLog(request);
+                            }
+
+                        }
+
+
+
+                    });
+
+
 /*
 
             XposedHelpers.findAndHookMethod("com.vivo.b.c", lpparam.classLoader, "a", Response.class,
@@ -359,10 +524,6 @@ public class HookVivoMarket implements IXposedHookLoadPackage {
                             MyLog.printStackLog("parseData 22222..");
                         }
                     });
-
-
-
-
 
 
  /*           XposedHelpers.findAndHookMethod("com.vivo.b.c", lpparam.classLoader, "c", cls.getComponentType(),
