@@ -21,9 +21,11 @@ public class StringUtils {
         return new String(hexStringtoByteArray(hex));
     }
 
-    private static byte[] hexStringtoByteArray(String hexString) {
-        if (hexString == null)
-            System.out.println("this hexString must not be empty");
+    public static byte[] hexStringtoByteArray(String hexString) {
+        if (hexString == null) {
+            MyLog.e("this hexString must not be empty");
+            return null;
+        }
         hexString = hexString.toLowerCase();
         final byte[] byteArray = new byte[hexString.length() / 2];
         int k = 0;
