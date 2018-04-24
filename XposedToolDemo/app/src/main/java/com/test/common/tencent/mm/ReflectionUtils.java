@@ -100,7 +100,7 @@ public class ReflectionUtils {
         }
         Field[] field = model.getClass().getDeclaredFields(); // 获取实体类的所有属性，返回Field数组
         try {
-            MyLog.e("leng: "+field.length);
+            MyLog.d("leven--- %d, %s ,  leng: "+field.length, leven, model.getClass().getName());
             for (int j = 0; j < field.length; j++) { // 遍历所有属性
                 String name = field[j].getName(); // 获取属性的名字
                  MyLog.e("name: "+name);
@@ -113,7 +113,7 @@ public class ReflectionUtils {
                     if(TextUtils.isEmpty(data)){
                         data=" is null";
                     }
-                    MyLog.e("data -------- leven:%d,  "+data, leven);
+                    MyLog.d("data -------- leven:%d,  "+data, leven);
                 }else if(type.equals("int")){
                     Integer data=(Integer)getValue(model,name);
                     MyLog.e("data int -------- "+data);
