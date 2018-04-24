@@ -6,7 +6,7 @@ properties.load(propertyFile.newDataInputStream())
 def config = 'webviewlib'
 config = properties.getProperty('config')
 
-config="default";
+
 
 android {
     compileSdkVersion 26
@@ -76,6 +76,13 @@ android {
                     applicationId "com.hlm.toolsdk.advancelightbook.demo"
                     manifestPlaceholders = [APP_NAME: "进阶之光Demo", APP_DESC: "进阶之光Demo"]
                     break;
+
+                case "douyin_cookie":
+                    applicationId "com.hlm.douyin.demo"
+                    manifestPlaceholders = [APP_NAME: "抖音Demo", APP_DESC: "抖音Demo"]
+                    break;
+
+
             //默认就有
                 default:
                     applicationId "com.hlm.toolsdk.demo"
@@ -88,7 +95,7 @@ android {
 
     android.applicationVariants.all { variant ->
         variant.outputs.all {
-            outputFileName = "plugin-${variant.buildType.name}-v${variant.versionCode}-${config}.apk".toLowerCase()
+            outputFileName = "apk-${variant.buildType.name}-v${variant.versionCode}-${config}.apk".toLowerCase()
         }
     }
 }
@@ -99,7 +106,7 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile project(path: ':commonlib')
     // compile project(path: ':webviewlib')
-    compile project(path: ':advancelightbook')
+    compile project(path: ':douyin_cookie')
 
   //  compile project(path: ':floatwindow')
   //  compile project(path: ':downloadService')

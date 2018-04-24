@@ -2,15 +2,13 @@ package com.hlm.toolsdk.advancelightbook;
 
 import android.os.Bundle;
 
-import com.lmhu.advancelight.book.chapter3.CustomProgressView.DotAlternateMainActivity;
-import com.lmhu.advancelight.book.chapter5.Retrofit.RetrofitMainActivity;
+import com.hlm.douyin.demo.DouyinMainActivity;
 
 
-public class ContentProviderActivityTwo extends RetrofitMainActivity {
+public class ContentProviderActivityTwo extends DouyinMainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
-
 }
