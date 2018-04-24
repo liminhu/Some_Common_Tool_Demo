@@ -1,12 +1,16 @@
 package com.test.common.tencent.mm;
 
 import android.app.Dialog;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewParent;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.my.utils.tool.MyLog;
@@ -58,6 +62,7 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                     });*/
 
 
+
 /*
 
             XposedHelpers.findAndHookMethod("org.json.JSONObject", lpparam.classLoader, "toString",
@@ -72,7 +77,8 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                                 MyLog.printStackLog("--- json ");
                             }
                         }
-                    });*/
+                    });
+*/
 
 
 /*
@@ -110,7 +116,7 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
 
 
 
-                            XposedHelpers.findAndHookMethod("android.app.Dialog", lpparam.classLoader, "show",
+      XposedHelpers.findAndHookMethod("android.app.Dialog", lpparam.classLoader, "show",
                     new XC_MethodHook() {
                         @Override
                         protected void afterHookedMethod(MethodHookParam param)
@@ -132,11 +138,32 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                                 MyLog.e("getOwnerActivity .. "+dialog.getOwnerActivity().getClass().getName());
 
                                 final ViewGroup vg= (ViewGroup)dialog.getWindow().getDecorView();
-                               // ReflectionUtils.printfView(vg, 33);
-                                LinearLayout view=(LinearLayout)getViewById(vg,2131821291);
+                                //ReflectionUtils.printfView(vg, 33);
+
+
+                                LinearLayout view=(LinearLayout)getViewById(vg,2131821291);  //图片
+
+                                LinearLayout text_view=(LinearLayout)getViewById(vg,2131821291);  //所有图片加文字 -- 父
+                                ReflectionUtils.printfView(text_view, 3);
+
+                                ViewParent p=text_view.getParent();
+                                MyLog.e("------ "+p.getClass().getName()+"-- id--"+((View)p).getId());
+
+
+
                                 if(isHaveAdd==false){
+                                    TextView tv_link=(TextView)getViewById(vg, 2131821294); //复制链接
+                                    ImageView download_image=(ImageView)getViewById(vg,2131821285);  //单个下载图
                                     ImageView imageView=new ImageView(vg.getContext());
-                                    imageView.setImageURI(Uri.fromFile(new File("/sdcard/image.png")));
+                                    ImageView imageView2=new ImageView(vg.getContext());
+                                    if(download_image!=null){
+                                        Bitmap bm = ((BitmapDrawable)download_image.getDrawable()).getBitmap();
+                                        imageView.setImageBitmap(bm);
+                                        imageView.setBackgroundColor(download_image.getDrawingCacheBackgroundColor());
+                                       // imageView.setTextAlignment();
+                                    }else{
+                                        imageView2.setImageURI(Uri.fromFile(new File("/sdcard/image.png")));
+                                    }
                                     imageView.setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View view) {
@@ -144,7 +171,12 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                                         }
                                     });
                                     view.addView(imageView);
-                                    isHaveAdd=true;
+                                    TextView tv=new TextView(vg.getContext());
+                                    tv.setText("无水印下载");
+                                    view.addView(tv);
+                                    view.addView(imageView2);
+                                    view.invalidate();  //重新绘制
+                                   // isHaveAdd=true;
                                 }
                             }
                         }

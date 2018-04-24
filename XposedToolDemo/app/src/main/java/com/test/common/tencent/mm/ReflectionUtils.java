@@ -226,11 +226,9 @@ public class ReflectionUtils {
                         num++;
                     }else if(name.contains("TextView")){
                         TextView button=(TextView) vg.getChildAt(i);
-                        MyLog.e("hook_TextView"+num+":"+button.getText().toString());
-                        if(button.getText().toString().contains("分享")){
-                            MyLog.e("id:%d --- 0x%x,parent -- id:%d, TextView --- "+num+":"+button.getText().toString(), button.getId(), button.getId(),((View)button.getParent()).getId());
-                            //return;
-                        }
+                        MyLog.e(button.getId()+"--- hook_TextView"+num+":"+button.getText().toString());
+                        MyLog.e("id:%d --- 0x%x,parent -- id:%d, TextView --- "+num+":"+button.getText().toString(), button.getId(), button.getId(),((View)button.getParent()).getId());
+
                     }else if(name.contains("TenpaySecureEditText")){
                         EditText ed=(EditText) vg.getChildAt(i);
                         MyLog.e("hook_EditText"+level+":"+ed.getText().toString());
