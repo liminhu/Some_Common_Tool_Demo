@@ -158,6 +158,10 @@ public class ReflectionUtils {
                     ViewGroup vg = (ViewGroup) data;
                     // ReflectionUtils.printfView(vg, 43);
                     printfView((ViewGroup)vg.getParent());
+                }else if( type.contains("aBottomSheetBehavior")) {
+                    Object data = (Object) getValue(model, name);
+                    MyLog.d(leven +"-----BottomSheetBehavior  class j:%d, name:%s,   ----- type: "+type, j, name);
+                    getAllFields(data, leven - 1);
                 }else {
                     MyLog.e(leven +"----- class j:%d, name:%s,   ----- type: "+type, j, name);
                 }
@@ -178,14 +182,14 @@ public class ReflectionUtils {
 
 
     static int num=0;
-    private static  void printfView(ViewGroup vg){
+    public static  void printfView(ViewGroup vg){
         try{
             if(vg.getChildCount() == 0){
                 return;
             }else{
                 for(int i=0; i<vg.getChildCount(); i++){
                     String name=vg.getChildAt(i).getClass().getName();
-                    MyLog.e("%x  ----hook_"+num+"\tname:"+name, vg.getChildAt(i).getId());
+                    MyLog.e("id .. %x  ----hook_"+num+"\tname:"+name, vg.getChildAt(i).getId());
                     if(name.contains("android.widget.Button")) {
                         Button button=(Button) vg.getChildAt(i);
                         MyLog.e("hook_Button:"+num+":"+"\tid:"+button.getId()+"\t"+button.getText().toString());
@@ -281,7 +285,7 @@ public class ReflectionUtils {
 
 
 
-    private static  Bitmap loadBitmapFromView(View v) {
+    public static  Bitmap loadBitmapFromView(View v) {
         if(v==null){
             return null;
         }
@@ -305,7 +309,7 @@ public class ReflectionUtils {
     }
 
 
-    private static  void saveBitmap(Bitmap bm, String name) {
+    public static  void saveBitmap(Bitmap bm, String name) {
         MyLog.e("view--  saveBitmap:"+name);
         File f = new File(Environment.getExternalStorageDirectory(), "/aaa/"+name+".png");
         //  File f=new File(name);
