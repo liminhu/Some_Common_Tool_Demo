@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonlib/commonlib.iml" filepath="$PROJECT_DIR$/commonlib/commonlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/dep/douyin_cookie/douyin_cookie.iml" filepath="$PROJECT_DIR$/dep/douyin_cookie/douyin_cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dep/encrypt_sdk/encrypt_sdk.iml" filepath="$PROJECT_DIR$/dep/encrypt_sdk/encrypt_sdk.iml" />
     </modules>
   </component>
 </project>

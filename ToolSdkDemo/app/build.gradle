@@ -17,85 +17,86 @@ android {
         versionCode 1
         versionName "1.0.1"
         multiDexEnabled false
-    }
-
-
-
-
-    signingConfigs {
-        SignConfig {
-            keyAlias 'toolboxplugin'
-            keyPassword '123456'
-            storeFile file('toolboxplugin.jks')
-            storePassword '123456'
-        }
-    }
-
-    lintOptions {
-        abortOnError false
-    }
-
-
-
-    buildTypes {
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.SignConfig
-        }
-    }
-
-
-    dataBinding {
-        enabled = true
-    }
-
-
-
-    flavorDimensions "default"
-    productFlavors {
-        disheng {
-            switch (config) {
-                case "ziparchiver":
-                    applicationId "com.hlm.toolsdk.zip.archiver.demo"
-                    manifestPlaceholders = [APP_NAME: "Zip解压", APP_DESC: "Zip解压"]
-                    break;
-
-                case "floatwindow":
-                    applicationId "com.hlm.toolsdk.floatwindow.demo"
-                    manifestPlaceholders = [APP_NAME: "悬浮窗适配", APP_DESC: "悬浮窗适配"]
-                    break;
-
-                case "webviewlib":
-                    applicationId "com.hlm.toolsdk.bdmap.demo"
-                    manifestPlaceholders = [APP_NAME: "百度地图Demo", APP_DESC: "百度地图Demo"]
-                    break;
-
-
-                case "advancelightbook":
-                    applicationId "com.hlm.toolsdk.advancelightbook.demo"
-                    manifestPlaceholders = [APP_NAME: "进阶之光Demo", APP_DESC: "进阶之光Demo"]
-                    break;
-
-                case "douyin_cookie":
-                    applicationId "com.hlm.douyin.demo"
-                    manifestPlaceholders = [APP_NAME: "抖音Demo", APP_DESC: "抖音Demo"]
-                    break;
-
-
-            //默认就有
-                default:
-                    applicationId "com.hlm.toolsdk.demo"
-                    manifestPlaceholders = [APP_NAME: "TooSdkDemo", APP_DESC: "TooSdkDemo"]
-                    break;
+        signingConfigs {
+            SignConfig {
+                keyAlias 'toolboxplugin'
+                keyPassword '123456'
+                storeFile file('toolboxplugin.jks')
+                storePassword '123456'
             }
         }
-    }
+
+        lintOptions {
+            abortOnError false
+        }
 
 
-    android.applicationVariants.all { variant ->
-        variant.outputs.all {
-            outputFileName = "apk-${variant.buildType.name}-v${variant.versionCode}-${config}.apk".toLowerCase()
+
+        buildTypes {
+            release {
+                minifyEnabled true
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                signingConfig signingConfigs.SignConfig
+            }
+        }
+
+
+        dataBinding {
+            enabled = true
+        }
+
+
+
+        flavorDimensions "default"
+        productFlavors {
+            disheng {
+                switch (config) {
+                    case "ziparchiver":
+                        applicationId "com.hlm.toolsdk.zip.archiver.demo"
+                        manifestPlaceholders = [APP_NAME: "Zip解压", APP_DESC: "Zip解压"]
+                        break;
+
+                    case "floatwindow":
+                        applicationId "com.hlm.toolsdk.floatwindow.demo"
+                        manifestPlaceholders = [APP_NAME: "悬浮窗适配", APP_DESC: "悬浮窗适配"]
+                        break;
+
+                    case "webviewlib":
+                        applicationId "com.hlm.toolsdk.bdmap.demo"
+                        manifestPlaceholders = [APP_NAME: "百度地图Demo", APP_DESC: "百度地图Demo"]
+                        break;
+
+
+                    case "advancelightbook":
+                        applicationId "com.hlm.toolsdk.advancelightbook.demo"
+                        manifestPlaceholders = [APP_NAME: "进阶之光Demo", APP_DESC: "进阶之光Demo"]
+                        break;
+
+                    case "douyin_cookie":
+                        applicationId "com.hlm.douyin.demo"
+                        manifestPlaceholders = [APP_NAME: "抖音Demo", APP_DESC: "抖音Demo"]
+                        break;
+
+
+                    case "encrypt_sdk":
+                        applicationId "com.hlm.encrypt.demo"
+                        manifestPlaceholders = [APP_NAME: "加密Demo", APP_DESC: "加密Demo"]
+                        break;
+
+                //默认就有
+                    default:
+                        applicationId "com.hlm.toolsdk.demo"
+                        manifestPlaceholders = [APP_NAME: "TooSdkDemo", APP_DESC: "TooSdkDemo"]
+                        break;
+                }
+            }
+        }
+
+
+        android.applicationVariants.all { variant ->
+            variant.outputs.all {
+                outputFileName = "apk-${variant.buildType.name}-v${variant.versionCode}-${config}.apk".toLowerCase()
+            }
         }
     }
 }
@@ -106,8 +107,9 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile project(path: ':commonlib')
     // compile project(path: ':webviewlib')
-    compile project(path: ':douyin_cookie')
+  //  compile project(path: ':douyin_cookie')
 
   //  compile project(path: ':floatwindow')
   //  compile project(path: ':downloadService')
+    compile project(path: ':encrypt_sdk')
 }

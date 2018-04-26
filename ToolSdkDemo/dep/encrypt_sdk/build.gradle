@@ -1,0 +1,66 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0.1"
+
+        ndk {
+            moduleName "JniSdk"
+            abiFilters 'armeabi'
+            stl 'stlport_static'
+            cFlags '-fvisibility=hidden -03'
+            cFlags '-std=c++11 -fexceptions -fpermissive'
+        }
+    }
+
+    signingConfigs {
+        SignConfig {
+            keyAlias 'SdkSign'
+            keyPassword 'encrypthlm'
+            storeFile file('SdkSign.jks')
+            storePassword 'encrypthlm'
+        }
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            signingConfig signingConfigs.SignConfig
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
+//            移除无用的resource文件
+//            shrinkResources true
+        }
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }
+    }
+
+    sourceSets {
+        main {
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['src/main/libs']
+        }
+    }
+}
+
+task aar {
+    group 'build'
+    dependsOn 'assemblerelease'
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    compile project(path: ':commonlib')
+}

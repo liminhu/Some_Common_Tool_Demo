@@ -6,6 +6,9 @@ import com.hlm.douyin.demo.DouyinMainActivity;
 
 
 public class ContentProviderActivityTwo extends DouyinMainActivity {
+    static {
+        System.loadLibrary("JniSdk");
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
