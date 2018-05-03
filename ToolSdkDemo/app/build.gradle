@@ -77,10 +77,14 @@ android {
                         manifestPlaceholders = [APP_NAME: "抖音Demo", APP_DESC: "抖音Demo"]
                         break;
 
+                    case "douyin_cookie":
+                        applicationId "com.hlm.douyin.demo"
+                        manifestPlaceholders = [APP_NAME: "抖音Demo", APP_DESC: "抖音Demo"]
+                        break;
 
-                    case "encrypt_sdk":
-                        applicationId "com.hlm.encrypt.demo"
-                        manifestPlaceholders = [APP_NAME: "加密Demo", APP_DESC: "加密Demo"]
+                    case "DL_PluginsDemo":
+                        applicationId "com.dl.plugins.demo"
+                        manifestPlaceholders = [APP_NAME: "DL插件Demo", APP_DESC: "DL插件Demo"]
                         break;
 
                 //默认就有
@@ -111,5 +115,6 @@ dependencies {
 
   //  compile project(path: ':floatwindow')
   //  compile project(path: ':downloadService')
-    compile project(path: ':encrypt_sdk')
+  //  compile project(path: ':encrypt_sdk')
+    compile project(path: ':DL_PluginsDemo')
 }

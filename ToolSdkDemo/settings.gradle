@@ -1,4 +1,4 @@
-include ':app',':commonlib' //, ':pluginsapplication'  //, // ':adplugin'
+include ':app', ':dynamic_lib',':commonlib' //, ':pluginsapplication'  //, // ':adplugin'
 Properties properties=new Properties()
 File propertyFile=new File(rootDir.getAbsolutePath()+"/local.properties")
 properties.load(propertyFile.newDataInputStream())

@@ -10,7 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commonlib" />
-            <option value="$PROJECT_DIR$/dep/encrypt_sdk" />
+            <option value="$PROJECT_DIR$/dep/DL_PluginsDemo" />
+            <option value="$PROJECT_DIR$/dynamic_lib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

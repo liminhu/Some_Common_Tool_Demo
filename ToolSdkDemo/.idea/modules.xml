@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dep/DL_PluginsDemo/DL_PluginsDemo.iml" filepath="$PROJECT_DIR$/dep/DL_PluginsDemo/DL_PluginsDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolSdkDemo.iml" filepath="$PROJECT_DIR$/ToolSdkDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonlib/commonlib.iml" filepath="$PROJECT_DIR$/commonlib/commonlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/dep/douyin_cookie/douyin_cookie.iml" filepath="$PROJECT_DIR$/dep/douyin_cookie/douyin_cookie.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dep/encrypt_sdk/encrypt_sdk.iml" filepath="$PROJECT_DIR$/dep/encrypt_sdk/encrypt_sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic_lib/dynamic_lib.iml" filepath="$PROJECT_DIR$/dynamic_lib/dynamic_lib.iml" />
     </modules>
   </component>
 </project>

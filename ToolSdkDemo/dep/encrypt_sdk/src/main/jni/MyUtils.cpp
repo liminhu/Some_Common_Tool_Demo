@@ -49,6 +49,10 @@ char* jstringTostring(JNIEnv* env, jstring jstr){
 
 
 
+
+
+
+
 //char* to jstring
 jstring stringToJstring(JNIEnv* env, const char* pat){
     LogD("test -- <%s> 000 ,  data:%s", __FUNCTION__, pat);

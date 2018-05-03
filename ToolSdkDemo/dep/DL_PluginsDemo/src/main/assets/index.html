@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+	body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+	</style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=mPOhS1FM4UceHhuFcG8elGjv"></script>
+    <title>地图展示</title>
+</head>
+<body>
+<div>
+    <table title="当前位置" width="100%">
+        <tr height="30">
+            <td ><font color="red">当前位置</font></td>
+            <td>经度：</td>
+             <td id="currentLongitude"></td>
+            <td>纬度：</td>
+            <td id="currentLatitude"></td>
+            <td id="save" onclick="jsCallJava()">保存</td>
+        </tr>
+    </table>
+</div>
+</div>
+<div id="allmap"></div>
+</body>
+</html>
+<script type="text/javascript">
+	// 百度地图API功能
+	var currentLongitude=116.404;
+	var currentLatitude=39.915;
+	var lo=document.getElementById("currentLongitude");
+	var la=document.getElementById("currentLatitude");
+	lo.innerText=currentLongitude;
+	la.innerText=currentLatitude;
+
+
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(currentLongitude, currentLatitude), 18);  // 初始化地图,设置中心点坐标和地图级别
+	//添加地图类型控件
+	map.addControl(new BMap.MapTypeControl({
+		mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));
+	map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+	var marker = new BMap.Marker(map.getCenter()); // 创建点
+	marker.enableDragging();
+    map.addOverlay(marker);
+
+
+    function showInfo(e){
+		lo.innerText=e.point.lng;
+	    la.innerText=e.point.lat;
+	}
+
+	function moveMarker(e){
+		marker.setPosition(e.point);
+		lo.innerText=e.point.lng;
+	    la.innerText=e.point.lat;
+	}
+
+	marker.addEventListener("dragend", showInfo);
+	map.addEventListener("click", moveMarker);
+
+
+
+	function jsCallJava(){
+	    window.android.callAndroid(lo.innerText, la.innerText);
+	}
+
+</script>
