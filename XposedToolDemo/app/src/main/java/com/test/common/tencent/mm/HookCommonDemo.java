@@ -149,6 +149,9 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                                 Log.e(TAG, "dialog  class  -- " + dialog.getClass().getName());
                                 final ViewGroup vg = (ViewGroup) dialog.getWindow().getDecorView();
 
+
+                                //7f11027d  ----hook_3	name:android.widget.LinearLayout
+
                                // ReflectionUtils.getAllFields(dialog, 7);
                             //   ReflectionUtils.printfView(vg, 40);
                                String et="com.ss.android.ugc.aweme.shortvideo.view.MentionEditText";
