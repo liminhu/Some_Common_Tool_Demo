@@ -1,5 +1,6 @@
 package com.test.common.tencent.mm;
 
+import android.app.Dialog;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,6 +8,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.my.utils.tool.MyLog;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
@@ -24,6 +28,8 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
     private static boolean isHaveAdd=false;
 
     static boolean  flag=false;
+
+    public static List<String> array=new ArrayList<>();
 
 
     @Override
@@ -135,7 +141,15 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                             super.afterHookedMethod(param);
                             Log.d(TAG, "hook_JSONObject  ---- dialog ");
                             MyLog.printStackLog("dialog");
+                            Dialog dialog=(Dialog)param.thisObject;
                             MyLog.e(param.thisObject.getClass().getName() + " ----- ");
+                            if(dialog.getClass().getName().contains("com.ss.android.ugc.aweme.bodydance.widget.a")){
+                               // array.clear();
+                               // ReflectionUtils.getAllFields(dialog,41);
+
+                                final ViewGroup vg = (ViewGroup) dialog.getWindow().getDecorView();
+                                ReflectionUtils.printfView(vg);
+                            }
                         }
                     });
 

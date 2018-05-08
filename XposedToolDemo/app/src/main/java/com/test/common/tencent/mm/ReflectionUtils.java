@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.os.Environment;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -21,6 +22,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.List;
+
+import static com.test.common.tencent.mm.HookCommonDemo.array;
 
 /**
  * Created by hulimin on 2017/9/14.
@@ -92,6 +95,20 @@ public class ReflectionUtils {
 
 
 
+     private static boolean isHaveContain(String name){
+         MyLog.d("-- isHaveContain "+ name);
+        if(array.size()>0){
+            for(int i=0; i<array.size(); i++){
+                if(array.get(i).contains(name)){
+                    return  true;
+                }
+            }
+        }
+        array.add(name);
+        return  false;
+     }
+
+
 
     // TODO: 2017/10/12  测试得到类中所有的字符串
     public static void   getAllFields(Object model, int leven){
@@ -108,7 +125,17 @@ public class ReflectionUtils {
                 MyLog.e("j:%d, name:%s,   ----- type: "+type, j, name);
                 if(type.contains("HashMap")){
                   //  TestUtils.printHashMap((HashMap) getValue(model,name));
-                }else if (type.contains("java.lang.String") && !type.contains("Map")) { // 如果type是类类型，则前面包含"class "，后面跟类名
+                }else if(type.contains("class") && !isHaveContain(type)){
+                    MyLog.e("test .... isHaveContain ");
+                    Object data = (Object) getValue(model, name);
+                    getAllFields(data, leven - 1);
+                }else if(type.contains("FrameLayout") && !isHaveContain(type)){
+                    MyLog.e("test .... isHaveContain ");
+                    Object data = (Object) getValue(model, name);
+                    getAllFields(data, leven - 1);
+                }
+
+                else if (type.contains("java.lang.String") && !type.contains("Map")) { // 如果type是类类型，则前面包含"class "，后面跟类名
                     String data=(String)getValue(model,name);
                     if(TextUtils.isEmpty(data)){
                         data=" is null";
@@ -123,7 +150,7 @@ public class ReflectionUtils {
                         int jj=Arrays.asList(data).size();
                         MyLog.e("---- size --- "+j);
                         for(int k=0; k<jj; k++){
-                          getAllFields(Arrays.asList(data).get(k),2);
+                         // getAllFields(Arrays.asList(data).get(k),2);
                         }
                     }else{
                         MyLog.e("---- size --- "+name+" is null ");
@@ -134,7 +161,7 @@ public class ReflectionUtils {
                     if(data!=null){
                         MyLog.e("---- size --- "+((List)data).size());
                         for(int i=0; i<((List)data).size(); i++) {
-                            getAllFields(((List)data).get(i), 2);
+                           // getAllFields(((List)data).get(i), 2);
                         }
                     }else{
                         MyLog.e("---- size --- "+name+" is null ");
@@ -142,28 +169,37 @@ public class ReflectionUtils {
                 }else  if(type.contains("android.widget.TextView")) {
                     TextView data = (TextView) getValue(model, name);
                     MyLog.e("data TextView -------- " + data.getText());
-                }else if(type.contains("DisLikeAwemeLayout")){
+                }/*else if(type.contains("DisLikeAwemeLayout")){
                     Object data=(Object)getValue(model,name);
                     ViewGroup vg = (ViewGroup) data;
                     // ReflectionUtils.printfView(vg, 43);
-                    printfView(vg,3);
-                }else  if(!type.contains("java.util.List") && type.contains("com.ss.android.ugc.aweme")){
-                    Object data=(Object)getValue(model,name);
-                    getAllFields(data, leven-1);
+                   // printfView(vg,3);
+                }*/else  if(!type.contains("java.util.List")){
+                   // Object data=(Object)getValue(model,name);
+                   // getAllFields(data, leven-1);
                 }else if(type.contains("SparseIntArray") || type.contains("android.app.Activity")){
                     Object data=(Object)getValue(model,name);
-                    getAllFields(data, 2);
+                  //  getAllFields(data, 2);
                 }else if(type.contains("android.view.ViewGroup")) {
                     Object data =  getValue(model, name);
                     ViewGroup vg = (ViewGroup) data;
                     // ReflectionUtils.printfView(vg, 43);
-                    printfView((ViewGroup)vg.getParent());
-                }else if( type.contains("aBottomSheetBehavior")) {
+                   // printfView((ViewGroup)vg.getParent());
+             /*   }else if( type.contains("aBottomSheetBehavior")) {
                     Object data = (Object) getValue(model, name);
                     MyLog.d(leven +"-----BottomSheetBehavior  class j:%d, name:%s,   ----- type: "+type, j, name);
+                    getAllFields(data, leven - 1);*/
+                }else if(type.contains("class") && !isHaveContain(type)){
+                    MyLog.e("test .... isHaveContain ");
+                    Object data = (Object) getValue(model, name);
                     getAllFields(data, leven - 1);
-                }else {
-                    MyLog.e(leven +"----- class j:%d, name:%s,   ----- type: "+type, j, name);
+                }else if(type.contains("FrameLayout") && !isHaveContain(type)){
+                    MyLog.e("test .... isHaveContain ");
+                    Object data = (Object) getValue(model, name);
+                    getAllFields(data, leven - 1);
+                }
+                else {
+                    MyLog.e(leven +"----- last class j:%d, name:%s,   ----- type: "+type, j, name);
                 }
             }
         }catch (Exception e){
