@@ -95,7 +95,7 @@ public class ReflectionUtils {
 
     // TODO: 2017/10/12  测试得到类中所有的字符串
     public static void   getAllFields(Object model, int leven){
-        if(leven<0){
+        if(leven<=0){
             return;
         }
         Field[] field = model.getClass().getDeclaredFields(); // 获取实体类的所有属性，返回Field数组

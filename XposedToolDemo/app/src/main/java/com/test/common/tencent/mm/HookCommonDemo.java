@@ -1,35 +1,19 @@
 package com.test.common.tencent.mm;
 
-import android.app.Dialog;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.icu.text.RelativeDateTimeFormatter;
-import android.net.Uri;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewParent;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.my.utils.tool.MyLog;
-import com.my.xpoosed.hook.demo.OkhttpHook;
-import com.my.xposedhook.hooks.httpHook;
-import com.my.xposedhook.hooks.sockhook;
-
-import org.json.JSONObject;
-
-import java.io.File;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
+
+import static de.robv.android.xposed.XposedHelpers.findClass;
 
 public class HookCommonDemo implements IXposedHookLoadPackage {
     private static final String TAG="my_xp_hook";
@@ -48,16 +32,17 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
             Log.d(TAG, "hook_Loaded App:" + lpparam.packageName);
 
 
-
+            final Class   cls=findClass("com.ss.android.ugc.aweme.shortvideo.model.MusicModel",lpparam.classLoader);
             //  sockhook.initHooking(lpparam);
             //  httpHook.initHooking(lpparam);
             //  OkhttpHook.initHooking(lpparam);
 
- /*
+/*
+
             XposedHelpers.findAndHookMethod("java.lang.StringBuilder", lpparam.classLoader, "toString",
                   new XC_MethodHook() {
                         @Override
-                        protected void afterHookedMethod(MethodHookParam param)
+                        protected void afterHookedMethod(XC_MethodHook.MethodHookParam param)
                                 throws Throwable {
 
                             MyLog.e("1111 ");
@@ -66,11 +51,32 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                             if(resultString!=null)
                             Log.d(TAG,"my_hook_string_build ---  "+resultString);
                         }
-                    });*/
+                    });
+
+*/
 
 
 
-/*
+
+            XposedHelpers.findAndHookMethod("com.ss.android.ugc.aweme.music.ui.d", lpparam.classLoader, "a",cls, int.class,
+                    new XC_MethodHook() {
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.beforeHookedMethod(param);
+
+                            try{
+                                Object resultString = param.args[0];
+                                Log.d(TAG, "hook_ui_d  ---- " + resultString.getClass().getName());
+                                ReflectionUtils.getAllFields(resultString, 1);
+                            }catch (Exception e){
+
+                            }
+
+                        }
+                    });
+
+
 
             XposedHelpers.findAndHookMethod("org.json.JSONObject", lpparam.classLoader, "toString",
                     new XC_MethodHook() {
@@ -85,7 +91,7 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                             }
                         }
                     });
-*/
+
 
 
 /*
@@ -121,8 +127,20 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
 */
 
 
+            XposedHelpers.findAndHookMethod("android.app.Dialog", lpparam.classLoader, "show",
+                    new XC_MethodHook() {
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.afterHookedMethod(param);
+                            Log.d(TAG, "hook_JSONObject  ---- dialog ");
+                            MyLog.printStackLog("dialog");
+                            MyLog.e(param.thisObject.getClass().getName() + " ----- ");
+                        }
+                    });
 
 
+/*
       XposedHelpers.findAndHookMethod("android.app.Dialog", lpparam.classLoader, "show",
                     new XC_MethodHook() {
                         @Override
@@ -244,15 +262,13 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                                     view.invalidate();  //重新绘制
                                    // isHaveAdd=true;*/
                                // }
-                            }
-                        }
-                    });
+                          //  }
+                       // }
+                  //  });
 
 
-        }
+       }
     }
-
-
 
 
 
