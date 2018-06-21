@@ -1,10 +1,5 @@
 package com.test.common.tencent.mm;
 
-import android.app.Activity;
-import android.app.Dialog;
-import android.content.Context;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,9 +7,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.my.utils.tool.MyLog;
+import com.my.xposedhook.hooks.httpHook;
 import com.my.xposedhook.hooks.sockhook;
 
-import java.nio.channels.AcceptPendingException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,30 +18,27 @@ import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
-import static de.robv.android.xposed.XposedHelpers.findClass;
-
 public class HookCommonDemo implements IXposedHookLoadPackage {
     private static final String TAG="my_xp_hook";
-    private  static final String PACKAGE_NAME="com.ss.android.ugc.aweme"; //"com.mx.applicationmarket.vivo";
+    private  static final String PACKAGE_NAME="com.tencent.reading";
+            //"com.ss.android.ugc.aweme"; //"com.mx.applicationmarket.vivo";
     private static   Class<?> cls = null;
 
   //  private     ImageView.setImageUri(Uri.fromFile(new File("/sdcard/test.jpg")));
     private static boolean isHaveAdd=false;
-
     static boolean  flag=false;
-
     public static List<String> array=new ArrayList<>();
 
 
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
         if (lpparam.packageName.equals(PACKAGE_NAME)) {
-            Log.d(TAG, "hook_Loaded App:" + lpparam.packageName);
+            Log.e(TAG, "hook_Loaded App:" + lpparam.packageName);
 
 
-            final Class   cls=findClass("com.ss.android.ugc.aweme.shortvideo.model.MusicModel",lpparam.classLoader);
+          //  final Class   cls=findClass("com.ss.android.ugc.aweme.shortvideo.model.MusicModel",lpparam.classLoader);
               sockhook.initHooking(lpparam);
-            //  httpHook.initHooking(lpparam);
+             httpHook.initHooking(lpparam);
             //  OkhttpHook.initHooking(lpparam);
 
 /*
@@ -67,6 +59,7 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
 
 */
 
+/*
 
 
             XposedHelpers.findAndHookMethod("android.app.ApplicationPackageManager", lpparam.classLoader, "getPackageInfo", String.class, int.class, new XC_MethodHook() {
@@ -94,7 +87,9 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
             });
 
 
+*/
 
+/*
 
             XposedHelpers.findAndHookMethod("android.content.pm.PackageManager", lpparam.classLoader, "getPackageInfo", String.class, int.class, new XC_MethodHook() {
                 @Override
@@ -119,7 +114,9 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
 
                 }
             });
+*/
 
+/*
 
 
             XposedHelpers.findAndHookMethod("com.ss.android.ugc.aweme.music.ui.d", lpparam.classLoader, "a",cls, int.class,
@@ -143,6 +140,7 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                     });
 
 
+*/
 
 
 
@@ -156,7 +154,7 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                             String resultString = (String) param.getResult();
                             Log.d(TAG, "hook_JSONObject  ---- " + resultString);
                             if(resultString.startsWith("{\"p1\":\"")){
-                                MyLog.printStackLog("--- json ");
+                              //  MyLog.printStackLog("--- json ");
                             }
                         }
                     });
@@ -191,7 +189,7 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                     });
 */
 
-
+/*
             XposedHelpers.findAndHookMethod("android.app.Dialog", lpparam.classLoader, "show",
                     new XC_MethodHook() {
                         @Override
@@ -210,15 +208,15 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
                                 ReflectionUtils.printfView(vg);
                             }
 
-                    /*        Dialog dialog=(Dialog) param.thisObject;
+                    *//*        Dialog dialog=(Dialog) param.thisObject;
                             if(dialog.getClass().getName().contains("com.ss.android.ugc.aweme.bodydance.widget.a")){
                                 MyLog.e("activity -- "+param.thisObject.getClass().getName());
                                 ReflectionUtils.getAllFields(param.thisObject,0);
                             }
-*/
+*//*
 
                         }
-                    });
+                    });*/
 
 
 /*

@@ -37,7 +37,7 @@ public class sockhook {
             @Override
             protected void afterHookedMethod(MethodHookParam param) throws Throwable {
                 String recv = (String) param.getResult();
-                Log.d(TAG, "recv : " + recv);
+                Log.e(TAG, "recv : " + recv);
             }
         });
         //tìm và hook method write của class Writer để in ra dữ liệu trước khi nó viết lên
