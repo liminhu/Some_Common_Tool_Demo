@@ -20,10 +20,11 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 public class HookCommonDemo implements IXposedHookLoadPackage {
     private static final String TAG="my_xp_hook";
-    private  static final String PACKAGE_NAME="com.tencent.reading";
+    private  static final String PACKAGE_NAME="com.dg.adsdk.demo";
+            //"com.tencent.reading";
             //"com.ss.android.ugc.aweme"; //"com.mx.applicationmarket.vivo";
-    private static   Class<?> cls = null;
 
+    private static   Class<?> cls = null;
   //  private     ImageView.setImageUri(Uri.fromFile(new File("/sdcard/test.jpg")));
     private static boolean isHaveAdd=false;
     static boolean  flag=false;
@@ -142,6 +143,19 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
 
 */
 
+
+
+            XposedHelpers.findAndHookMethod("com.diggds.d.d", lpparam.classLoader, "a", int.class,
+                    new XC_MethodHook() {
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            super.afterHookedMethod(param);
+                            boolean resultString = (boolean) param.getResult();
+                            Log.d(TAG, "hook_diggds  ---- " + resultString);
+                            param.setResult(true);
+                        }
+                    });
 
 
 
