@@ -31,7 +31,6 @@ public class HttpHook {
             protected void beforeHookedMethod(MethodHookParam param) {
                 if (param.args.length != 1 || param.args[0].getClass() != URL.class)
                     return;
-
                 MyLog.e("HttpURLConnection: " + param.args[0] + "");
             }
         });

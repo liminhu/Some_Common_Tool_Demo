@@ -72,6 +72,10 @@ public class HookAppAllMethod {
 		}
 	}
 
+
+
+
+
 	/**
 	 * 获取dex路径
 	 * @param classLoader
@@ -156,6 +160,9 @@ public class HookAppAllMethod {
 		}
 	}
 
+
+
+
 	/**
 	 * 获取方法的签名信息
 	 * @param param
@@ -189,6 +196,7 @@ public class HookAppAllMethod {
 			return null;
 		}
 	}
+
 
 	/**
 	 * 获取方法的签名信息
