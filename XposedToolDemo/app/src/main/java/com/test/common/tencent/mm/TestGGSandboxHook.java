@@ -1,6 +1,7 @@
 package com.test.common.tencent.mm;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import com.my.utils.tool.MyLog;
 import com.my.xposedhook.hooks.httpHook;
@@ -114,6 +115,21 @@ public class TestGGSandboxHook implements IXposedHookLoadPackage {
                         }
                     });
 
+
+
+
+            XposedHelpers.findAndHookMethod("com.yyhd.sandbox.NativeUtils", lpparam.classLoader, "reportSuicide",
+                    int.class, int.class,
+
+                    new XC_MethodHook() {
+                        @Override
+                        protected void beforeHookedMethod(MethodHookParam param)
+                                throws Throwable {
+                            MyLog.e(" -- NativeUtils "+param.args[0]);
+                            MyLog.e("-- NativeUtils -- "+param.args[1]);
+                            super.beforeHookedMethod(param);
+                        }
+                    });
 
         }
     }
