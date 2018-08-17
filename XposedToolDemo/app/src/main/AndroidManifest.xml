@@ -43,9 +43,13 @@
             android:value="Xposed Demo For Hook !" />
 
         <!-- 规定jar包的版本信息 -->
+<!--        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />-->
+
         <meta-data
             android:name="xposedminversion"
-            android:value="82" />
+            android:value="53" />
 
 
         <activity android:name="com.my.xpoosed.hook.demo.MainActivity">

@@ -65,7 +65,6 @@ public static void test(){
 				    		throws Throwable {
 				    	super.afterHookedMethod(param);
 				    	String resultString=(String)param.getResult();
-				    	
 				    	MyLog.e("hook_JSONObject  -- %s ", resultString);
 				    }
 				});
