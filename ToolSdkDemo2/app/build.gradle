@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.test.hlm.tool"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+
+
+    signingConfigs {
+        sign {
+            keyAlias 'sdksign'
+            keyPassword 'sdkpwd123456'
+            storeFile = file('sdksign.jks')
+            storePassword 'sdkpwd123456'
+        }
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            signingConfig = signingConfigs.sign
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
+            buildConfigField "String", "BuildVersion", ('"' + new Date().format("yyMMdd.HHmmss") + '.R"')
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable = true
+            signingConfig = signingConfigs.sign
+            buildConfigField "String", "BuildVersion", ('"' + new Date().format("yyMMdd.HHmmss") + '.D"')
+        }
+
+
+        android.applicationVariants.all { variant ->
+            variant.outputs.all {
+                outputFileName = "apk-sdk-${variant.buildType.name}-v${variant.versionCode}.apk".toLowerCase()
+            }
+        }
+
+    }
+}
+
+dependencies {
+    implementation project(':jni')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0-rc01'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+}
