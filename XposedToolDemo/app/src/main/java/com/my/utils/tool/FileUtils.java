@@ -301,4 +301,29 @@ public class FileUtils {
     }
 
 
+
+
+
+
+
+
+
+
+
+
+    public static boolean  newWriteDataToFile(String data, String filePath) {
+        File file = fileIsExistAndCreatFile(filePath);
+        try {
+            FileOutputStream fstream = new FileOutputStream(file);
+            BufferedOutputStream stream = new BufferedOutputStream(fstream);
+            stream.write(data.getBytes());// 调试到这里文件已经生成
+            fstream.close();
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+
 }

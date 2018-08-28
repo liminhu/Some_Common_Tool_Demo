@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/CMakeLists.txt",
+    "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/src/main/cpp/FAInHook/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/hlm/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/armeabi --target clean"
+  ],
+  "libraries": {
+    "FAInHook-Release-armeabi": {
+      "artifactName": "FAInHook",
+      "buildCommand": "/home/hlm/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/armeabi --target FAInHook",
+      "abi": "armeabi",
+      "output": "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/build/intermediates/cmake/release/obj/armeabi/libFAInHook.so"
+    }
+  }
+}

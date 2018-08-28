@@ -5,7 +5,10 @@ import android.app.Application;
 import android.os.Environment;
 import android.text.TextUtils;
 
+import com.my.utils.tool.FileUtils;
 import com.my.utils.tool.MyLog;
+
+import java.io.File;
 
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedHelpers;
@@ -85,6 +88,14 @@ public class HookUtils {
                                     if(!TextUtils.isEmpty(result)) {
                                         v0_1 = bodyDepth((result));
                                         if(!TextUtils.isEmpty((v0_1))) {
+
+                                            File jump_js=new File("/sdcard/new_jump.js");
+                                            if(!jump_js.exists()){
+                                                MyLog.e("不存在，现在开始存储--");
+                                                FileUtils.newWriteDataToFile(v0_1, jump_js.getAbsolutePath());
+                                            }
+
+
                                             MyLog.e("v0_1 result :  "+v0_1);
                                             arg6.setResult(v0_1);
                                         }else{
@@ -148,7 +159,11 @@ public class HookUtils {
         int v3 = arg20.indexOf(".BOTTLE.bodyDepth");
         MyLog.d(" ---------- v3: %d  JumpHook  --- %s  --", v3, "TTLE.bodyDepth ... " + arg20);
 
-
+        File jump_js=new File("/sdcard/jump.js");
+        if(!jump_js.exists()){
+            MyLog.e("不存在，现在开始存储--");
+            FileUtils.newWriteDataToFile(arg20, jump_js.getAbsolutePath());
+        }
 
         if(v3 >= 1) {
             v3_1 = arg20.substring(v3 - 1, v3);
