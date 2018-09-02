@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class MyLog {
-	public static  String TAG = "my_default_hook";
+	public static  String TAG = "my_default_“hook";
 	public static void w(String msg){
 		Log.w(TAG, commonTag() + msg);
 	}

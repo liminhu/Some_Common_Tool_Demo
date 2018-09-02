@@ -21,7 +21,6 @@
         <activity android:name=".SecondActivity"></activity>
 
 
-
     </application>
 
 </manifest>

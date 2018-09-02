@@ -5,7 +5,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-
 import com.my.utils.tool.MyLog;
 import com.my.xposedhook.hooks.httpHook;
 import com.my.xposedhook.hooks.sockhook;
@@ -17,6 +16,8 @@ import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
+
+import static de.robv.android.xposed.XposedHelpers.findClass;
 
 public class HookCommonDemo implements IXposedHookLoadPackage {
     private static final String TAG="my_xp_hook";
@@ -37,10 +38,16 @@ public class HookCommonDemo implements IXposedHookLoadPackage {
             Log.e(TAG, "hook_Loaded App:" + lpparam.packageName);
 
 
-          //  final Class   cls=findClass("com.ss.android.ugc.aweme.shortvideo.model.MusicModel",lpparam.classLoader);
-              sockhook.initHooking(lpparam);
-             httpHook.initHooking(lpparam);
-            //  OkhttpHook.initHooking(lpparam);
+
+         sockhook.initHooking(lpparam);
+         httpHook.initHooking(lpparam);
+
+
+
+        final Class cls=findClass("com.ss.android.ugc.aweme.shortvideo.model.MusicModel",lpparam.classLoader);
+           //   sockhook.initHooking(lpparam);
+              httpHook.initHooking(lpparam);
+           //   OkhttpHook.initHooking(lpparam);
 
 /*
 
