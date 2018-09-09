@@ -68,9 +68,12 @@ android {
 }
 
 dependencies {
+    implementation 'com.hlm.common:buglyupdatelibrary:1.0'
+
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':jni')
-    implementation project(':buglyupdatelibrary')
+    //implementation project(':buglyupdatelibrary')
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0-rc01'
