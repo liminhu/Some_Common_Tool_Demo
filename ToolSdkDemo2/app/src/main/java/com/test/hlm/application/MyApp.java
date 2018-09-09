@@ -6,11 +6,9 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
+import com.hlm.buglyupdate.lib.BugleConfig;
 import com.sdk.hlm.tool.hook.ServiceManagerWraper;
 import com.sdk.hlm.tool.utils.MyLog;
-import com.tencent.bugly.Bugly;
-import com.tencent.bugly.BuglyStrategy;
-import com.tencent.bugly.beta.Beta;
 
 public class MyApp extends Application {
 
@@ -38,22 +36,12 @@ public class MyApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        MyLog.e("test ... 000 ");
-        Beta.checkUpgrade(false,false);
-        Beta.autoInit = true;
-        Beta.enableHotfix = true;
-        Beta.canShowUpgradeActs.add(MainActivity.class);
-
-        Beta.initDelay = 1 * 300;
-
-        //false表示关闭调试模式
-        /***** Bugly高级设置 *****/
-        BuglyStrategy strategy = new BuglyStrategy();
-        strategy.setAppChannel("test");
-
-        /***** 统一初始化Bugly产品，包含Beta *****/
-        Bugly.init(getApplicationContext(), "67a9144871", false, strategy);
-
+        MyLog.e("new test ... 000 ");
+        BugleConfig.initConfig(getApplicationContext(), "67a9144871");
+        BugleConfig.initDelay=300;
+        BugleConfig.channel="test";
+        BugleConfig.addCanShowUpgradeActs(MainActivity.class);
+        BugleConfig.initBeta();
        // Bugly.init(getApplicationContext(), "67a9144871", true);
     }
 
