@@ -15,7 +15,6 @@ import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
 public class GpsHook implements IXposedHookLoadPackage{
-
     private final String TAG = "my_hook__Xposed";
     private LoadPackageParam mLpp;
 
@@ -23,9 +22,6 @@ public class GpsHook implements IXposedHookLoadPackage{
         Log.d(TAG, s);
         XposedBridge.log(s);
     }
-
-
-
 
     //不带参数的方法拦截
     private void hook_method(String className, ClassLoader classLoader, String methodName,

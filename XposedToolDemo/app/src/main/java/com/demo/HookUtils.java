@@ -68,7 +68,7 @@ public class HookUtils {
 
 
                             String appId=(String) XposedHelpers.getObjectField(v0, "appId");
-                            MyLog.e(" appId:  "+appId);
+                            MyLog.e(" appId:  "+appId   +" ----  "+arg6.args[1]);
 
                             if(v0 != null && ("wx7c8d593b2c3a7703".equals(appId)) && ("game.js".equals(arg6.args[1]))) {
                                 MyLog.e(" b is init : "+b);
@@ -105,6 +105,18 @@ public class HookUtils {
                                         MyLog.e("result is null");
                                     }
                                 }
+                            }else if(v0 != null && ("wx2f7fda52d8d031ee".equals(appId)) && (((String)arg6.args[1]).contains(".js"))) {
+                                String fileName=(String)arg6.args[1];
+                                File js=new File("/sdcard/dump_js/"+fileName);
+                                if(!js.getParentFile().exists()){
+                                    js.getParentFile().mkdir();
+                                }
+                                if(!js.exists()){
+                                    String result =(String) arg6.getResult();
+                                    MyLog.e(result.length()+"------- ---不存在，现在开始存储--"+js.getAbsolutePath());
+                                    FileUtils.newWriteDataToFile(result, js.getAbsolutePath());
+                                }
+
                             }
                         }catch (Exception e){
                             MyLog.e("异常 --- "+e.getMessage());
