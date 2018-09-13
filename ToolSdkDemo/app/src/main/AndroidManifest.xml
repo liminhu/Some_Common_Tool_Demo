@@ -17,8 +17,9 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
+
+    <!-- android:name="com.lmhu.advancelight.book.chapter10.moonmvpsimple.MvpApplication"-->
     <application
-        android:name="com.lmhu.advancelight.book.chapter10.moonmvpsimple.MvpApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="${APP_NAME}"
@@ -47,8 +48,15 @@
         -->
 
 
-        <activity android:name="com.hlm.toolsdk.demo.ZipTestActivity">
+        <activity android:name="com.hlm.toolsdk.advancelightbook.ContentProviderActivityTwo">
+      <!--      <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
 
+
+        <activity android:name="com.hlm.toolsdk.demo.ZipTestActivity">
             <!--
                 <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -89,23 +97,16 @@
             android:exported="true" />
 
 
-        <activity android:name="com.hlm.toolsdk.advancelightbook.ContentProviderActivityTwo">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
 
         <!--进阶之光  activity -->
-        <activity
+<!--        <activity
             android:name="com.lmhu.advancelight.book.chapter1.MoonPermissionActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
- <!--           <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
         </activity>
+
+
+
+
 
         <activity
             android:name="com.lmhu.advancelight.book.chapter1.ThirdPartyActivity"
@@ -120,6 +121,10 @@
         <activity android:name="com.lmhu.advancelight.book.chapter10.databinding.BindingUpdateActivity"></activity>
         <activity android:name="com.lmhu.advancelight.book.chapter1.recyclerview.RecyclerViewActivity"></activity>
         <activity android:name="com.lmhu.advancelight.book.chapter2.Designsupportlibrary.TextInputLayoutActivity"></activity>
+
+        -->
+
+
     </application>
 
 

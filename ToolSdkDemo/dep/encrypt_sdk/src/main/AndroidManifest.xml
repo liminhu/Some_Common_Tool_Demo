@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="demo.toolsdk.hlm.com.webviewlib">
+
+    <application>
+        <activity android:name="com.hlm.douyin.demo.DouyinMainActivity"></activity>
+    </application>
+
+</manifest>

@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ToolSdkDemo.iml" filepath="$PROJECT_DIR$/ToolSdkDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dep/advancelightbook/advancelightbook.iml" filepath="$PROJECT_DIR$/dep/advancelightbook/advancelightbook.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonlib/commonlib.iml" filepath="$PROJECT_DIR$/commonlib/commonlib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dep/downloadService/downloadService.iml" filepath="$PROJECT_DIR$/dep/downloadService/downloadService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dep/douyin_cookie/douyin_cookie.iml" filepath="$PROJECT_DIR$/dep/douyin_cookie/douyin_cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dep/inline_hook/inline_hook.iml" filepath="$PROJECT_DIR$/dep/inline_hook/inline_hook.iml" />
     </modules>
   </component>
 </project>

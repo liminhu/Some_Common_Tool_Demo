@@ -1,0 +1,5 @@
+/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/armeabi/src/main/cpp/FAInHook/CMakeFiles/edit_cache.dir
+/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/armeabi/src/main/cpp/FAInHook/CMakeFiles/rebuild_cache.dir
+/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/armeabi/src/main/cpp/FAInHook/CMakeFiles/FAInHook.dir

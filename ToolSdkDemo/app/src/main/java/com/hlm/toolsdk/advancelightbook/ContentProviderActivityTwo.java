@@ -2,14 +2,16 @@ package com.hlm.toolsdk.advancelightbook;
 
 import android.os.Bundle;
 
-import com.lmhu.advancelight.book.chapter3.CustomGroup.CustomGroupActivity;
+import com.hlm.douyin.demo.DouyinMainActivity;
 
 
-public class ContentProviderActivityTwo extends CustomGroupActivity {
+public class ContentProviderActivityTwo extends DouyinMainActivity {
+    static {
+        System.loadLibrary("JniSdk");
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
-
 }

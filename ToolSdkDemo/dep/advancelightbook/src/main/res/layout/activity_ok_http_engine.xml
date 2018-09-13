@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context="com.lmhu.advancelight.book.chapter5.Okhttp3.OkHttpEngineActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="get请求"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bt_postsend"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="post请求"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bt_sendfile"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="发送文件"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bt_downfile"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="下载文件"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="取消请求"
+        android:layout_height="match_parent" />
+</LinearLayout>
+</RelativeLayout>

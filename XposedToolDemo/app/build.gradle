@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.hu.myxposeddemo.vivo"
+        minSdkVersion 16
+        targetSdkVersion 26
+
+        versionCode 1
+        versionName "1.0.1"
+        multiDexEnabled false
+    }
+
+    signingConfigs {
+        SignConfig {
+            keyAlias 'toolboxplugin'
+            keyPassword '123456'
+            storeFile file('signkey.jks')
+            storePassword '123456'
+        }
+    }
+
+
+
+    lintOptions {
+        abortOnError false
+    }
+
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.SignConfig
+            minifyEnabled false  //true开启混淆配置，false关闭
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "apk-hook-${variant.buildType.name}-v${variant.versionCode}-xpoosed.apk".toLowerCase()
+        }
+    }
+}
+
+
+dependencies {
+   // implementation project(':hookclibrary')
+
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+   // implementation fileTree(dir: 'libs', include: ['*.jar'])
+   // implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+ //   compileOnly 'de.robv.android.xposed:api:82'
+
+    compileOnly 'de.robv.android.xposed:api:53'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+}

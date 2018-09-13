@@ -1,0 +1,4 @@
+git push github master
+
+---
+error: gnutls_handshake() failed:  不能使用代理

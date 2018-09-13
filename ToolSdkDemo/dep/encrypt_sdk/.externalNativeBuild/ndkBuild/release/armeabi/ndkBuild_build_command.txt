@@ -1,0 +1,17 @@
+Executable : /home/hlm/Android-SDK/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/ToolSdkDemo/dep/encrypt_sdk/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/ToolSdkDemo/dep/encrypt_sdk/src/main/jni/Application.mk
+APP_ABI=armeabi
+NDK_ALL_ABIS=armeabi
+NDK_DEBUG=0
+APP_PLATFORM=android-15
+NDK_OUT=/media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/ToolSdkDemo/dep/encrypt_sdk/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/media/hlm/WorkRelateFile/my-github/Some_Common_Tool_Demo/ToolSdkDemo/dep/encrypt_sdk/build/intermediates/ndkBuild/release/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

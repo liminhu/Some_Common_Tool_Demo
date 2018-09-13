@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyXposedDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dex_hook_main">DexHookMainActivity</string>
+
+    <string name="hook_x5">Hook微信X5内核</string>
+</resources>

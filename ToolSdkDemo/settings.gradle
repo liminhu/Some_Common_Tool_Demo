@@ -1,7 +1,8 @@
-include ':app',':commonlib' //, ':pluginsapplication'  //, // ':adplugin'
+include ':app', ':commonlib' //, ':dynamic_lib', ':pluginsapplication'  //, // ':adplugin'
 Properties properties=new Properties()
 File propertyFile=new File(rootDir.getAbsolutePath()+"/local.properties")
 properties.load(propertyFile.newDataInputStream())
+
 def name='webviewlib'
 name=properties.getProperty('config')
 println('工程项目setting配置：'+ properties.getProperty('config'))

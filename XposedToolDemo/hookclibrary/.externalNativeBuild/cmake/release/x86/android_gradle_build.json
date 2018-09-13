@@ -1,0 +1,72 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/CMakeLists.txt",
+		"/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/src/main/cpp/FAInHook/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/hlm/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"FAInHook-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "FAInHook",
+			"buildCommand" : "/home/hlm/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/x86 --target FAInHook",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/hlm/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/hlm/Android/Sdk/ndk-bundle/sysroot  -DFAInHook_EXPORTS -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/hlm/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/src/main/cpp/FAInHook/FAInHook.cpp",
+					"workingDirectory" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/hlm/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/hlm/Android/Sdk/ndk-bundle/sysroot  -DFAInHook_EXPORTS -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/hlm/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/src/main/cpp/FAInHook/MemHelper.cpp",
+					"workingDirectory" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/hlm/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/hlm/Android/Sdk/ndk-bundle/sysroot  -DFAInHook_EXPORTS -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/hlm/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/src/main/cpp/FAInHook/instruction/Instruction.cpp",
+					"workingDirectory" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/hlm/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/hlm/Android/Sdk/ndk-bundle/sysroot  -DFAInHook_EXPORTS -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/hlm/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/src/main/cpp/FAInHook/instruction/IntelInstruction.cpp",
+					"workingDirectory" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/hlm/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/hlm/Android/Sdk/ndk-bundle/sysroot  -DFAInHook_EXPORTS -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/hlm/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/src/main/cpp/FAInHook/instruction/IntelDisasm.cpp",
+					"workingDirectory" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/hlm/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/hlm/Android/Sdk/ndk-bundle/sysroot  -DFAInHook_EXPORTS -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/hlm/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/hlm/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/src/main/cpp/FAInHook/main.cpp",
+					"workingDirectory" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/hlm/my-git/my-github/Some_Common_Tool_Demo/XposedToolDemo/hookclibrary/build/intermediates/cmake/release/obj/x86/libFAInHook.so",
+			"toolchain" : "5765658387201941905"
+		}
+	},
+	"toolchains" : 
+	{
+		"5765658387201941905" : 
+		{
+			"cCompilerExecutable" : "/home/hlm/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/hlm/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

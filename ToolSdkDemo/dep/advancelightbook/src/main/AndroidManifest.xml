@@ -27,7 +27,9 @@
         <activity android:name=".chapter8.CreateRxActivity" />
         <activity android:name=".chapter3.ViewSlide.ViewSlideActivity" />
         <activity android:name=".chapter3.CustomGroup.CustomGroupActivity" />
-        <activity android:name=".chapter5.Okhttp3.OkHttpEngineActivity"></activity>
+        <activity android:name=".chapter5.Okhttp3.OkHttpEngineActivity" />
+        <activity android:name=".chapter3.CustomProgressView.DotAlternateMainActivity" />
+        <activity android:name=".chapter5.Retrofit.RetrofitMainActivity"></activity>
     </application>
 
 </manifest>
