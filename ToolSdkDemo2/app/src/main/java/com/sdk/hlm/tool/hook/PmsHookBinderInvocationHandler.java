@@ -46,6 +46,12 @@ public class PmsHookBinderInvocationHandler implements InvocationHandler {
                 PackageInfo info = (PackageInfo) method.invoke(base, args);
                 info.signatures[0] = sign;
                 MyLog.d("leng --- "+SIGN.length() +" --- "+SIGN.substring(SIGN.length()/2));
+
+
+                int hashcode = info.signatures[0].toCharsString().hashCode();
+                String msg="new Signature HashCode = 0x" + Integer.toHexString(hashcode);
+                MyLog.d("new sign --- "+msg);
+
                 return info;
             }
         }

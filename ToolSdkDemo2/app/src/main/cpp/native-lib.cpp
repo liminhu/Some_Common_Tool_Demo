@@ -4,8 +4,7 @@
 
 extern "C" JNIEXPORT jstring
 
-JNICALL
-Java_com_hlm_tes_demo_MainActivity_stringFromJNI(
+JNICALL Java_com_hlm_tes_demo_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
 

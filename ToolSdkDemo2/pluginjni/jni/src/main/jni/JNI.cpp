@@ -54,6 +54,11 @@ jobject getGlobalContext(JNIEnv *env) {
 }
 
 
+
+
+
+
+
 static int jni_nativeGetFuncPtr(JNIEnv *env, jclass clazz, int a1, int a2) {
     LogD("<%s> 0000 jni_nativeGetFuncPtr %s %s  --  %d, %d ", __FUNCTION__, __DATE__, __TIME__, a1, a2);
     if(a1==1){
@@ -63,6 +68,7 @@ static int jni_nativeGetFuncPtr(JNIEnv *env, jclass clazz, int a1, int a2) {
 		}
     }
 	LogD("<%s> 1111 jni_nativeGetFuncPtr %s %s  --  %d, %d ", __FUNCTION__, __DATE__, __TIME__, a1, a2);
+
     return 0;
 }
 
@@ -90,7 +96,6 @@ extern "C" __attribute__ ((visibility("default"))) jint JNI_OnLoad(JavaVM* vm, v
 	if (env->RegisterNatives(clazz, gHookMethods, sizeof(gHookMethods) / sizeof(gHookMethods[0])) < 0) {
 		return -1;
 	}
-
     LogD("<%s> end ---- libA8 %s %s  -- end 1111 ", __FUNCTION__, __DATE__, __TIME__);
 	return JNI_VERSION_1_4;
 }
