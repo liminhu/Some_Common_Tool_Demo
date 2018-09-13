@@ -105,7 +105,7 @@ public class HookUtils {
                                         MyLog.e("result is null");
                                     }
                                 }
-                            }else if(v0 != null && ("wx2f7fda52d8d031ee".equals(appId)) && (((String)arg6.args[1]).contains(".js"))) {
+                            }else if(v0 != null && ("wx2f7fda52d8d031ee".equals(appId)) && ((String)arg6.args[1]).contains(".js") && (((String)arg6.args[1]).contains("game.js") )){
                                 String fileName=(String)arg6.args[1];
                                 File js=new File("/sdcard/dump_js/"+fileName);
                                 if(!js.getParentFile().exists()){
@@ -115,6 +115,12 @@ public class HookUtils {
                                     String result =(String) arg6.getResult();
                                     MyLog.e(result.length()+"------- ---不存在，现在开始存储--"+js.getAbsolutePath());
                                     FileUtils.newWriteDataToFile(result, js.getAbsolutePath());
+                                }else{
+                                    v0_1 = h.a("/sdcard/my_game.js");
+                                    if(v0_1!=null && v0_1.length()>100){
+                                        MyLog.e("读取自定义的js  ，   定制 js .... "+v0_1.length());
+                                        arg6.setResult(v0_1);
+                                    }
                                 }
 
                             }

@@ -41,10 +41,7 @@ public class WeiXinJumpHook implements IXposedHookLoadPackage{
                     MyLog.e("no hook --- "+versinName);
                     return;
                 }
-
                 HookUtils.initHook(lpparam);
-
-
                 try {
                     // hook 微信X5内核
                     weixin = new WeixinVer6_6_7();
