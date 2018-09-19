@@ -1,4 +1,4 @@
-include ':app', ':jni'  //, ':buglyupdatelibrary'
+include ':app', ':jni'  , ':buglyupdatelibrary'
 project(':jni').projectDir = new File(settingsDir, 'pluginjni/jni')
 //project(':jni').projectDir = new File(settingsDir, 'lnlinehookjni/jni')
 
