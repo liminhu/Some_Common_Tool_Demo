@@ -9,9 +9,12 @@ buildscript {
     }
 }
 
+
+
 allprojects {
     repositories {
-        jcenter()
         google()
+        maven{ url 'https://maven.aliyun.com/repository/jcenter'}
     }
 }
+
