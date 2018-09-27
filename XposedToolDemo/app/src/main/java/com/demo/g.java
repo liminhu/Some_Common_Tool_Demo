@@ -1,7 +1,6 @@
 package com.demo;
 
 import com.my.utils.tool.MyLog;
-
 import de.robv.android.xposed.XSharedPreferences;
 
 public class g {

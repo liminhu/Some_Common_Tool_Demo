@@ -17,14 +17,13 @@
 package com.hlm.xposed.common.ui.util;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Color;
-import android.util.DisplayMetrics;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.sky.xposed.common.util.DisplayUtil;
+import com.hlm.xposed.common.util.DisplayUtil;
+
 
 /**
  * Created by sky on 2018/8/8.

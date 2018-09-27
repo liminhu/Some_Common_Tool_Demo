@@ -21,7 +21,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 
-import com.sky.xposed.common.util.Alog;
+import com.hlm.xposed.common.util.Alog;
 
 import java.io.File;
 import java.io.FileOutputStream;

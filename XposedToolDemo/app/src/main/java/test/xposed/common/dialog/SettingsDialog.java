@@ -1,8 +1,8 @@
-
 package test.xposed.common.dialog;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
+import android.support.v7.widget.PopupMenu;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.ImageButton;
-import android.widget.PopupMenu;
 
 import com.hlm.xposed.common.ui.interfaces.TrackViewStatus;
 import com.hlm.xposed.common.ui.util.ViewUtil;
@@ -21,6 +20,8 @@ import com.hlm.xposed.common.ui.view.SpinnerItemView;
 import com.hlm.xposed.common.ui.view.SwitchItemView;
 import com.hlm.xposed.common.ui.view.TitleView;
 import com.hlm.xposed.common.util.ResourceUtil;
+import com.hu.myxposeddemo.BuildConfig;
+import com.hu.myxposeddemo.R;
 import com.squareup.picasso.Picasso;
 
 import test.xposed.common.Constant;

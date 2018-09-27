@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.hlm.xposed.common.BuildConfig;
+import com.hu.myxposeddemo.R;
 
 import test.xposed.common.dialog.SettingsDialog;
 
