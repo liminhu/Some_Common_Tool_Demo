@@ -1,1 +1,1 @@
-include ':app', ':xposed-common'//, ':hookclibrary'
+include ':app' //, ':xposed-common'//, ':hookclibrary'

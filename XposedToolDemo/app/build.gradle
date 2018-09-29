@@ -58,7 +58,7 @@ dependencies {
 
     implementation 'de.robv.android.xposed:api:53'
     implementation 'com.squareup.okhttp3:okhttp:3.6.0'
-    implementation project(path: ':xposed-common')
+    //implementation project(path: ':xposed-common')
     implementation 'com.squareup.picasso:picasso:2.71828'
 
 }
