@@ -1,7 +1,6 @@
 package com.hlm.buglyupdate.lib;
 
 import android.app.Activity;
-import android.app.Application;
 import android.content.Context;
 
 import com.tencent.bugly.Bugly;
