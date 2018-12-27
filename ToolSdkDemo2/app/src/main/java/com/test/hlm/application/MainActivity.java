@@ -1,13 +1,11 @@
 package com.test.hlm.application;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hlm.buglyupdate.lib.BugleConfig;
 import com.sdk.hlm.tool.utils.MyLog;
 import com.sdk.hlm.tool.utils.NativeUtils;
 

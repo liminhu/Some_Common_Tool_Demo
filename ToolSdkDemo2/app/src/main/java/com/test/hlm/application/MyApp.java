@@ -6,7 +6,6 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
-import com.hlm.buglyupdate.lib.BugleConfig;
 import com.sdk.hlm.tool.hook.ServiceManagerWraper;
 import com.sdk.hlm.tool.utils.MyLog;
 
@@ -37,11 +36,11 @@ public class MyApp extends Application {
     public void onCreate() {
         super.onCreate();
         MyLog.e("new test ... 000 ");
-        BugleConfig.initConfig(getApplicationContext(), "67a9144871");
+/*        BugleConfig.initConfig(getApplicationContext(), "67a9144871");
         BugleConfig.initDelay=300;
         BugleConfig.channel="test";
         BugleConfig.addCanShowUpgradeActs(MainActivity.class);
-        BugleConfig.initBeta();
+        BugleConfig.initBeta();*/
        // Bugly.init(getApplicationContext(), "67a9144871", true);
     }
 
